@@ -12,14 +12,14 @@ author: Matt Ralston
     <div class="blog-posts-main">
         {% for post in paginator.posts reversed %}
         <div class="blog-post">
-            <!-- <img src="{{ post.header-image }}" alt="" srcset=""> -->
-            <img src="{{ site.baseurl }}/{{ post.header-image }}" alt="" srcset="">
+            <img src="{{ post.header-image }}" alt="" srcset="">
+            <!-- <img src="{{ site.baseurl }}/{{ post.header-image }}" alt="" srcset=""> -->
             <div class="blog-content">
                 <h4>{{ post.category }}</h4>
                 <!-- Tags -->
                 {% for tag in post.tags %}
                 {% assign tag_slug = tag | slugify: "raw" %}
-                <a class="tag-link" href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }}>
+                <a class="tag-link" href={{ site.url | append: "/tags/" | append: tag_slug | append: "/" }}>
                     #{{ tag }}
                 </a>
                 {% endfor %}
