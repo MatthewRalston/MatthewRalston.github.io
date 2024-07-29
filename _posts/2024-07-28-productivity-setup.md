@@ -106,10 +106,12 @@ Emacs is GNU software. Emacs is a highly customizable editor system that has acc
 I use `org-mode` for much of my note taking and productivity (to-do lists, documentation, master lists, task-management). The fact that org-mode now can be coupled with the zettlekasten software `org-roam` and associated visualization solution `org-roam-ui`, lots of my organizational problems are wrong.
 
 
-## `org-mode` for productivity - not your average to-do list: ASCII, nesting, linking, pandoc compatibility, and more.
+## `org-mode` for productivity
+
+Not your average to-do list: ASCII, nesting, linking, pandoc compatibility, and more.
 
 
-## `org-roam` for zettlekasten - 
+## `org-roam` for zettlekasten 
 
 Essentially, it's just mind-mapping using more-or-less plain `.org`-mode and emacs key-binding shortcuts to quickly move throughout the network to add/edit information to a zettlekasten system. This is compared to more conventional paid/freemium solutions like Obsidian.
 
@@ -118,7 +120,7 @@ I like that it's just plain `.org`-mode because that means you can grep-out your
 
 
 
-## `org-roam-ui` visualization solution - 
+## `org-roam-ui` visualization solution
 
 This is currently my go-to mind-mapping visualizer. It draws from a directory of `.org` files, say `~/Documents/org/roam` . With the available configuration, it can generate a force-diagram in a canvas and bring the diagram up on your Internet Browser, say Firefox or Chrome. 
 
