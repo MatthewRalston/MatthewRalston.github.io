@@ -8,10 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Matt Ralston - Bioinformatician"
+
+title                    : "Matt Ralston - Biologist and Data Scientist"
 title_separator          : "-"
 name                     : &name "Matthew Ralston"
-description              : &description "M.Sc. Bioinfo + 5 years exp."
+description              : &description "Bench bio, analysis + 5 years exp."
 url                      : https://matthewralston.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "MatthewRalston/matthewralston.github.io"
@@ -21,12 +22,12 @@ repository               : "MatthewRalston/matthewralston.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "mattralston.jpg"
-  name             : "Matt - Biochemist & Bioinformatician"
+  avatar           : "mattralston.png"
+  name             : "Matt Ralston"
   pronouns         : # example: "she/her"  
-  bio              : "M.Sc. Bioinfo + 5 years industry exp. - - - Currently writing an opinionated DNA assembly algorithm and manuscript for a workflow tool (bioRxiv). I play classical Latin+samba+flamenco guitar, work locally in Delaware, and I'm launching a DE-based LLC."
+  bio              : "M.Sc. Bioinfo + 5 years industry exp. - - - Looking for a position in biosciences. My analytics skills are significant, and I perform best on my feet, with samples in the centrifuge, more in the water bath, and other assays to plan. Currently writing a DNA sequence graph algorithm and manuscript (for bioRxiv). I play math rock on my guitar, I have some open-source software on GitHub, I pay my bills in the DE-NJ-PA tri-state area near Delco, and I'm launching a DE-based LLC for Univ. of Delaware and local NGS sequencing projects."
   location         : "Newark DE"
-  employer         : "Doordash / Terra Info. LLC."
+  employer         : "[For hire] OSS doesn't pay, Doordash"
   uri              : "https://matthewralston.github.io"
   email            : "mralston.development@gmail.com" 
 
@@ -56,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "MatthewRalston"# Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

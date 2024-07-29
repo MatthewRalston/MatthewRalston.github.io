@@ -1,17 +1,19 @@
 ---
 permalink: /
-title: "5+ yrs. industry professional"
+title: "5+ yrs. professional"
 subtitle: Matt Ralston - results-driven Research Associate
 author_profile: true
-hero_image: "mattralston.jpg"
+hero_image: "mattralston.png"
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-## Data and modeling problems? Easy
+## Western/Northern blot, RT-PCR, GC-MS, HPLC, ligation, restriction enzymes, ELISA, IHC/IF, FACS-Aria, Illumina library preparation. You name it!
 
-Hello! My name is Matt and I'm a biochemist and bioinformatics programmer. Welcome to my website! You can quickly get to where you're going below, or if you're an industry talent specialist or technical manager, I encourage you to read the 'About Me' section.
+## Bioinformatics specialist
+
+Hello! My name is Matt and I'm a bench biologist and bioinformatics programmer. Welcome to my website! You can quickly get to where you're going below, or if you're an industry talent specialist or technical manager, I encourage you to read the 'About Me' section.
 
 > "The scientific method is like a bicycle: you can go somewhere on it if you want to, but it's not really the sort of thing you can just play around with." - Terry Pratchett
 
@@ -23,29 +25,34 @@ Hello! My name is Matt and I'm a biochemist and bioinformatics programmer. Welco
 * [Resume/C.V.](/cv)
 * [Publications](https://scholar.google.com/citations?hl=en&pli=1&user=86Lxg-4AAAAJ)
 
+
 ## About Me
 
 > Target audience: scientists, engineers, managers, and academic partners
 
-Seeking a dynamic addition to your team or a collaborative partner in academia? Look no further! I bring over 5 years of invaluable industry experience coupled with a decade of mastery in bioinformatics, Linux, and coding proficiency in Python/Perl/R. Let's elevate your projects together!
+
+
+Seeking a dynamic addition to your team? I bring 5 years of industry biopharmaceutical R&D team experience coupled with a decade of experience in wet-bench biology, Linux, and data analysis with Python/Perl/R. Let's elevate your projects together!
 
 <!-- Are you looking for a new hire or academic collaborator with 5+ years of industry experience, 10+ years of bioinformatics, Linux, and Python/Perl/R coding expertise? -->
 
 > Does culture, communication, productivity, and passion guide your decision in hiring new talent?
 
-> Require a communicator adept at bridging diverse disciplines? I specialize in navigating the vibrant tapestry of scientists, engineers, and managerial professionals, ensuring that every voice is not just heard, but truly understood and valued. Let's foster collaboration and synergy in your multidisciplinary environment!
+> Require a communicator adept at bridging diverse disciplines? I navigate the vibrant tapestry of wet-bench laboratory scientists, analysts, and managerial professionals alike. I listen to as many voices as I can, and I share my experiences with others; it's that good vibration when we share what is mutually understood and valued. Let's foster collaboration in your environment, soon!
 
 <!-- Do you need someone with the communication style needed for a melting-pot of scientists, engineers, and managerial professionals to be heard, understood, and valued? -->
 
-Effective communication **begins** with the "why?" and "how?" of a scientific question or modeling method. However, our teams flourish only when written and presentation style leads to a team's consensus while still allowing exploration of alternative methods. My written style leads to "why don't we schedule you again this quarter?" instead of  "why am I in this meeting..."
+Effective communication **begins** with the "why?" and "how?" of a scientific question or modeling method. However, our teams flourish most when our individual communication style's lead everyone to the team's consensus while still allowing exploration of alternative ideas. My written style leads to "why don't we schedule you again this quarter?" instead of  "why am I in this meeting..."
 
 <!-- I am an *expert* at modeling, data-processing, and visualization techniques such as *R*, *Cython*/*Python*, *Javascript*, *Linux*/*bash*, *Docker*, *AWS*/cloud and more. It's more than just websites, APIs, numbers and figures here; my strong fundamentals and data-driven design strategy have already been used to affect diverse goals in industry teams: hypothesis generation, key-questions, application or integration needs, and more, such that results are easily reproducibile, documented, and clearly written. -->
-  
-I possess expertise in modeling, data processing, and visualization techniques encompassing R, Cython/Python, Javascript, Linux/bash, Docker, AWS/cloud, and more. Beyond mere websites, APIs, numbers, and figures, my robust foundation and data-driven design approach have significantly impacted various objectives within industry teams: from hypothesis generation and critical inquiries to application integration needs. As a result, outcomes are readily reproducible, meticulously documented, and articulate.
+
+But I'm a bench scientist too! Apart from collaborating in group standups, breakout meetings, or quarterly huddles, I work independently and in teams to achieve progress for my managers yearly and quarterly performance and cultural endpoints. 
+
 
   * Culture:
   
-  With glowing recommendations from industry managers, I've delivered value on highly technical projects within integrated teams of laboratory scientists, programmers, engineers, and doctors on projects in bioinformatic and cheminformatic research areas. Don't take my word for it! Check out the [testimonials](#testimonials) section.  
+  With some recommendations from industry managers, I've delivered value on projects within integrated teams of laboratory scientists, programmers, engineers, and managers on projects in wet-bench biology, bioinformatic and cheminformatic research areas. I take statistics, data, and modeling efforts seriously and I encourage you to check out the [testimonials](#testimonials) section and perhaps my modest GitHub [portfolio](/portfolio).
+
   
   * Communication:
 
@@ -65,7 +72,8 @@ I possess expertise in modeling, data processing, and visualization techniques e
 
   * Knowledge:
 
-  With deep and well-rounded expertise in molecular biology, genetics, data analytics, and statistics, I have affected numerous teams and their publications, screening modalities, and expertimental conclusions. My team oriented style begins with a fundamentals first approach to discussing expertimental or analytical concerns with the Principal Investigator. When artifacts or biophysical aspects of assay design require special treatment, my backgorund in chemistry, biology, mathematics, and data analytics allows me to quickly integrate suggestions from team members into the analytical process, such as filtering bad leads or integrating additional knowledge for specific cases within large datasets.
+  With deep and well-rounded expertise in molecular biology, genetics, data analytics, and statistics, I have affected several teams and their publications, screening methods, and more. My team oriented style begins with a fundamentals first approach to discussing expertimental or analytical concerns with the Principal Investigator. When artifacts or biophysical aspects of assay design require special treatment, my backgorund in chemistry, biology, mathematics, and data analytics allows me to quickly integrate suggestions from team members into the analytical process, such as filtering bad leads or integrating additional knowledge for specific cases within large datasets.
+
 
   Committed to continuous learning and staying updated with the latest advancements in these fields, my breadth of knowledge allows me to model treatment conditions and their effects regardless of your experimental design. My data driven approach elucidates relationships, outlier measurements, response curves, and of course separates the effects in various assay designs. 
 
@@ -93,9 +101,22 @@ Subjects included in my graduate program include metabolic engineering, bioinfor
 
 ## Experience
 
+### Wet-bench Molecular Biology and Biochemistry
+
+I have worked in a variety of laboratory settings including analytical chemistry, organic synthesis, molecular biology and disease phsyiology research, translational oncology labs with patient tissue samples, extreme anaerobic and BSL-2 microbiolgy aseptic culture, and much more.
+
+I am qualified to work with RT-PCR, immunological assays, immunofluorescence, Western blots, HPLC, GC/LC-MS, UV-VIS and more.
+
+I keep a good laboratory notebook, I can rerun my samples independently if quality is off (e.g. RIN score), and I deeply enjoy performing molecular assays at the bench, whether its microbiology, human or mammalian pathology and physiology, or othewise.
+
+
+### Computational
+
+I primarily work in GNU/Linux environments on biological sequence analysis problems. I have many years of experience writing Python, Perl, R, Javascript, HTML/CSS, SQL, bash, and more recently, a little bit of Rust. 
+
 My projects have included technologies such as kubernetes code, Dockerized workflows, shell scripts for HPC environments and grid engines like UGE/SGE and SLURM. I can build MVC/MVVC web applications and I studied database systems (SQL) at the graduate level.
 
-I specialize in writing command-line interface (CLI) tools including languages like Python, Perl, NodeJS, and Rust. Nvidia CUDA GPU programming and distributed environments are an additional strength for applications requiring excessive parallelism. 
+I specialize in writing command-line interface (CLI) tools including languages like Python, Perl, R, NodeJS, and more recently, some Rust. Nvidia CUDA GPU programming and distributed environments are an additional strength for applications requiring excessive parallelism. 
 
 Also, my experience with web applications, Javascript/HTML/CSS, front-end frameworks (mostly Jquery, Jquery-UI, D3.js, and SVG), REST-API design, and database architecture lets me create strong tools for developers and scientists alike.
 
