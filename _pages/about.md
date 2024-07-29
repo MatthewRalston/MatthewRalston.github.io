@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-## Western/Northern blot, RT-PCR, GC-MS, HPLC, ligation, restriction enzymes, ELISA, IHC/IF, FACS-Aria, Illumina library preparation. You name it!
+ Western/Northern blot, RT-PCR, GC-MS, HPLC, ligation, restriction enzymes, ELISA, IHC/IF, FACS-Aria, Illumina library preparation. You name it!
 
 ## Bioinformatics specialist
 
