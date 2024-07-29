@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Matt Ralston - Biologist"
+title                    : "Matt Ralston - Biologist and Data Scientist"
 title_separator          : "-"
 name                     : &name "Matthew Ralston"
 description              : &description "Bench bio, analysis + 5 years exp."
@@ -22,9 +22,9 @@ repository               : "MatthewRalston/matthewralston.github.io"
 author:
   # Biographic information
   avatar           : "mattralston.png"
-  name             : "Matt - alignment-free sequence programs"
+  name             : "Matt Ralston"
   pronouns         : # example: "she/her"  
-  bio              : "M.Sc. Bioinfo + 5 years industry exp. - - - Looking for a laboratory position primarily. My analytics skills are significant, but I perform best on my feet, with samples in the centrifuge, more in the water bath, and other assays to plan. Currently writing a DNA sequence graph algorithm and manuscript (for bioRxiv). I play math rock, pay my bills in the DE-NJ-PA tri-state area near Delco, and I'm launching a DE-based LLC for Univ. of Delaware and local NGS sequencing projects."
+  bio              : "M.Sc. Bioinfo + 5 years industry exp. - - - Looking for a position in biosciences. My analytics skills are significant, and I perform best on my feet, with samples in the centrifuge, more in the water bath, and other assays to plan. Currently writing a DNA sequence graph algorithm and manuscript (for bioRxiv). I play math rock on my guitar, I have some open-source software on GitHub, I pay my bills in the DE-NJ-PA tri-state area near Delco, and I'm launching a DE-based LLC for Univ. of Delaware and local NGS sequencing projects."
   location         : "Newark DE"
   employer         : "[For hire] OSS doesn't pay, Doordash"
   uri              : "https://matthewralston.github.io"
@@ -56,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "MatthewRalston"# Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
