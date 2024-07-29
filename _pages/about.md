@@ -42,11 +42,15 @@ Seeking a dynamic addition to your team? I bring 5 years of industry biopharmace
 
 <!-- Do you need someone with the communication style needed for a melting-pot of scientists, engineers, and managerial professionals to be heard, understood, and valued? -->
 
-Effective communication **begins** with the "why?" and "how?" of a scientific question or modeling method. However, our teams flourish most when our individual communication style's lead everyone to the team's consensus while still allowing exploration of alternative ideas. My written style leads to "why don't we schedule you again this quarter?" instead of  "why am I in this meeting..."
+
+Effective communication begins with habits, adjustments, and synchronization. As you engage with me in a professional setting, you'll see that my style is direct,
+my code is clean, my notes are checked into version control, and all of material is double checked for certainty and reproducibility.
+
+But as we engage in meetings, you'll find the same professional attitude, sensible humor, banter, questions, and opportunities for suggestion present themselves to yourself as well as others, and of course, management. I am quick to engage any person, professional, or staff member, vendor, contractor, or temp in useful chatter, technical discussion, non-sequitur, and polite, friendly conversation. I'm a great addition to any team because I'm good to others. When we're all on the same side, a diligent, but flexible teammate can make our day easier, pleasant, and rewarding to be with that neighbor.
 
 <!-- I am an *expert* at modeling, data-processing, and visualization techniques such as *R*, *Cython*/*Python*, *Javascript*, *Linux*/*bash*, *Docker*, *AWS*/cloud and more. It's more than just websites, APIs, numbers and figures here; my strong fundamentals and data-driven design strategy have already been used to affect diverse goals in industry teams: hypothesis generation, key-questions, application or integration needs, and more, such that results are easily reproducibile, documented, and clearly written. -->
 
-But I'm a bench scientist too! Apart from collaborating in group standups, breakout meetings, or quarterly huddles, I work independently and in teams to achieve progress for my managers yearly and quarterly performance and cultural endpoints. 
+And I must insist you understand that I'm a bench scientist too! Apart from collaborating in group standups, breakout meetings, or quarterly huddles, I work independently and in teams to achieve progress for my managers yearly and quarterly activities, sprints, stories, experiments, tests, and validations, as well as performance, cultural, and psychosocial corporate endpoints. 
 
 
   * Culture:
