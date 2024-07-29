@@ -1,5 +1,4 @@
 ---
-
 author: Matt Ralston
 header-image: "/assets/images/blog/code_syntax/feature.jpg"
 hero-title: Kmer Database Format (Part 2.)

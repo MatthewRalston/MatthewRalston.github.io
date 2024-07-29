@@ -25,7 +25,6 @@ Hello! My name is Matt and I'm a bench biologist and bioinformatics programmer. 
 * [Resume/C.V.](/cv)
 * [Publications](https://scholar.google.com/citations?hl=en&pli=1&user=86Lxg-4AAAAJ)
 
-## Skills
 
 ## About Me
 
@@ -53,6 +52,7 @@ But I'm a bench scientist too! Apart from collaborating in group standups, break
   * Culture:
   
   With some recommendations from industry managers, I've delivered value on projects within integrated teams of laboratory scientists, programmers, engineers, and managers on projects in wet-bench biology, bioinformatic and cheminformatic research areas. I take statistics, data, and modeling efforts seriously and I encourage you to check out the [testimonials](#testimonials) section and perhaps my modest GitHub [portfolio](/portfolio).
+
   
   * Communication:
 
@@ -73,6 +73,7 @@ But I'm a bench scientist too! Apart from collaborating in group standups, break
   * Knowledge:
 
   With deep and well-rounded expertise in molecular biology, genetics, data analytics, and statistics, I have affected several teams and their publications, screening methods, and more. My team oriented style begins with a fundamentals first approach to discussing expertimental or analytical concerns with the Principal Investigator. When artifacts or biophysical aspects of assay design require special treatment, my backgorund in chemistry, biology, mathematics, and data analytics allows me to quickly integrate suggestions from team members into the analytical process, such as filtering bad leads or integrating additional knowledge for specific cases within large datasets.
+
 
   Committed to continuous learning and staying updated with the latest advancements in these fields, my breadth of knowledge allows me to model treatment conditions and their effects regardless of your experimental design. My data driven approach elucidates relationships, outlier measurements, response curves, and of course separates the effects in various assay designs. 
 
