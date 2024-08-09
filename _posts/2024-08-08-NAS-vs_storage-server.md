@@ -61,17 +61,35 @@ The smaller "home" NAS solutions come with simplified hardware, insufficient mem
 
 ## Suggested Solution
 
-The suggest solution is actually to assemble and configure a custom workhorse+storage server combo, and use it for both.
+The suggest solution is actually to assemble and configure a custom workhorse+storage server combo, and use it for both. The server would be used to prototype workloads for high-performance computing tasks, specifically, running pipelines and HPC computing tasks in somewhat more controlled environments called "Docker containers".
 
-| Total cost | Name                                       | Number | individual unit cost | Manufacturer           | Note       |
-|        650 | Seagate IronWolf 8Tb NAS HDD hard drive    |      5 |                  130 | Seagate                |            |
-|        650 | 2U Server chassis                          |      1 |                  650 | SilverStone Technology |            |
-|    300-600 | 12U rack-mount server cabinet              |      1 |                  600 | Sysracks               |            |
-|        410 | ASRock WRX80D8-2T ATX Server Motherboard   |      1 |                  410 | ASRock                 | SP3 Socket |
-|       1700 | AMD 3rd gen Epyc 64c 7773X 2.2GHz 768Mb L3 |      1 |                1700+ | AMD                    | SP3 Socket |
-|        150 | 64Gb kit GDDR5 ECC RAM                     |      1 |                  150 |                        |            |
-|  Subtotal: |                                            |        |                      |                        |            |
-|     ~ 4200 |                                            |        |                      |                        |            |
+I won't discuss how I plan to accomplish this publicly. 
+
+## What about the prototyping stage and how would you research your market?
+
+I plan to consider a few options for prototyping the first pipelines. I will segment the market according to the service package requested, and produce additional software and EULA for the non-standard service packages.
+
+I plan to target compatible labs with a combination of traditional marketing and digital setters. The marketing channels primarily funnel to my store's page on Stripe. There may be free consultations/project work/or other proactive and reputation centric services provided early on, to attract future business, and start grassroots interest in academic partners at University of Delaware, and this tri-state area.
+
+The way I'd establish it, is offer 1-month or 2-month structures. I'd ask the PI to fill out a small questionaire, with appropriate language for requirements gathering to continue under NDA, and other contingencies be addressable by policy and procedure.
+
+1-month structures would be, fast turn-around, fairly generic analyses and deliverable packages, less than 200 samples, for now. Upgrade structures may include, additional pipelines, encryption options, public-cloud, data warehousing services, etc.
+
+## What is being developed currently
+
+The primary deliverable under development is a pipeline of reproducible components for each package. Currently there is 1 package regarding this pipeline with most 16/20 components implemented, but it is nearly impossible to test without the correct infrastructure.
+
+That said, the pipeline itself exists as a shell script on my system, and I am prepared to start taking clients shortly.
+
+
+## Could you deliver if, say, next week someone offered you a $3000 contract for your standard 200-sample RNA-sequencing development?
+
+Yes. I would deliver graphics and a 5-10 page Quarto or Rmarkdown report describing methodology, results, and describing value in an executive summary about insights gained, obstacles to analysis or characterization and how they were addressed, how the quality of the samples were assessed, and what steps were used to capture the results and how that could be done again.
+
+However, a collection of shell scripts and statistical reports and generated reports in a archive is far from the long term goal for each deliverable, even if the turn around time was 1 month or less.
+
+I couldn't deliver the more advanced prototype of the reproducibility framework by next week, but that's on the charts.
+
 
 
 
