@@ -1,8 +1,14 @@
 # main links links
 main:
+
+  - title: "About"
+    url: "/#sitemap"
+  
+  - title: "Sitemap"
+    url: "/"
+  
   - title: "Publications"
     url: "https://scholar.google.com/citations?hl=en&pli=1&user=86Lxg-4AAAAJ"
-
     
   - title: "Portfolio"
     url: /portfolio/
