@@ -22,7 +22,7 @@ repository               : "MatthewRalston/matthewralston.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "mattralston.png"
+  avatar           : "dna3.gif"
   name             : "Matt Ralston"
   pronouns         : # example: "she/her"  
   bio              : "M.Sc. Bioinfo + 5 years industry exp. - - - Looking for a position in biosciences. My analytics skills are significant, and I perform best on my feet, with samples in the centrifuge, more in the water bath, and other assays to plan. Currently writing a DNA sequence graph algorithm and manuscript (for bioRxiv). I play math rock on my guitar, I have some open-source software on GitHub, I pay my bills in the DE-NJ-PA tri-state area near Delco, and I'm launching a DE-based LLC for Univ. of Delaware and local NGS sequencing projects."
