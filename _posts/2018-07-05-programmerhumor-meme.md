@@ -4,13 +4,13 @@ tags: meme meta prose noob
 toc: true
 ---
 
-![https://www.reddit.com/r/ProgrammerHumor/comments/8uqhfu/hell_yeah/](img/drake_learn_programming.jpg "Reasons to learn programming"){:height="360px" width="360px"}
+![https://www.reddit.com/r/ProgrammerHumor/comments/8uqhfu/hell_yeah/](/images/drake_learn_programming.jpg "Reasons to learn programming"){:height="360px" width="360px"}
 
 Hi everyone, today I'll be ruthlessly destroying some /r/programmerhumor memes for those who are new to programming.
 
 ### Gru Tries Recursion
 
-![https://www.reddit.com/r/ProgrammerHumor/comments/85a6n7/gru_tries_recursion/](img/gru_recursion.jpg "No exit..."){:height="284px" width="412px"}
+![https://www.reddit.com/r/ProgrammerHumor/comments/85a6n7/gru_tries_recursion/](/images/gru_recursion.jpg "No exit..."){:height="284px" width="412px"}
 
 [Recursion](https://en.wikipedia.org/wiki/Recursion) is an elementary operation in logic, maths, and computer science where an operation is partially defined in terms of itself. While the most common example is the Fibonnaci function, the best example is perhaps addition of two integers:
 
@@ -115,13 +115,13 @@ Hi everyone, today I'll be ruthlessly destroying some /r/programmerhumor memes f
 
 {::nomarkdown}
 <p>
-While the concept seems simple as presented here, a special type of recursion should be mentioned (as it's mentioned in nearly every other ignorant hipster treatment of recursion these days): tail recursion. <a href="#" data-toggle="popover" title="" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="img/pooh_recursion.gif" height="100%" width="100%" />'>Tail recursion</a> is a <a href="#" data-toggle="popover" title="cat.exe has stopped working" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="img/cat_tail_recursion.jpg" height="100%" width="100%" />'>special</a> <a href="#" data-toggle="popover" title="HotlinePing.jpg" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="img/drake_memes_without_recursion.jpg" height="100%" width="100%" />'>type</a> of <a href="#" data-toggle="popover" title="Wonder when these guys will pop up again..." data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="img/creed_recursion_look_at_this_photograph.jpg" height="100%" width="100%" />'>recursive</a> treatment that results in a <a href="#" data-toggle="popover" title="There are two types of people in the world..." data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="img/xkcd_tail_recursion.png" height="100%" width="100%" />'>constant memory</a> requirement as the recursion progresses, instead of the linear memory requirements afforded by poorly formed recursive functions. The differences can be seen in the 'Python' and 'Ruby' panels above.
+While the concept seems simple as presented here, a special type of recursion should be mentioned (as it's mentioned in nearly every other ignorant hipster treatment of recursion these days): tail recursion. <a href="#" data-toggle="popover" title="" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="/images/pooh_recursion.gif" height="100%" width="100%" />'>Tail recursion</a> is a <a href="#" data-toggle="popover" title="cat.exe has stopped working" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="/images/cat_tail_recursion.jpg" height="100%" width="100%" />'>special</a> <a href="#" data-toggle="popover" title="HotlinePing.jpg" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="/images/drake_memes_without_recursion.jpg" height="100%" width="100%" />'>type</a> of <a href="#" data-toggle="popover" title="Wonder when these guys will pop up again..." data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="/images/creed_recursion_look_at_this_photograph.jpg" height="100%" width="100%" />'>recursive</a> treatment that results in a <a href="#" data-toggle="popover" title="There are two types of people in the world..." data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="/images/xkcd_tail_recursion.png" height="100%" width="100%" />'>constant memory</a> requirement as the recursion progresses, instead of the linear memory requirements afforded by poorly formed recursive functions. The differences can be seen in the 'Python' and 'Ruby' panels above.
 </p>
 {:/}
 
 ### Object-oriented Zucc
 
-![https://www.reddit.com/r/ProgrammerHumor/comments/8bh21u/not_oc_zuckerborgdrink/](img/zucc_quenched.gif "expect(zucc.isQuenched()).to(be_true)"){:height="338px" width="600px"}
+![https://www.reddit.com/r/ProgrammerHumor/comments/8bh21u/not_oc_zuckerborgdrink/](/images/zucc_quenched.gif "expect(zucc.isQuenched()).to(be_true)"){:height="338px" width="600px"}
 
 {::nomarkdown}
 
@@ -130,7 +130,7 @@ While the concept seems simple as presented here, a special type of recursion sh
 
 ### FrontEnd vs. BackEnd
 
-![https://www.reddit.com/r/ProgrammerHumor/comments/7zfgwg/frontend_vs_backend/](img/frontend_vs_backend.jpg "One banana, two banana, three banana, four"){:height="705px" width="500px"}
+![https://www.reddit.com/r/ProgrammerHumor/comments/7zfgwg/frontend_vs_backend/](/images/frontend_vs_backend.jpg "One banana, two banana, three banana, four"){:height="705px" width="500px"}
 
 I debated whether this meme deserved to make the cut and decided to include it for those who don't have much experience making different kinds of applications. Not every developer will want to make different kinds of applications but I think this can still help everyone understand the perspective we give towards applications. There's also a dual nature to discuss here and I'll start with UI. User interfaces always need to be simplistic and intuitive to reach the most users. In my opinion, it is sad but true that utility doesn't always win when it comes to the 'value' of an application and software developers that neglect their UIs are often punished.
 
@@ -149,7 +149,7 @@ That's it for this post! I'll be doing this often I hope, ruining the punchline.
 
 {::nomarkdown}
 <p>
-Does anyone else remember <a href="#" data-toggle="popover" title="You're all wrong. This is why it happened. https://goo.gl/KyLh7Y" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="img/hawaii_missile1.png" height="100%" width="100%" />'>the</a> <a href="#" data-toggle="popover" title="REAL Screenshot from Hawaii Warning System (ACTUAL!) https://goo.gl/MeYRZD" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="img/hawaii_missile2.gif" height="100%" width="100%" />'>Hawaii</a> <a href="#" data-toggle="popover" title="The Missile Alert System used simple HTML! How bad could it be?! https://goo.gl/rE5g7n" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="img/hawaii_missile3.gif" height="100%" width="100%" />'>missile</a> <a href="#" data-toggle="popover" title="A Github solution to the Hawaii missile alert https://goo.gl/6MoXNW" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="img/hawaii_missile4.png" height="100%" width="100%" />'>warning</a> <a href="#" data-toggle="popover" title="What if /r/ProgrammerHumor was responsible for the Missile Alert UI https://goo.gl/RznXCt" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="img/hawaii_missile5.gif" height="100%" width="100%" />'>false</a> <a href="#" data-toggle="popover" title="Hawaii alert system, confirmed UI. Made by EA https://goo.gl/98TGe6" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="img/hawaii_missile6.png" height="100%" width="100%" />'>alarm</a>?
+Does anyone else remember <a href="#" data-toggle="popover" title="You're all wrong. This is why it happened. https://goo.gl/KyLh7Y" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="/images/hawaii_missile1.png" height="100%" width="100%" />'>the</a> <a href="#" data-toggle="popover" title="REAL Screenshot from Hawaii Warning System (ACTUAL!) https://goo.gl/MeYRZD" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="/images/hawaii_missile2.gif" height="100%" width="100%" />'>Hawaii</a> <a href="#" data-toggle="popover" title="The Missile Alert System used simple HTML! How bad could it be?! https://goo.gl/rE5g7n" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="/images/hawaii_missile3.gif" height="100%" width="100%" />'>missile</a> <a href="#" data-toggle="popover" title="A Github solution to the Hawaii missile alert https://goo.gl/6MoXNW" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="/images/hawaii_missile4.png" height="100%" width="100%" />'>warning</a> <a href="#" data-toggle="popover" title="What if /r/ProgrammerHumor was responsible for the Missile Alert UI https://goo.gl/RznXCt" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="/images/hawaii_missile5.gif" height="100%" width="100%" />'>false</a> <a href="#" data-toggle="popover" title="Hawaii alert system, confirmed UI. Made by EA https://goo.gl/98TGe6" data-placement="auto" data-trigger="hover" data-html=true data-content='<img src="/images/hawaii_missile6.png" height="100%" width="100%" />'>alarm</a>?
 
 </p>
 {:/}
