@@ -1,15 +1,18 @@
-TITLE: State of the server CPU market (2024 edition)
-#+SUBTITLE: AMD and Intel obviously dominant, ARM a dark horse.
-#+AUTHOR: Matt Ralston <mralston.development@gmail.com>
-#+PROPERTY: TYPE_all Meta Create Cycle 
-#+OPTIONS: ^:{}
-#+STARTUP: latexpreview
-#+OPTIONS: tex:t
+---
+author: Matt Ralston
+header-image: "/images/dna1.gif"
+hero-title: Server CPUs, market differentiation, the e-thread hatetrain, and power efficiency
+hero-subtitle: AMD dominance, Intel solid contender, ARM reaches new markets and continues to advance towards traditionally Intel and x86_64 dominant areas such as supercomputing.
+category: Opinion
+tags: AMD Intel CPU prose opinion meta
+
+
+
 ## What is the state of the CPU market
  - consider server CPUs and workstations or small PC CPU architectures for high-performance compute.
 
 
- Well, you typically dont consider small PC or workstations CPU product SKUs for the high-performance computing market
+ Well, you typically dont consider small PC or workstations CPU product SKUs for the high-performance computing market...
 
 
           Consider non-server strenuous CPU demanding tasks, such as processing information related to metrics, observables, distributions of data
@@ -22,9 +25,16 @@ TITLE: State of the server CPU market (2024 edition)
  scientific compute, simulation, video and illustration editing, animation, etc. the quality of the server part may be categorized into roughly clock-speed (3.35Ghz; most parts are between 2-4 Ghz for ca. 2019 - 2024)
  instruction sets (x86_64 vs ARM), L3 cache, PCIe lanes (128?), and additional features.
 
- My recommendation, as stated, is the Milan Epyc 7--- series models. 8-64 core solutions. it's like 128Mb L3 cache.
+ My recommendation, as stated, is the Milan Epyc 7--- series models. 8-64 core solutions. it's like 128Mb L3 cache. Obvious winner.
 
- It's the obvious choice for most hardcore computing workloads and burst potential.
+
+ Yeah Intel parts are there, but the area of compute that interests me is distinctively memory heavy and resource constrained: high-performance compute. And there's a lot of buzz and hype and micro-rationalizations about AMD hype.
+
+ It's not hype. I have a friend that uses Threadripper exclusively and the part burns. If you're doing data-science or statistics, or other mathematics workflows, then the AMD part market is dominant in this generation, marginally, over Intel products.
+
+ I'm over it.
+ 
+ It's the obvious choice for most hardcore computing workloads and burst potential. Yeah so the guy in the hackneyed blog up the way says well, Matt's being elitist and Intel is trying new things, and their market dominance for years put the best know-how 
 
  Specifically, the multithreading would be terrific with the appropriate backplane.
 ## The obvious is x86_64
