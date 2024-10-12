@@ -13,9 +13,6 @@ tags: python system meta
 Personally, I use pop!_os 24.04 LTS, and I use a variety of programs in my daily productivity stack. To start, let's review our Python coding environment.
 
 
-
-
-
 # Python
 
 The first step for a Python+R productivity setup using FOSS and GNU centered C toolchains, involves installing Python from source, and using pipenv (and/or pyenv) to mediate Python virtualenv management.
@@ -52,7 +49,6 @@ And now I'll say, `rvm` Ruby Version Manager (`https://rvm.io`) is useful for co
 
 
 I use `gpg2` and `ssh` with 'RSA' cryptography for effortless insecure connections to other servers my DNS is shitty at verifying.
-
 
 
 
@@ -106,23 +102,23 @@ Emacs is GNU software. Emacs is a highly customizable editor system that has acc
 I use `org-mode` for much of my note taking and productivity (to-do lists, documentation, master lists, task-management). The fact that org-mode now can be coupled with the zettlekasten software `org-roam` and associated visualization solution `org-roam-ui`, lots of my organizational problems are wrong.
 
 
-## `org-mode` for productivity
+## `org-mode` - for productivity
 
 Not your average to-do list: ASCII, nesting, linking, pandoc compatibility, and more.
 
-
-## `org-roam` for zettlekasten 
+Cycle through collapsed regions of the bulleted list tree, easily rearrange and reorganize your lists, breeze through TODO organization and clock-in, capture notes, reply reminders, journal items, todo items, and basically anything you can template in elisp.
+## `org-roam` - for zettlekasten 
 
 Essentially, it's just mind-mapping using more-or-less plain `.org`-mode and emacs key-binding shortcuts to quickly move throughout the network to add/edit information to a zettlekasten system. This is compared to more conventional paid/freemium solutions like Obsidian.
 
 I like that it's just plain `.org`-mode because that means you can grep-out your header (`;;` - comment prefixes), concatenate all your zettlekasten notes into a single `.org` file, then use pandoc to convert it to whatever other format you want. PDF? PPT? Markdown? 
 
 
-
-
-## `org-roam-ui` visualization solution
+## `org-roam-ui` - visualization solution
 
 This is currently my go-to mind-mapping visualizer. It draws from a directory of `.org` files, say `~/Documents/org/roam` . With the available configuration, it can generate a force-diagram in a canvas and bring the diagram up on your Internet Browser, say Firefox or Chrome. 
 
 
+## `org-agenda` - capture templates for various spontaneous tasks
 
+Use capture templates to run workflow organizational tasks, all without switching to another buffer window or pop-up window, inline note taking, task capture, todo items, and morel.
