@@ -311,4 +311,34 @@ for x in range(10):
 
 ```
 
+## Object-oriented Python
+
+Most modern programming languages (1990 and after; e.g. Python, Ruby, Java, Objective-C, Haskell, Scala and others) have some facilities for object oriented programming. Even older languages (Perl, C -> C++, PHP) have modern versions that have OOP in mind. Object oriented programming focuses on encapsulating data alongside functions that operate on such data in 'classes' of 'objects.' These objects can inherit features from parent classes and provide interfaces for the object's user to use methods (functions specific to a class) on specific data in the object.
+
+Python fully supports object-oriented programming (OOP) through a class interface, rather than a prototype interface (Javascript and others). Modern versions of Python (3.7+) also provide `dataclasses` to specify what attributes (or instance variables) an object should have. Let's take a look at the more standard `class` interface.
+
+
+
+```python
+
+class Book:
+    def __init__(self, author, title, isbn, year, publisher, excerpt):
+
+        self.author = author
+        self.title = title
+        self.isbn = isbn
+        self.year = year
+        self.publisher = publisher
+        self.excerpt = excerpt
+        
+    def print_excerpt(self):
+        """
+        This is a method on the Book class that will cause the 'side-effect' of printing the excerpt string to the Python REPL.
+        """
+        print(self.excerpt)
+
+```
+
+By using data abstraction and/or encapsulation, we keep the data close to associated functions. In this trivial example, the excerpt, a Python `str`, is loaded into a `Book` object. An instance of a Book, say, To Kill a Mockingbird, will have a specific example of an excerpt of the full text included in the 'instance' of the object. Calling the `print_excerpt` method on the instance of the `Book` class will print the string to the console.
+
 
