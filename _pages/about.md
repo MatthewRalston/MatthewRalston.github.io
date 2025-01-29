@@ -21,17 +21,30 @@ Feel free to explore using the Sitemap below to find exactly what you're looking
 
 ## Sitemap
 
-* [Portfolio](/portfolio)
-* [Blog](/blog)
+* - About
+* [About Me - Matt Ralston : statement](https://matthewralston.github.io)
+* - Subject areas
+* [Biological Sciences](/biosciences)
+* [Cheminformatics](/cheminformatics)
+* [Research](/research)
+* - Software projects - [Portfolio](/portfolio)
+* [Software experience](/software)
+* [Bioinformatics, Data Science, ML, AI, LLM](/data_science)
+* - Blog - [Blog](/blog)
+* - Social Media
+* [LinkedIn](https://linkedin.com/in/MatthewRalston)
 * [GitHub](https://github.com/MatthewRalston)
+* - Resume / Curriculum Vitae (C.V.)
 * [Resume/C.V.](/cv)
+* - Personal Statement
+* [Personal statement](/personal_statement)
+* - Publications
 * [Publications](https://scholar.google.com/citations?hl=en&pli=1&user=86Lxg-4AAAAJ)
 
 
 ## About Me
 
 > Target audience: scientists, engineers, managers, and academic partners
-
 
 
 Seeking a dynamic addition to your team? I bring 5 years of industry biopharmaceutical R&D team experience coupled with a decade of experience in wet-bench biology, Linux, and data analysis with Python/Perl/R. Let's elevate your projects together!
@@ -44,16 +57,25 @@ Seeking a dynamic addition to your team? I bring 5 years of industry biopharmace
 
 <!-- Do you need someone with the communication style needed for a melting-pot of scientists, engineers, and managerial professionals to be heard, understood, and valued? -->
 
-Well, my job is to navigate the rich tapestry of managers, engineers, analysts, and wet-bench laboratory professionals alike. I listen to as many voices as I can, and I share my experiences with others; dou you know, that, 'good vibration' when what we share what is mutually understood and valued, especially when our success follows our fit. Well, let's foster collaboration in your environment, soon!
+
+
+
+ I work in groups of engineers, analysts, and wet-bench laboratory professionals, team leads, associate directors, and alike. I listen to as many voices as I can, and I share my experiences with others; I am detail oriented and enjoy the problem solving process, and I can write about it in a variety of ways throughout our journey. 
+ 
+ 
 
 <!-- I am an *expert* at modeling, data-processing, and visualization techniques such as *R*, *Cython*/*Python*, *Javascript*, *Linux*/*bash*, *Docker*, *AWS*/cloud and more. It's more than just websites, APIs, numbers and figures here; my strong fundamentals and data-driven design strategy have already been used to affect diverse goals in industry teams: hypothesis generation, key-questions, application or integration needs, and more, such that results are easily reproducibile, documented, and clearly written. -->
 
-And I must insist you understand that I'm a bench scientist too! Apart from collaborating in group standups, breakout meetings, or quarterly huddles, I work independently and in teams to achieve progress for my managers yearly and quarterly activities, sprints, stories, experiments, tests, and validations, as well as performance, cultural, and behvarioral corporate endpoints. 
+So I do the bench science thing too! I'm effecient and effective and timely in the lab. Asepsis leads to less errors, and as a bench molecular biologist I'm familiar with the autoclave and where the imaging equipment is. I can perform single-gene targetted expression studies (sometimes referred to as qPCR or rt-PCR on mRNA molecules. I also work with Illumina lab reagent kit technologies). I do multiplex. I have some conceptual familiarity with a lot of different methods from chemical analytical, bioassay, immunoassay, fluorimetry, MS, GC-MS, LC-MS, ELISA, and an intimate understanding of cell culture and laminar flow hoods. My last acura was an Illumina but my last report was a Northern.
+
+  * Regarding research - what you can expect.
+
+I work independently with consistent email and Slack communications, and project updates and logging via Version Control and `git`. My project management software is often plain text, also git-based, metrics, org-files for Pandoc compatibility, second-brain, markdown where possible, license documents, source files and configurations, Dockerfiles where possible, and I write LaTeX primarily in `.Rmd`.
 
 
   * Culture:
   
-  With some recommendations from industry managers, I've delivered value on projects within integrated teams of laboratory scientists, programmers, engineers, and managers on projects in wet-bench biology, bioinformatic and cheminformatic research areas. I take statistics, data, and modeling efforts seriously and I encourage you to check out the [testimonials](#testimonials) section and perhaps my modest GitHub [portfolio](/portfolio).
+  With some recommendations from industry managers, I've delivered value on projects within integrated teams of laboratory scientists, programmers, engineers, and managers on projects in wet-bench biology, bioinformatic and cheminformatic research areas. I take statistics, data, and modeling efforts seriously and I encourage you to check out the [software](/software), [research](/research), [biosciences](/biosciences), [LinkedIn](/linkedin), [testimonials](#testimonials) section and perhaps my modest GitHub [portfolio](/portfolio). I hope that you'll see I have some familiarity with publishing, only one first authorship formally. One open source project concerning sequence alignment conceptural understanding, k-mer and minimizer expertise, Illumina data profiling, and not caring what else needs work on besides my algorithm engineering training, and my R&D process.
 
   
   * Communication:
@@ -62,19 +84,21 @@ And I must insist you understand that I'm a bench scientist too! Apart from coll
 
   * Productivity:
   
-  As computational professionals know, there is more to productivity than LOC or turn-around time. Technical debt is *the* issue facing today's scientific and engineering teams. Specifically, how do we make deliverables correct and efficient, but also maintainable and compatible with adjacent apps, services and platforms? There's more to it than turn-around time; it's about integration and availability across sites, platforms, and teams.
+  I use Rmarkdown and Python for most of my data science stack. I use Python SQLAlchemy, Flask, and Rust ORMs and RDBMS technologies to create normalized data structures during ETL. ETL is mostly Python, numpy, CUDA, and/or `rust` where I get the time to develop robustly and comfortably at my knowledge of static type function signatures and handling types robustly with GPT4.0-o1-mini in `zed` or Claude Sonnet 3.5+ mobile to assist with code when needed. I use minimal software stacks and don't do much UI development. I'm a backend programmer and ETL and Data Science are my most accomplished skillset in terms of what I *can* do. But often, you'll want a 'full-stack developer' in the classical sense too. I have stylistic Javascript and ecosystem style and functional OOP style knowledge. I can write CSS/HTMX, and I can build web apps in any language. I'm very partial to having a static asset stack where possible, Nginx, and I like Github Pages and Jekyll CMS. Most of my content is Markdown, plain-text, and org-mode when it's not software projects.
+  
+
   
   With over five years in industry bioinformatics teams I have honed the essential professional skills of time-management, public speaking, and the technical accumen needed to deliver value for your team.
   
 
   * Knowledge:
 
-  With deep and well-rounded expertise in molecular biology, genetics, data analytics, and statistics, I have affected several teams and their publications, screening methods, and more. My team oriented style begins with a fundamentals first approach to discussing expertimental or analytical concerns with the Principal Investigator. When artifacts or biophysical aspects of assay design require special treatment, my backgorund in chemistry, biology, mathematics, and data analytics allows me to quickly integrate suggestions from team members into the analytical process, such as filtering bad leads or integrating additional knowledge for specific cases within large datasets.
+<!--  With deep and well-rounded expertise in molecular biology, genetics, data analytics, and statistics, I have affected several teams and their publications, screening methods, and more. My team oriented style begins with a fundamentals first approach to discussing expertimental or analytical concerns with the Principal Investigator. When artifacts or biophysical aspects of assay design require special treatment, my backgorund in chemistry, biology, mathematics, and data analytics allows me to quickly integrate suggestions from team members into the analytical process, such as filtering bad leads or integrating additional knowledge for specific cases within large datasets. -->
 
 
-  Committed to continuous learning and staying updated with the latest advancements in these fields, my breadth of knowledge allows me to model treatment conditions and their effects regardless of your experimental design. My data driven approach elucidates relationships, outlier measurements, response curves, and of course separates the effects in various assay designs. 
+  Committed to continuous learning and staying updated with the latest advancements in these fields, my breadth of knowledge allows me to model treatment conditions and their effects regardless of your experimental design. I write well and clear in technical and team messaging. 
 
->  I'm more than just a wet-bench professional and software developer. I'm your team's next valued member.
+>  Hi, I'm Matt and I'm both a wet-bench professional and software developer. 
 
 
 ## Background
