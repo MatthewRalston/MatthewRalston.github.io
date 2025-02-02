@@ -12,7 +12,7 @@ locale                   : "en-US"
 title                    : "Matt Ralston - Biologist and Data Scientist"
 title_separator          : "-"
 name                     : &name "Matthew Ralston"
-description              : &description "Bench bio, analysis + 5 years exp."
+description              : &description "Bench biology and data analysis + 5 years exp."
 url                      : https://matthewralston.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "MatthewRalston/matthewralston.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "dna3.gif"
   name             : "Matt Ralston"
   pronouns         : # example: "she/her"  
-  bio              : "M.Sc. Bioinfo + 5 years industry exp. - - - Looking for a position in biosciences. I'm gifted at the command line or computer terminal, but I perform best on my feet, standups, cleaning, guitar with samples in the centrifuge, more in the water bath, data being processed on the computer while I sleep, and other assays to plan. Currently writing a DNA sequence graph algorithm and manuscript (for bioRxiv). I play math rock on my guitar, I have some open-source software on GitHub, I pay my bills in the DE-NJ-PA tri-state area near Delco, and I'm launching a DE-based LLC for Univ. of Delaware and local NGS sequencing projects."
+  bio              : "M.Sc. Bioinfo + 5 years industry exp. - - -  Currently writing a DNA sequence alignment, quasi-mapper, and graph algorithm and manuscript (for bioRxiv). I play math rock on my guitar, I write open-source software on GitHub, I pay my bills in the DE-NJ-PA tri-state area near Delco, and I'm launching a DE-based LLC for Univ. of Delaware and local NGS sequencing projects."
   location         : "Newark DE"
   employer         : "University of Delaware" # I'm not affiliated with UD. I listed this because there's a good looking uni logo for this biographic link type. UD is my alma mater.
   uri              : "https://matthewralston.github.io"
@@ -118,6 +118,11 @@ bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
+# Branding
+
+
+# Header image (sitewide)
+header: images/dna3.gif
 
 # Social Sharing
 twitter:
@@ -200,18 +205,25 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  software:
     output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
+    permalink: /software/:collection/:path/
   portfolio:
     output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+    permalink: /portfolio/:collection/:path/
+
+  # teaching:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # publications:
+  #   output: true
+  #   permalink: /publications/:collection/:path/
+  # blog:
+  #   output: true
+  #   permalink: /blog/posts/:collection/:path/
+  # talks:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # Defaults
@@ -299,7 +311,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
+  - jekyll-toc
 
 # Archives
 #  Type
