@@ -26,7 +26,7 @@ Seeking a dynamic addition to your team? I bring 5 years of industry biopharmace
 * [Culture, communication, teamwork, professional empathy](#team-skills)
 * [Contact](#contact)
 
-> Do you value cultural values, communication style, productivity, and dedication when guiding your decision to hire new talent? Do you require a professional adept at communicating in-between and bridging diverse disciplines? 
+> Do you consider cultural values, communication style, productivity, and dedication in your decision to hire new talent? Do you require a professional adept at communicating in-between and bridging diverse disciplines? 
 
 Do you need to know something more specific about my [software projects](/software), [industry experience](/cv), or my [laboratory training](/biosciences)? **Use the links here or on the [main page/sitemap](/) to find out more.**
 
