@@ -26,7 +26,7 @@ Seeking a dynamic addition to your team? I bring 5 years of industry biopharmace
 * [Culture, communication, teamwork, professional empathy](#team-skills)
 * [Contact](#contact)
 
-> Do you value culture, communication, productivity, and dedication such in guiding your decision to hire new talent? Do you require a professional adept at communicating in-between and bridging diverse disciplines? 
+> Do you value cultural values, communication style, productivity, and dedication when guiding your decision to hire new talent? Do you require a professional adept at communicating in-between and bridging diverse disciplines? 
 
 Do you need to know something more specific about my [software projects](/software), [industry experience](/cv), or my [laboratory training](/biosciences)? **Use the links here or on the [main page/sitemap](/) to find out more.**
 
@@ -87,17 +87,34 @@ Subjects included in my graduate program include metabolic engineering, bioinfor
 
 # Skills
 
-Illumina RNA-seq library preparation, qRT-PCR, RT-PCR, PAGE: Western blot, Northern blot, ELISA, HPLC, nucleic acid extraction, enzymatic treatment, FACS, light microscopy, fluorescence microscopy, immunohistochemistry, immunofluorescence
+Bench laboratory: Illumina RNA-seq library preparation, qRT-PCR, RT-PCR, PAGE: Western blot, Northern blot, ELISA, HPLC, nucleic acid extraction, enzymatic treatment, FACS, light microscopy, fluorescence microscopy, immunohistochemistry, immunofluorescence
+
+
 Spectrometry: UV-Vis, Fluorometry, Nanodrop
+
 Cell culture: Human cell culture, anaerobic bacterial cell culture, fermentation 
+
 Sequence alignment: Hisat2, Bowtie2, Tophat, BWA, Blast, Blat, ClustalO, HMMs
+
 Assembly: Cufflinks, Trinity, Velvet
-Sequence Processing: Fastqc, Samtools, Picard, Bedtools, 
+
+Illumina data processing: Fastqc, Samtools, Picard, Bedtools
+
 Miscellaneous: Cuffdiff, DEseq, Circos, David, Amazon Web Services (AWS)
+
+
 Programming: Python, R, Bash, Javascript/NodeJS, Rust, Emacs, D3.js, Julia, Perl, awk, grep/sed, LaTeX, Matlab, HTML/CSS, MySQL, Oracle, PostgreSQL, miniconda
+
+
 Data Management: Oracle SQL, PostgreSQL, rdflib, snapshotting
+
+
 Cloud Computing: S3, Elastic Compute (EC2), CodeBuild, Elastic Container Repository (ECR), Docker, IAM
+
+
 Statistics/Data Science: Hypothesis testing, ANOVA/regression, distribution fitting, R/Rstudio/Rshiny, Bioconductor, discrete/continuous probability, multivariate statistical analysis, regression, least-squares estimation, PCA, clustering, classification
+
+
 Systems Administration: systemd, Docker, Ansible/chef, tmux, Nginx, Apache, web servers, Sun Grid Engine (SGE/UGE), bash, parallel
 
 
@@ -168,18 +185,7 @@ I work independently with consistent email and Slack communications, and project
 <!--  With deep and well-rounded expertise in molecular biology, genetics, data analytics, and statistics, I have affected several teams and their publications, screening methods, and more. My team oriented style begins with a fundamentals first approach to discussing expertimental or analytical concerns with the Principal Investigator. When artifacts or biophysical aspects of assay design require special treatment, my backgorund in chemistry, biology, mathematics, and data analytics allows me to quickly integrate suggestions from team members into the analytical process, such as filtering bad leads or integrating additional knowledge for specific cases within large datasets. -->
 
 
-  Committed to continuous learning and staying updated with the latest advancements in these fields, my breadth of knowledge allows me to model treatment conditions and their effects regardless of your experimental design. I write well and clear in technical and team messaging. 
-
->  Hi, I'm Matt and I'm both a wet-bench professional and software developer. 
-
-
-## Background
-
-
-
-## Experience
-
-
+  Committed to continuous learning and staying updated with the latest advancements in these fields, my breadth of knowledge allows me to model treatment conditions and their effects regardless of your experimental design. I write clearly in technical and team messaging. 
 
 
 
