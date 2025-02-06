@@ -21,9 +21,26 @@ During the period after the coronavirus pandemic of March 2020, the convention f
 
 Common knowledge would suggest that the best option for cloud agnostic and cloud-native architectures includes Docker and kubernetes at some level. Dockerfiles are considerably similar to shell scripts that would have done the heavy lifting of sysadmin roles in the 2000s, in that they primarily deal with shell-level configuration of environments for a specific single-feature single-purpose design.
 
+## devops
+
 "Development Operations", or simply devops, involves the configuration of system for application stacks within the context of the goals of the entire app. Primary tools for devops include Docker, kubernetes, Ansible, Chef, Puppet, and the boto3 AWS SDK for Python. Goals for devops positions include decreasing the load of technical debt, to make application subsystems reusable and long-lasting during a program's lifecycle, and packaging services or subsystems for the application according to their goals diagrammed during requirements discovery and fine-tuning.
 
+## Docker containers
+
+Containers, and more specifically Docker containers, use kernel virtualization in Linux systems to produce so-called "lightweight" virtualization. These containers are lightweight operating system images, stored as binary artifacts associated with repositories in the Docker image "registry". Associated with a repostiory are container components, dependencies, and the `Dockerfile`, a recipe for creating the image artifacts and resulting operating system and application configuration from known and packaged assets in the registry's repository.
+
+From [Wikipedia.org/wiki/Docker_(software)](https://wikipedia.org/wiki/Docker_(software)): 
+
+>"The Docker software as a service offering consists of three components:
+
+>[Software]: The Docker daemon, called dockerd, is a persistent process that manages Docker containers and handles container objects. The daemon listens for requests sent via the Docker Engine API.[22][23] The Docker client program, called docker, provides a command-line interface (CLI) that allows users to interact with Docker daemons.[22][24]
+>[Objects]: Docker objects are various entities used to assemble an application in Docker. The main classes of Docker objects are images, containers, and services. A Docker container is a standardized, encapsulated environment that runs applications. A container is managed using the Docker API or CLI. A Docker image is a read-only template used to build containers. Images are used to store and ship applications. A Docker service allows containers to be scaled across multiple Docker daemons. The result is known as a swarm, a set of cooperating daemons that communicate through the Docker API.
+
+>[Registries]: A Docker registry is a repository for Docker images. Docker clients connect to registries to download ("pull") images for use or upload ("push") images that they have built. Registries can be public or private. The main public registry is Docker Hub. Docker Hub is the default registry where Docker looks for images."
 
 
+## devops vs sysadmin
+
+Systems administration has traditionally involved subject matter expertise and experience with varieties of systems and their configurations. Reproducing a system configuration was a principle concern of early "lift-and-shift" cloud deployments and was often done through the knowledge of both local and cloud systems, storage options, caching, object storage (static assets), CDNs, and other subject area expertise.
 
 
