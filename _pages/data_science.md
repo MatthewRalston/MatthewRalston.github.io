@@ -9,11 +9,13 @@ hero_image: "images/dna2.gif"
 
 I am a data professional that focuses on the analysis of genomic sequences. I turn DNA sequences into count vectors of DNA subsequences for use in alignment, k-mer compositional analysis, overrepresented motif analysis, De Bruijn graph formation, or total count vector based differentials on sequences or assemblies.
 
-In addition, I turn alignment abundances into digital readouts of gene expression for use in downstream analysis such as differential gene expression comparisons, whole transcriptome interpretations of gene representation and functional ontologies such as metabolic enzyme representation, transcription factor and cell signaling and pathway representation, orthologous (gene families) and paralogous (related functionality) gene families and of course genome completeness. 
+In addition, I turn alignment abundances into digital readouts of gene expression for use in downstream analysis such as differential gene expression comparisons, whole transcriptome interpretations of gene representation and functional ontologies such as metabolic enzyme representation, transcription factor and cell signaling and pathway representation, ortholog (gene families) and paralog (related functionality via duplication) gene family completeness and genome completeness. 
 
-So in addition to functional metrics such as the ontologies and their statistics, the alignment abundances, referred to as read counts, provide abundance approximations that are integral to variance estimation among replicates of a given condition and its use in a variance modeling and hypothesis testing framework like DESeq2. 
+So in addition to functional metrics such as the ontologies and their statistics, the alignment abundances, referred to as read counts, provide abundance approximations that are integral to variance estimation among replicates of a given condition and its use in a variance modeling and hypothesis testing framework like DESeq2 or limma. 
 
-Depending on the goal of your project, you design your variable selections either as a linear combination of other variables, or directly into your testing design and implying the method used for modeling. When describing the data one takes an exploratory flavor when initially contaminating your dataset with inspection. You might try a correlation matrix plot to start with to initially discover trends that may be causal or incausal between your dependent and independent variables and then constructing your feature selection to use 
+There are 3 success factors (KPIs) that must be measured for the goal of your project: the dataset's design, the modeling method, and "other" factors resulting in sample quality loss or sampling success when considering conclusions of the modeling process. 
+
+When describing the data one takes an exploratory flavor when initially contaminating your dataset with inspection. You mgiht try a correlation matrix plot (the default functionality of an "organized" dataset in base R's `plot` function) to start with to initially discover trends that may be causal or uncausal between your dependent and independent variables and then further exploring variance through formal distribution fitting and testing frameworks to determine which hypothesis tests may be appropriate for use in explanatory reporting.
 
 
 # How do you approach a data science problem?
@@ -77,6 +79,22 @@ By leveraging programming and algorithms, in practice, most problems concerning 
 By leveraging Linux computational infrastructure using shell scripts as glue code, Docker containers for reproducible builds, and Python/R/Rust programming for data manipulations, algorithms, and modeling, many problems in the knowledge economy are addressable with never before seen parallelization.
 
 # How does data science relate to software engineering
+
+Data science is a facet of software engineering releated to the processing of data and it has "stacks" like every other field of software development. The current "stacks" are an experience of access to the ecosystem, typically [anaconda.org](https://anaconda.org) or the Python Package index, algorithms written and distrubted via the rust community's "crate" ecosystem, or the Java ecosystem (Sun/Oracle) or 'big data' and beyond stacks dedicated to cloud technology stacks, and form-for-purpose systems related to the corporate internal and external server experiences.
+
+Data science is a fundamental component of businesses, government, research and academia. By leveraging certain architecture concepts for internal or external cloud contracting, you may gain access to amortized costs, simpler backup-deploy-scale experiences for the development team, and better conclusions from your data science and learning teams. 
+
+
+## Software engineering conventions in data science
+
+Data science teams should always consider the security, completeness, and efficacy of their deployments into their data science environment. I leverage and contribute to internal docker repositories with documentation, commented code, and audit-friendly coding styles consistent with PEP standards or `rust` release standards. 
+
+I dockerize my dependencies to make them host agnostic, and contribute source code tarballs as releases on company `git` servers. I comment my code, produce production `README.md`s, produce usage and feature documentation in Markdown, LaTeX, or Pandoc standard formats, and produce user facing websites to ensure my code has a powerful interface for users. 
+
+I use either a kubernetes based data science stack, Nextflow/CWL/WDL, or a similar deployment and maintainance standard such as classical full-stack app (NodeJS:MEAN/MERN/MVRN or Python Django/Flask/FastAPI + HTML5/HTMX/CSS/JS application stacks Tailwind/jQuery) with REST-APIs, UI/UX, databases, migration schedules, and backup policies to test and validate methods for data-science workflows. The prototyping nature of using an interpreted language and a classical Javascript stack allows me to respond rapidly to changing requirements or parameterization of an application interface (the API). 
+
+Other teams use Docker in their workflow tools, typically enterprise software stacks with similarity to cloud deployments. You put the application specific code from your developers in proper Linux source install experiences, Dockerize the dependencies, and launch the application in your fit-for-purpose internal or external cloud services provider's experience for running the container-based architecture.
+
 
 
 
