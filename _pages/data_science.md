@@ -5,6 +5,8 @@ author_profile: true
 hero_image: "images/dna2.gif"
 ---
 
+{% include page_header.md %}
+
 # Data science experience
 
 I am a data professional that focuses on the analysis of genomic sequences. I turn DNA sequences into count vectors of DNA subsequences for use in alignment, k-mer compositional analysis, overrepresented motif analysis, De Bruijn graph formation, or total count vector based differentials on sequences or assemblies.
