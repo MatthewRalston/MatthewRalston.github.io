@@ -95,7 +95,27 @@ I use either a kubernetes based data science stack, Nextflow/CWL/WDL, or a simil
 
 Other teams use Docker in their workflow tools, typically enterprise software stacks with similarity to cloud deployments. You put the application specific code from your developers in proper Linux source install experiences, Dockerize the dependencies, and launch the application in your fit-for-purpose internal or external cloud services provider's experience for running the container-based architecture.
 
+# Statistics
 
+My knowledge of statistics extends to the use, interpretation, and quality of ordinary and nonordinary (OLS) regression models, ANOVA, F-test, clustering, I use R packages for regression trees. I use machine learning and statistics workflows in R where possible, and otherwise use programming languages (Python/bash/R) in pipeline steps or otherwise use a compiled language after prototyping.
+
+I implement custom probability feature variables in Python typically. It's fast enough and **until** you implement in Rust during scale-up I'm typically assembling the data processing workflow via steps written in shell with the necessary dependency environment available, and sometimes I run these steps as Docker containers in a formal workflow environment.
+
+Otherwise, I typically use fit-for-purpose software for a modeling task in R or otherwise on Linux systems.
+
+# Machine learning
+
+Machine learning facilities are typically offered in one of two ways. The first is as a package provided for the user via some package management system such as PyPI, conda, npm, cargo, etc. The second is as a complete full-stack application with some components written in a core machine learning language such as CUDA, or for interface access to core machine learning libraries via C/C++ such as OpenBLAS or LAPACK. I do both. When writing a core alogrithm with needs for access to LAPACK or CUDA, I tend to prototype in a language with a good C compiler such as zig, Rust, or CPython. When doing the former, like writing a step to parse or collate or convert data, I use containers with the relevant wrapper code to launch and assess the individual machine learning, statistics, or data tool. That's how I assemble machine learning pipelines.
+
+# Artificial intelligence
+
+I am a AI user, and I use it for templating and some UI related tasks. 
+
+I don't have a strong question about AI or the ethics of its use. To me it's a search engine generally speaking, with some facilities for providing better context more quickly to the research experience. I tend to use a mixture of Claude, OpenAI, Gemini and others. I use openai-4o-mini in production with zed to describe an algorithmic approach or some facet of a larger data science stack. I typically use this alongside Emacs for integrations.
+
+I don't let AI write my code for me, and I am proficient in Python, familiar with Rust and Scala, and I write many languages of different programming paradigms. 
+
+[`kmerdb`](https://github.com/MatthewRalston/kmerdb) is a 100% AI-free repository of a aligner/DeBruijn graph project I started writing in 2018-2020 prior to the advent of modern AI tools such as copilot, OpenAI, and others. 
 
 
 
