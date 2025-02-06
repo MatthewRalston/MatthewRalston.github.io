@@ -1,0 +1,4 @@
+## Subject area expertise
+
+For readers who are interested in my software development experience, visit [/software](/software). For readers who are interested in my [/data_science](/data_science) roles, experience with bioinformatic algorithms and research related software, as well as my perspectives on architectures for application development and modeling perspectives, please visit my [/data_science](/data_science) page. For readers interested in my expertise in systems administration and devops, please visit the [/cloud_native](/cloud_native) page. For readers interested in more core life-science competencies, please visit [/biosciences](/biosciences). For professionals who want to know more about my research experiences, check out [/research](/research). If you want, take a look at my [/portfolio](/portfolio) of public projects. If you are interested in contacting me about work opportunities please visit [/contact](/contact).
+

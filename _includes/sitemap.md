@@ -6,18 +6,21 @@ The following list of links should help you navigate the site to reach what you 
 
 ## About
 
-* [About Me - Matt Ralston : statement](/about)
+* [About Me - Matt Ralston](/about)
 
 ## Subject areas
 
 * [Biological Sciences](/biosciences)
 * [Cheminformatics](/cheminformatics)
 * [Research](/research)
+* [Cloud Native](/cloud_native)
 
 ## Software projects 
 
 * [Software experience](/software)
-* [Bioinformatics, Data Science, ML, AI, LLM](/data_science)
+* [Bioinformatics, Data Science, ML, and AI](/data_science)
+* [Genomics research](/research)
+* [DevOps and Cloud-native](/cloud_native)
 * [Portfolio](/portfolio)
 
 ## Blog
