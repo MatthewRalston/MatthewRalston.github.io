@@ -5,7 +5,7 @@ author_profile: true
 toc: true
 ---
 
-
+{% include page_header.md %}
 
 
 With a deep passion for software development and data-driven problem-solving, I specialize in R, Python, and Linux to build efficient, scalable, and robust solutions. My expertise lies in developing data-centric applications, automating workflows, and optimizing system performance for research, analytics, and business intelligence.
@@ -55,3 +55,8 @@ ANOVA/regression, distribution fitting, R/Rstudio/Rshiny, Bioconductor, discrete
 * Systems Administration: 
 
 systemd, tmux, Nginx, Apache, web servers, Sun Grid Enginer (SGE/UGE), bash, parallel
+
+
+
+
+

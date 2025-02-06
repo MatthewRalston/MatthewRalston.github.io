@@ -5,6 +5,9 @@ author_profile: true
 hero_image: "images/dna1.gif"
 ---
 
+{% include page_header.md %}
+
+
 Experience with laboratory techniques such as Western/Northern blot, RT-PCR, GC-MS, HPLC, ligation, restriction enzymes, ELISA, IHC/IF, FACS-Aria, Illumina library preparation. You name it!
  
  > Target audience: life scientists, molecular biologists, chemists, bench scienctists, and management professionals
