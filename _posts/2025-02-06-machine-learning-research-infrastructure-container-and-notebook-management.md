@@ -23,7 +23,7 @@ Key concerns for any application include the needs of the client, required serve
 
 From Arthur Busser at [theodo.com](https://cloud.theodo.com/en/blog/container-docker-oci): 
 
->"The software industry has a myriad of boxes into which to put code. Boxes like Debian software packages (.deb files) or Java Archives (.jar archives) allow developers to package their applications so that they can easily be copied to and run on different machines.
+>"The software industry has a myriad of boxes into which to put code. Boxes like Debian software packages (`.deb` files) or Java Archives (`.jar` archives) allow developers to package their applications so that they can easily be copied to and run on different machines.
 >But these boxes have limitations: Java Archives can only hold Java code, and Debian packages only work on the Debian family of Linux distributions. Modern applications rely on a variety of programming languages and operating systems: the industry needs a box that is multilingual and multi-platform.
 
 
