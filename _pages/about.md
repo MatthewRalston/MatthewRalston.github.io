@@ -18,12 +18,20 @@ toc: true
 > Target audience: scientists, engineers, managers, and academic partners
 
 
-Seeking a dynamic addition to your team? I bring 5 years of industry biopharmaceutical R&D team experience coupled with a decade of experience in wet-bench biology, Linux, and data analysis with Python/Perl/R. Let's elevate your projects together!
+Seeking a dynamic addition to your team? I bring 5 years of industry biopharmaceutical R&D team experience coupled with a decade of experience in wet-bench biology, Linux, and data analysis with Python/Perl/R. Let's **elevate** your projects together!
 
+
+## Navigate
 
 * [Industry experience](#industry-experience)
-* [Skills and training](#training)
-* [Culture, communication, teamwork, professional empathy](#team-skills)
+* - the auspicious [Wet lab](#wet-bench-molecular-biology-and-biochemistry)
+* - the rumored [Dry lab](#science-and-computation-meets-software-development-and-agile-teams)
+* [Academic background](#training)
+* [Skills](#skills)
+* - the glamorous - [Wet laboratory skillsets](#wet-laboratory-skills)
+* - the powerhouse - [devops, ML, AI, and engineering](#engineering-skills)
+* [Who is Matt Ralston?](#matt-in-a-nutshell)
+* - [Team skills](#team-skills) - Culture, communication, teamwork, and professional empathy
 * [Contact](#contact)
 
 > Do you consider cultural values, communication style, productivity, and dedication in your decision to hire new talent? Do you require a professional adept at communicating in-between and bridging diverse disciplines? 
@@ -37,14 +45,14 @@ Do you need to know something more specific about my [software projects](/softwa
 
 ### Wet-bench Molecular Biology and Biochemistry
 
-I have worked in a variety of laboratory settings including analytical chemistry, organic synthesis, molecular biology and disease phsyiology research, translational oncology labs with patient tissue samples, extreme anaerobic and BSL-2 microbiolgy aseptic culture, and much more. In addition to laminar-flow hoods and GLP environments, I am familiar with a wide range of instrumentation and bioassay designs. I have worked with qRT-PCR, immunological assays, immunofluorescence, Northern/Western blots, HPLC, GC/LC-MS, UV-VIS and more.
+I have worked in a variety of laboratory settings including analytical chemistry, organic synthesis, molecular biology and disease physiology research, translational oncology labs with patient tissue samples, extreme anaerobic and BSL-2 microbiolgy aseptic culture, and much more. In addition to laminar-flow hoods and GLP environments, I am familiar with a wide range of instrumentation and bioassay designs. I have worked with qRT-PCR, immunological assays, immunofluorescence, Northern/Western blots, HPLC, GC/LC-MS, UV-VIS and more.
 
-I keep a good laboratory notebook, I can rerun my samples independently if quality is off (e.g. RIN score), and I deeply enjoy performing molecular assays at the bench, whether its microbiology, human or mammalian pathology and physiology, or otherwise.
+I keep a good laboratory notebook, I can run experiments independently if sample quality is off (e.g. RIN score), and I deeply enjoy performing molecular assays at the bench, whether its microbiology, human or mammalian pathology and physiology, or otherwise.
 
 If you're looking for someone who can aliquot 1uL to instrument tolerance, or who can run a multi-factor experiment or bioassay from innoculation through sample preparation and instrumental analysis, I'm your guy.
 
 
-### Computational
+### Science and computation meets software development and agile teams
 
 I primarily work in GNU/Linux environments on biological sequence analysis problems. I have many years of experience writing Python, Perl, R, Javascript, HTML/CSS, SQL, bash, and more recently, a little bit of Rust. 
 
@@ -87,12 +95,23 @@ Subjects included in my graduate program include metabolic engineering, bioinfor
 
 # Skills
 
-Bench laboratory: Illumina RNA-seq library preparation, qRT-PCR, RT-PCR, PAGE: Western blot, Northern blot, ELISA, HPLC, nucleic acid extraction, enzymatic treatment, FACS, light microscopy, fluorescence microscopy, immunohistochemistry, immunofluorescence
+My skillsets fall into four categories:
 
+## Wet laboratory skills
 
-Spectrometry: UV-Vis, Fluorometry, Nanodrop
+* Laboratory sciences major (biology and chemistry specialization BSc. Biochemistry, UD '12)
 
-Cell culture: Human cell culture, anaerobic bacterial cell culture, fermentation 
+I have core competencies in laboratory skills, soft skills related to team organization and responsibility and relevant course work covering [molecular biology, human and mammalian genomics, mammalian physiology, microorganism genomics (bacterial, viral) metagenomics and phylogenomics, biofuels and cell culture bioreactor,] process optimization, [novel methodologies and protocols, Illumina RNA-seq library preparation, qRT-PCR, RT-PCR, PAGE: Western blot, Northern blot, ELISA, HPLC, nucleic acid extraction, enzymatic treatment], FACS, [light microscopy, fluorescence microscopy, immunohistochemistry, immunofluorescence, gene knockdown, cloning,] bioassay development, and additionally [media formulation, contaminant testing and detection], [technical and software expertise], [GLP, ELN], and additional undergraduate lab and bioscience, [natural sciences, undergraduate mathematics, probability, statistics, molecular diversity], [data standards and reporting, technical writing, trends and conventions in biodata archiving], 
+
+Spectrometry: UV-Vis, Fluorometry, Nanodrop, MS methods... some training related to tandem MS and flux modeling.
+
+Cell culture: Human/mammalian cell culture, anaerobic bacterial cell culture, fermentation, 
+
+## Engineering skills
+
+* Computer science major (masters of science in Comptuer Science, concentration in bioinformatics, 3.96 GPA, UD '15)
+
+* Bioinformatics
 
 Sequence alignment: Hisat2, Bowtie2, Tophat, BWA, Blast, Blat, ClustalO, HMMs
 
@@ -100,36 +119,56 @@ Assembly: Cufflinks, Trinity, Velvet
 
 Illumina data processing: Fastqc, Samtools, Picard, Bedtools
 
-Miscellaneous: Cuffdiff, DEseq, Circos, David, Amazon Web Services (AWS)
+Miscellaneous: Tuxedo suite, `samtools`, DEseq, limma, Circos, PFAM, David
 
+* Software development
+
+Cloud and containers: Amazon Web Services (AWS), Docker, OCI, k8s
 
 Programming: Python, R, Bash, Javascript/NodeJS, Rust, Emacs, D3.js, Julia, Perl, awk, grep/sed, LaTeX, Matlab, HTML/CSS, MySQL, Oracle, PostgreSQL, miniconda
 
-
 Data Management: Oracle SQL, PostgreSQL, rdflib, snapshotting
 
+Cloud Computing: S3, Elastic Compute (EC2), CodeBuild, Elastic Container Repository (ECR), Elastic Container Service (ECS), Docker, IAM, Azure/GCP/AWS k8s
 
-Cloud Computing: S3, Elastic Compute (EC2), CodeBuild, Elastic Container Repository (ECR), Docker, IAM
-
-
-Statistics/Data Science: Hypothesis testing, ANOVA/regression, distribution fitting, R/Rstudio/Rshiny, Bioconductor, discrete/continuous probability, multivariate statistical analysis, regression, least-squares estimation, PCA, clustering, classification
-
+Networking: Slurm, Sun Gride Engine (SGE/UGE), firewalld, iptables, tmux, nixos
 
 Systems Administration: systemd, Docker, Ansible/chef, tmux, Nginx, Apache, web servers, Sun Grid Engine (SGE/UGE), bash, parallel
+
+* Statistics and data science
+
+Statistics: Hypothesis testing, ANOVA/regression, distribution fitting, R/Rstudio/Rshiny, Bioconductor, discrete/continuous probability, multivariate statistical analysis, regression, least-squares estimation, PCA, clustering, classification, normalization, regularization, variance reduction, naive Bayes, random forest, XGBoost, 
+
+Dimensionality reduction: PCA/SVD, Uniform Manifold Approximation and Projection (UMAP), t-SNE, canonical correlation analysis, 
+
+Optimizers: Gradient descent, simplex, particle swarm, simulated annealing, self-organizing maps, others.
+
+Kernels: kernel trick, linear programming, matrix math, linear algebra, abstract algebra, discrete math
+
+Maching learning: perceptron, SVM, PCA, UMAP, t-SNE, DNN, RNN, recurrence relations, linear regression and formal OLS-family assumptions and caveats, SAS programming, R programming, Python programming
+
+Data Science: Python programming, numpy, pandas, staticly-typed compiled languages (`rustc`/`cargo`, `zig`, Typescript, Scala/Java/Clojure, C extensions in Python and R), RAII, CUDA, Cython, anaconda, apline linux, Docker, k8s
+
+
 
 
 # Team skills
 
 * Culture:
   
-With some recommendations from industry managers, I've delivered value on projects within integrated teams of laboratory scientists, programmers, engineers, and managers on projects in wet-bench biology, bioinformatic and cheminformatic research areas. I take statistics, data, and modeling efforts seriously and I encourage you to check out the [software](/software), [research](/research), [biosciences](/biosciences), [LinkedIn](/linkedin), [testimonials](#testimonials) section and perhaps my modest GitHub [portfolio](/portfolio). I hope that you'll see I have some familiarity with publishing, only one first authorship formally. One open source project concerning sequence alignment conceptural understanding, k-mer and minimizer expertise, Illumina data profiling, and not caring what else needs work on besides my algorithm engineering training, and my R&D process.
+With good recommendations from industry managers, I've delivered value on projects within integrated teams of laboratory scientists, programmers, engineers, and managers on projects in wet-bench biology, bioinformatic and cheminformatic research areas. I take statistics, data, and modeling efforts seriously and I encourage you to check out the my [/software](/software) page, the [/research](/research) page, my life sciences message at [/biosciences](/biosciences), my inactive profile on [LinkedIn](https://linkedin.com/in/matthewralston), and my manager [testimonials](#testimonials) section and perhaps my modest publicly facing [GitHub](https://github.com/MatthewRalston) and [/portfolio](/portfolio) page. I hope that you'll see I have some familiarity with publishing and I write usable and effective documentation, literate programming, and reproducibilty reports and analyses. I boast 3-5 modest open source genomics projects concerning sequence alignment conceptural understanding, molecular species and diversity, correlation analyses, k-mer and minimizer expertise, Illumina data profiling, and I am not too opinionated about preferences execpting my engineering training, my scientific and code development process, and my R&D process.
 
   
 * Communication:
 
-With proficiencies in technical writing, science, engineering, and stats/probability/mathematics, I've delivered value and knowledge to others without losing touch. Your high-value team demands written style and know-how in publications, meetings, and documentation. Clear and compelling written style is essential to today's business successes, tomorrow's publications, and our quarterly progress. Check out the [publications](/publications) or [testimonials](#testimonials) sections for more reasons why I'm the better fit for your business needs.
+With proficiencies in technical writing, science, engineering, and stats/probability/mathematics, I've delivered value and knowledge to others without losing touch. Your high-value team demands written style and know-how in publications, meetings, and documentation. Clear and compelling written style is essential to today's business successes, tomorrow's publications, and our quarterly progress. Check out the [publications](/publications) or [testimonials](#testimonials) sections for more reasons why I'm a just **above an ordinarily spectacular fit** for your business needs.
 
-# Who should contact
+
+{% include team_skills.md %}
+
+# Contact
+
+## Do you want to connect?
 
 If you have a research question or you would like to discuss wet-bench, software, or bioinformatics please let me know. 
 
@@ -156,36 +195,6 @@ kpi: What are your indicators of whether or not this is successful, like a succe
 
 ----------------------------------------------------------------------
 
-
- I work in groups of engineers, analysts, and wet-bench laboratory professionals, team leads, associate directors, and alike. I listen to as many voices as I can, and I share my experiences with others; I am detail oriented and enjoy the problem solving process, and I can write about it in a variety of ways throughout our journey. 
- 
- 
-
-<!-- I am an *expert* at modeling, data-processing, and visualization techniques such as *R*, *Cython*/*Python*, *Javascript*, *Linux*/*bash*, *Docker*, *AWS*/cloud and more. It's more than just websites, APIs, numbers and figures here; my strong fundamentals and data-driven design strategy have already been used to affect diverse goals in industry teams: hypothesis generation, key-questions, application or integration needs, and more, such that results are easily reproducibile, documented, and clearly written. -->
-
-So I do the bench science thing too! I'm effecient and effective and timely in the lab. Asepsis leads to less errors, and as a bench molecular biologist I'm familiar with the autoclave and where the imaging equipment is. I can perform single-gene targetted expression studies (sometimes referred to as qPCR or rt-PCR on mRNA molecules. I also work with Illumina lab reagent kit technologies). I do multiplex. I have some conceptual familiarity with a lot of different methods from chemical analytical, bioassay, immunoassay, fluorimetry, MS, GC-MS, LC-MS, ELISA, and an intimate understanding of cell culture and laminar flow hoods. My last acura was an Illumina but my last report was a Northern.
-
-  * Regarding research - what you can expect.
-
-I work independently with consistent email and Slack communications, and project updates and logging via Version Control and `git`. My project management software is often plain text, also git-based, metrics, org-files for Pandoc compatibility, second-brain, markdown where possible, license documents, source files and configurations, Dockerfiles where possible, and I write LaTeX primarily in `.Rmd`.
-
-
-
-  * Productivity:
-  
-  I use Rmarkdown and Python for most of my data science stack. I use Python SQLAlchemy, Flask, and Rust ORMs and RDBMS technologies to create normalized data structures during ETL. ETL is mostly Python, numpy, CUDA, and/or `rust` where I get the time to develop robustly and comfortably at my knowledge of static type function signatures and handling types robustly with GPT4.0-o1-mini in `zed` or Claude Sonnet 3.5+ mobile to assist with code when needed. I use minimal software stacks and don't do much UI development. I'm a backend programmer and ETL and Data Science are my most accomplished skillset in terms of what I *can* do. But often, you'll want a 'full-stack developer' in the classical sense too. I have stylistic Javascript and ecosystem style and functional OOP style knowledge. I can write CSS/HTMX, and I can build web apps in any language. I'm very partial to having a static asset stack where possible, Nginx, and I like Github Pages and Jekyll CMS. Most of my content is Markdown, plain-text, and org-mode when it's not software projects.
-  
-
-  
-  With over five years in industry bioinformatics teams I have honed the essential professional skills of time-management, public speaking, and the technical accumen needed to deliver value for your team.
-  
-
-  * Knowledge:
-
-<!--  With deep and well-rounded expertise in molecular biology, genetics, data analytics, and statistics, I have affected several teams and their publications, screening methods, and more. My team oriented style begins with a fundamentals first approach to discussing expertimental or analytical concerns with the Principal Investigator. When artifacts or biophysical aspects of assay design require special treatment, my backgorund in chemistry, biology, mathematics, and data analytics allows me to quickly integrate suggestions from team members into the analytical process, such as filtering bad leads or integrating additional knowledge for specific cases within large datasets. -->
-
-
-  Committed to continuous learning and staying updated with the latest advancements in these fields, my breadth of knowledge allows me to model treatment conditions and their effects regardless of your experimental design. I write clearly in technical and team messaging. 
 
 
 

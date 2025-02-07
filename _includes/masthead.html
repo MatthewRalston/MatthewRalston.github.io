@@ -14,8 +14,22 @@
               {% assign domain = base_path %}
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
+            {% endfor %}
+	</ul>
+	<!-- <div class="dropdown"> -->
+	<!--   <button class="dropbtn">Main -->
+	<!--     <i class="fa fa-caret-down"></i> -->
+	<!--   </button> -->
+	      
+	<!--   {% for link in site.data.main_nav.main %} -->
+	<!--   {% if link.url contains 'http' %} -->
+	<!--   {% assign domain = '' %} -->
+	<!--   {% else %} -->
+	<!--   {% assign domain = base_path %} -->
+	<!--   {% endif %} -->
+	<!--   <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a> -->
+	<!--   {% endfor %} -->
+	<!-- </div> -->
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
