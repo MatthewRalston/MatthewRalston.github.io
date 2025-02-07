@@ -44,3 +44,4 @@ From [Wikipedia.org/wiki/Docker_(software)](https://wikipedia.org/wiki/Docker_(s
 Systems administration has traditionally involved subject matter expertise and experience with varieties of systems and their configurations. Reproducing a system configuration was a principle concern of early "lift-and-shift" cloud deployments and was often done through the knowledge of both local and cloud systems, storage options, caching, object storage (static assets), CDNs, and other subject area expertise.
 
 
+
