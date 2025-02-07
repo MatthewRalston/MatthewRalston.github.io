@@ -9,7 +9,8 @@ toc: true
 
 
 
-> "The scientific method is like a bicycle: you can go somewhere on it if you want to, but it's not really the sort of thing you can just play around with." - Terry Pratchett
+> "The scientific method is like a bicycle: you can go somewhere on it if you want to, but it's not really the sort of thing you can just play around with." 
+- Terry Pratchett
 
 
 
@@ -20,23 +21,11 @@ toc: true
 
 Seeking a dynamic addition to your team? I bring 5 years of industry biopharmaceutical R&D team experience coupled with a decade of experience in wet-bench biology, Linux, and data analysis with Python/Perl/R. Let's **elevate** your projects together!
 
+{% include about_menu.md %}
 
-## Navigate
+> Do you consider cultural *values, communication style, productivity, and dedication* in your decision to hire new talent? Do you require a *professional adept at communicating in-between diverse disciplines*? 
 
-* [Industry experience](#industry-experience)
-* - the auspicious [Wet lab](#wet-bench-molecular-biology-and-biochemistry)
-* - the rumored [Dry lab](#science-and-computation-meets-software-development-and-agile-teams)
-* [Academic background](#training)
-* [Skills](#skills)
-* - the glamorous - [Wet laboratory skillsets](#wet-laboratory-skills)
-* - the powerhouse - [devops, ML, AI, and engineering](#engineering-skills)
-* [Who is Matt Ralston?](#matt-in-a-nutshell)
-* - [Team skills](#team-skills) - Culture, communication, teamwork, and professional empathy
-* [Contact](#contact)
-
-> Do you consider cultural values, communication style, productivity, and dedication in your decision to hire new talent? Do you require a professional adept at communicating in-between and bridging diverse disciplines? 
-
-Do you need to know something more specific about my [software projects](/software), [industry experience](/cv), or my [laboratory training](/biosciences)? **Use the links here or on the [main page/sitemap](/) to find out more.**
+Do you need to know something more specific about my [laboratory](/biosciences) experience, [software](/software) projects, [data_science](/data_science) experience, [industry experience](/cv), or [coding](/about#skills) proficiencies? **Use the links here or on the [main page/sitemap](/) to find out more.**
 
 
 
@@ -45,22 +34,22 @@ Do you need to know something more specific about my [software projects](/softwa
 
 ### Wet-bench Molecular Biology and Biochemistry
 
-I have worked in a variety of laboratory settings including analytical chemistry, organic synthesis, molecular biology and disease physiology research, translational oncology labs with patient tissue samples, extreme anaerobic and BSL-2 microbiolgy aseptic culture, and much more. In addition to laminar-flow hoods and GLP environments, I am familiar with a wide range of instrumentation and bioassay designs. I have worked with qRT-PCR, immunological assays, immunofluorescence, Northern/Western blots, HPLC, GC/LC-MS, UV-VIS and more.
+I have worked in a variety of laboratory settings including analytical chemistry, organic synthesis, molecular biology and disease physiology research, translational oncology labs with patient tissue samples, extreme anaerobic and BSL-2 microbiolgy aseptic culture, and much more. In addition to laminar-flow hoods and GLP environments, I am familiar with a wide range of instrumentation and bioassay designs. I have worked with qRT-PCR, immunological assays, immunofluorescence, Northern/Western blots, HPLC, GC/LC-MS, UV-VIS and more. Please see the [skills](#skills) section for specific details and a list of known lab protocols.
 
-I keep a good laboratory notebook, I can run experiments independently if sample quality is off (e.g. RIN score), and I deeply enjoy performing molecular assays at the bench, whether its microbiology, human or mammalian pathology and physiology, or otherwise.
+I keep a good laboratory notebook, I can run experiments independently if sample quality is off (e.g. RIN score), and I deeply enjoy performing molecular assays at the bench, whether its microbiology, human or mammalian pathology and physiology, or otherwise. I am organized and detail oriented with a focus on replicate quality and understanding instrument limitations, positive controls, and core goals of hypothesis testing and data modeling.
 
 If you're looking for someone who can aliquot 1uL to instrument tolerance, or who can run a multi-factor experiment or bioassay from innoculation through sample preparation and instrumental analysis, I'm your guy.
 
 
 ### Science and computation meets software development and agile teams
 
-I primarily work in GNU/Linux environments on biological sequence analysis problems. I have many years of experience writing Python, Perl, R, Javascript, HTML/CSS, SQL, bash, and more recently, a little bit of Rust. 
+I primarily work in GNU/Linux environments on biological sequence analysis and Illumina short-read WGS/WES/RNAseq problems. I have many years of experience writing Python, Perl, R, Javascript, HTML/CSS, SQL, bash, and more recently, a little bit of Rust. 
 
 My projects have included technologies such as kubernetes code, Dockerized workflows, shell scripts for HPC environments and grid engines like UGE/SGE and SLURM. I can build MVC/MVVC web applications and I studied database systems (SQL) at the graduate level.
 
 I specialize in writing command-line interface (CLI) tools including languages like Python, Perl, R, NodeJS, and more recently, some Rust. Nvidia CUDA GPU programming and distributed environments are an additional strength for applications requiring excessive parallelism. 
 
-Also, my experience with web applications, Javascript/HTML/CSS, front-end frameworks (mostly Jquery, Jquery-UI, D3.js, and SVG), REST-API design, and database architecture lets me create strong tools for developers and scientists alike.
+Also, my experience with web applications, Javascript/HTML/CSS, front-end frameworks (mostly Alpine.js, React, Jquery, Jquery-UI, D3.js, and SVG), REST-API design, and database architecture lets me create strong tools for developers and scientists alike.
 
 
 Specific research experience stories are given below.
@@ -101,7 +90,7 @@ My skillsets fall into four categories:
 
 * Laboratory sciences major (biology and chemistry specialization BSc. Biochemistry, UD '12)
 
-I have core competencies in laboratory skills, soft skills related to team organization and responsibility and relevant course work covering [molecular biology, human and mammalian genomics, mammalian physiology, microorganism genomics (bacterial, viral) metagenomics and phylogenomics, biofuels and cell culture bioreactor,] process optimization, [novel methodologies and protocols, Illumina RNA-seq library preparation, qRT-PCR, RT-PCR, PAGE: Western blot, Northern blot, ELISA, HPLC, nucleic acid extraction, enzymatic treatment], FACS, [light microscopy, fluorescence microscopy, immunohistochemistry, immunofluorescence, gene knockdown, cloning,] bioassay development, and additionally [media formulation, contaminant testing and detection], [technical and software expertise], [GLP, ELN], and additional undergraduate lab and bioscience, [natural sciences, undergraduate mathematics, probability, statistics, molecular diversity], [data standards and reporting, technical writing, trends and conventions in biodata archiving], 
+I have core competencies in laboratory skills, soft skills related to team organization and responsibility and relevant course work covering [molecular biology, human and mammalian genomics, mammalian physiology, microorganism genomics (bacterial, viral) metagenomics and phylogenomics, biofuels and cell culture bioreactor,] process optimization, [novel methodologies and protocols, Illumina RNA-seq library preparation, qRT-PCR, RT-PCR, PAGE: Western blot, Northern blot, ELISA, HPLC, nucleic acid extraction, enzymatic treatment], FACS, [light microscopy, fluorescence microscopy, immunohistochemistry, immunofluorescence, gene knockdown, cloning,] bioassay development, and additionally [media formulation, contaminant testing and detection], [technical and software expertise], [GLP, ELN], and additional undergraduate lab and bioscience, [natural sciences, undergraduate mathematics, probability, statistics, molecular diversity], [data standards and reporting, technical writing, trends and conventions in biodata archiving]. Skills listed above in brackets indicate genuine industry experiences and/or experience at a professional level.
 
 Spectrometry: UV-Vis, Fluorometry, Nanodrop, MS methods... some training related to tandem MS and flux modeling.
 
@@ -189,7 +178,6 @@ question: Key questions I should address in my response
 kpi: What are your indicators of whether or not this is successful, like a successful interview shedule by a certain date. A fee range you'd like to remain within. What makes our relationship successful and how may I discuss details more
 ```
 
-# [Contact](/contact)
 
 {% include contact.md %}
 
