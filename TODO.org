@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:        website_todo
+:PROPERTIES:
+
+#+TITLE: Mainpage and Blog TODO
+#+SUBTITLE: A list of tasks for the mainpage revision and blog topics.
+#+AUTHOR: Matthew Ralston <mralston.development@gmail.com>
+PROPERTY: TYPE_all Overview Definition Website Wiki Warning
+* Revise /about
+* Professional types
+** Team
+** Recruiters
+** Academic Researchers
+** Community Service
+** AI outreach
+** Investment
+** Government, Labs, and Grants
+** Legal (/legal)
+* Professional backgrounds (whole pages)
+** Recruitment
+** Business
+** Software
+** Research
+** Data Science
+** ML
+** Bioinformatics
+** Artificial Intelligence (AI)
+* Areas of Interest
+** Software
+** Research
+** Biosciences
+** 

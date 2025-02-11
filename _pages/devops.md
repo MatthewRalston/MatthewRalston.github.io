@@ -8,18 +8,18 @@ toc: true
 
 {% include page_header.md %}
 
-Consider my recent blog post on [Docker containers and kubernetes)(/machine_learning_infrastructure_deployment_and_notebook_management) for a more current discussion of DevOps and k8s.
+Consider my recent blog post on [Docker containers and kubernetes](/machine_learning_infrastructure_deployment_and_notebook_management) for a more current discussion of DevOps and k8s.
 
 
-The discussion begins with consideration of classical (ca. 2000 server-side system administrative practices) systems administration. Most of the early web ran on bare metal on-prem, or on early cloud systems. Knowledge required includes OSX/Linux operating systems, HTTP2.0 communications, REST/SOAP systems, relational databases (MySQL, MariaDB, SQLite3, PostgreSQL, Oracle, Microsoft SQL server), filesystems (ext4, xfs, zfs, btrfs), source tarball installation, and more.
+The discussion begins with consideration of classical (ca. 2000 server-side system administrative practices) systems administration. Most of the early web ran on bare metal on-prem, or on early cloud systems. Knowledge required includes OSX/Linux operating systems, HTTP2.0 communications, REST/SOAP systems, relational databases (MySQL, MariaDB, SQLite3, PostgreSQL, Oracle, Microsoft SQL server), filesystems (ext4, xfs, zfs, btrfs), source tarball installation, programming language conventions and dependency troubleshooting, and more.
 
-During the mid 2010s there was a movement to cloud-native platforms for price sensitivity. This gave rise to the modern `git` with Github/Gitlab, Google Colab, and Markdown-driven documentation style to software development. For some applications and systems, more complex configuration is necessary to ensure the proper interplay of meshed services. Enter the [Docker container](/machine_learning_infrastructure_deployment_and_notebook_management#enter-docker).
+During the mid 2010s there was a movement to cloud-native platforms for price sensitivity. This gave rise to the modern `git` or `svn` version control systems, coupled with sourceforge, bitbucket, or Github/Gitlab, Google Colab, and Markdown-driven documentation style to software development. For some applications and systems, more complex configuration is necessary to ensure the proper interplay of meshed services. Enter the [Docker container](/machine_learning_infrastructure_deployment_and_notebook_management#enter-docker).
 
 Most application code and service configurations are stashed away in a version control systems (VCS) such as `git`, 'mercurial', or 'subversion' `svn` repositories. The code and documentation provide implementation details for deploying an application, migrating data, and system maintainance.
 
 During the period after the coronavirus pandemic of March 2020, the convention for cloud-native application architectures relies on some combination of VMs, containers, orchestration tools (Chef, Ansible, Puppet), and cloud-vendor (AWS, GCP, Azure) specific configuration. 
 
-Common knowledge would suggest that the best option for cloud agnostic and cloud-native architectures includes Docker and kubernetes at some level. Dockerfiles are considerably similar to shell scripts that would have done the heavy lifting of sysadmin roles in the 2000s, in that they primarily deal with shell-level configuration of environments for a specific single-feature single-purpose design.
+Common knowledge practices suggest that the best option for cloud agnostic and cloud-native architectures includes Docker and kubernetes at some level. Dockerfiles are similar to shell scripts that would have done the heavy lifting of sysadmin roles in the 2000s, in that they primarily deal with shell-level configuration of environments for a specific single-feature single-purpose design and compilation or install target.
 
 ## devops
 
@@ -44,4 +44,25 @@ From [Wikipedia.org/wiki/Docker_(software)](https://wikipedia.org/wiki/Docker_(s
 Systems administration has traditionally involved subject matter expertise and experience with varieties of systems and their configurations. Reproducing a system configuration was a principle concern of early "lift-and-shift" cloud deployments and was often done through the knowledge of both local and cloud systems, storage options, caching, object storage (static assets), CDNs, and other subject area expertise.
 
 
+## Commodity cloud vendors: AWS, GCP, MS Azure, Oracle
 
+Modern cloud vendors often rely on data centers in different 'availability zones' to host and store infrastructure for clients on, what is referred to as, the 'commodity' cloud. Vendors such as Amazon have very large presence in the market for services such as object-storage (Amazon S3), block-storage (EBS), container services (ECS, ECR, EKS), and monitoring (Cloudwatch). 
+
+
+### Cloud costs 
+
+Storage in per GB per month (object/block)
+Compute considers a VM with 2vCPU and 4GB memory
+
+| Service   | AWS    | GCP    | Azure    | Oracle   | 
+| ----------| -------| -------| -------- | -------- | 
+| Object    | 0.023  | 0.023  | 0.01     | 0.0255   | 
+| Block     | 0.08   | 0.068  | 0.018    | 0.0255   |
+| Compute   | 0.033  | 0.045  | 0.041    | 0.03     |
+
+
+
+
+Many services are available on different commodity cloud vendors for specific applications such as HPC, GPU compute, block and object storage, container/k8s services, VMs, serverless, and managed databases. This can make cost comparisons difficult at face value, and depends instead on your application architectures and lock-in to certain vendor services and pricing.
+
+By leveraging so called 'cloud-native' technologies such as Istio and kubernetes/k8s, developers can create amazing applications and deploy them on Commodity cloud to take advantage of audit features from the vendor, as well as 'good' prices. Amazing prices can be found on other cloud vendors, but the guarantees that suffice for large enterprises are not always there.

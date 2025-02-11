@@ -2,20 +2,26 @@
 
 # Sitemap
 
-The following list of links should help you navigate the site to reach what you need for additional information.
+These links will help you navigate the site for additional information.
 
 ## About
+
+> Best place to start
 
 * [About Me - Matt Ralston](/about)
 
 ## Subject areas
 
-* [Biological Sciences](/biosciences)
-* [Cheminformatics](/cheminformatics)
+> For specific writing samples and specialties
+
+* [Biology](/biosciences)
+* [Data science](/data_science)
+<!-- * [Cheminformatics](/cheminformatics) -->
 * [Research](/research)
-* [Cloud Native](/cloud_native)
 
 ## Software projects 
+
+> Regarding scientific computing, data science, ML, AI
 
 * [Software experience](/software)
 * [Bioinformatics, Data Science, ML, and AI](/data_science)
@@ -25,9 +31,13 @@ The following list of links should help you navigate the site to reach what you 
 
 ## Blog
 
+> Not.Very.Humerus is a blog about biological data analysis and scientific computing
+
 * [Blog](/blog)
 
-## Social Media (<- see sidebar)
+## Social Media 
+
+><- see sidebar
 
 * [LinkedIn](https://linkedin.com/in/MatthewRalston)
 * [GitHub](https://github.com/MatthewRalston)
@@ -36,11 +46,13 @@ The following list of links should help you navigate the site to reach what you 
 
 * [Resume/C.V.](/cv)
 
-## Personal Statement
+<!-- ## Personal Statement -->
 
-* [Personal statement](/personal_statement)
+<!-- * [Personal statement](/personal_statement) -->
 
 ## - Publications
+
+> 1 first-author in preparation, 1 first-author, 4 secondary author
 
 * [Publications](https://scholar.google.com/citations?hl=en&pli=1&user=86Lxg-4AAAAJ)
 

@@ -25,7 +25,7 @@ author:
   avatar           : "dna3.gif"
   name             : "Matt Ralston"
   pronouns         : # example: "she/her"  
-  bio              : "M.Sc. Bioinfo + 5 years industry exp. - - -  Currently writing a DNA sequence alignment, quasi-mapper, and graph algorithm and manuscript (for bioRxiv). I play math rock on my guitar, I write open-source software on GitHub, I pay my bills in the DE-NJ-PA tri-state area near Delco, and I'm launching a DE-based LLC for Univ. of Delaware and local NGS sequencing projects."
+  bio              : "M.Sc. Bioinfo + 5 years industry exp. | Scientific computing is my passion. Currently writing a DNA sequence alignment, quasi-mapper, and graph algorithm and manuscript (for bioRxiv). I enjoy practicing math rock and samba/bossa-nova on my guitars, I write open-source software on GitHub, and I work in the DE-NJ-PA tri-state area based in Newark."
   location         : "Newark DE"
   employer         : "University of Delaware" # I'm not affiliated with UD. I listed this because there's a good looking uni logo for this biographic link type. UD is my alma mater.
   uri              : "https://matthewralston.github.io"

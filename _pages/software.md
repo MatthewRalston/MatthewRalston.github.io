@@ -34,29 +34,7 @@ Overall, my skill set includes expertise in bioinformatics, software engineering
 # Skills Developed
 
 
-* Programming:
-
-Python, R, bash, Javascript/NodeJS, Rust, Emacs, D3.js, Perl, awk, grep/sed, LaTeX, Matlab, HTML/CSS, SQL, SAS
-
-
-* Relational Database Management:
-
-Oracle SQL, PostgreSQL, MariaDB, SQLite, MongoDB, SQLAlchemy
-
-* Cloud Computing:
-
-AWS, S3, Elastic Compute (EC2), EBS, CodeBuild, Elastic Container Repository (ECR), Docker, IAM
-
-* Statistics/Data Science: 
-
-ANOVA/regression, distribution fitting, R/Rstudio/Rshiny, Bioconductor, discrete/continuous probability, multivariate statistical analysis, PCA, clustering, classification
-
-
-* Systems Administration: 
-
-systemd, tmux, Nginx, Apache, web servers, Sun Grid Enginer (SGE/UGE), bash, parallel
-
-
+{% include engineering_skills.md %}
 
 
 

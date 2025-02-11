@@ -37,4 +37,9 @@ While in the pharmaceutical industry, I contributed to a variety of disease area
 
 Specifically, I used computational tools and molecular biology knowledgebases to generate leads in a discovery research environment. While there, I contributed to reproducibility research initiatives, and received and award for fast turnaround time regarding a reproducibility frameworks for scientists to use to ensure that calculations and datasets were logged and versioned for accuracy and reprodubility during one of the "checkmate" trials at Bristol-Myers Squibb.
  
- 
+
+{% include training.md %}
+
+{% include lab_skills.md %}
+
+
