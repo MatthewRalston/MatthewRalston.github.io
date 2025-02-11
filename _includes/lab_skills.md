@@ -1,0 +1,7 @@
+## Wet laboratory skills
+
+* Laboratory sciences BSc. (Chemistry department bachelors degree with specialization: **BSc. Biochemistry,** University of Delaware, 2012)
+
+I have demonstrated competencies in many laboratory methods as well as soft skills related to team organization, and I have graduate-level course work and **10 years of industry and academic experience** covering [molecular biology, **human and mammalian genomics and immortalized cell-line culture,** mammalian physiology, microorganism genomics (bacterial, viral) metagenomics and phylogenomics, biofuels and cell culture bioreactor,] process optimization, [novel methodologies and protocols, **Illumina RNA-seq library preparation, qRT-PCR, RT-PCR, PAGE (Western blot, Northern blot), ELISA, Chromatography (TLC, HPLC), Mass Spectrometry (GC-MS, MS-MS, LC-MS),** RNA quality analysis/RIN, Nanodrop, nucleic acid extraction, enzymatic treatment], Flow Cytometry/FACS-Aria, [light microscopy, fluorescence microscopy, immunohistochemistry (IHC), immunofluorescence (IF), gene knockdown, cloning,] bioassay development, and additionally [media formulation, contaminant testing and detection], [technical and software expertise], **[GLP, ELN],** and additional undergraduate lab and bioscience, [natural sciences, undergraduate mathematics, probability, statistics, molecular diversity], [data standards and reporting, **technical writing,** trends and conventions in biodata standards]. 
+
+>NOTE: Skills listed above in brackets indicate genuine industry experiences and/or experience at a professional level.
