@@ -1,10 +1,12 @@
 ---
-author: Matt Ralston
-image: "/images/dna3.gif"
+author: ralston
 title: Network Attached Storage (NAS) vs storage server
-subtitle: A comparison of costs and features.
-category: Hardware
-tags: AMD storage SSD prose opinion
+description: A cost and features.
+date: 2022-03-16 16:16:00 +0400
+categories: [Hardware]
+tags: [copypasta, prose, opinion]
+hidden: false
+pin: true
 ---
 
 
@@ -91,5 +93,5 @@ However, a collection of shell scripts and statistical reports and generated rep
 I couldn't deliver the more advanced prototype of the reproducibility framework by next week, but that's on the charts.
 
 
-
+> Yeah I immmmeeeeeeediiiateeely regret buying into ANY of this stuff. (2/15/25)
 

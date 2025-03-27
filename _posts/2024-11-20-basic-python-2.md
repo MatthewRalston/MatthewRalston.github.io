@@ -1,12 +1,13 @@
 ---
-author: Matt Ralston
-layout: single
-header-image: "/images/dna1.gif"
-hero-title: Python basics for the curious
-hero-subtitle: Python code fundamentals in a guide that slaps.
-category: python
-tags: python prose meta
-toc: true
+author: ralston
+image: "/assets/img/dna1.gif"
+title: Python basics for the curious
+description: Python code fundamentals in a guide that s l a p s. Read docs, <code>help()</code> functions, and practice, practice, prActIce!
+categories: [python, Software]
+tags: [python, prose, meta]
+pin: true
+hidden: false
+permalink: /blog/python_basics_2
 ---
 
 
@@ -14,14 +15,15 @@ toc: true
 
 ## Hello world
 
-![Generic_compsci_meme.jpg](/images/computer_science_what_i_actually_do.jpg)
+![Generic_compsci_meme.jpg](/assets/img/computer_science_what_i_actually_do.jpg)
 
 Many programmers know how to code in Python because it has fairly modern syntax, a full object-oriented programming and inheritance stack, web servers, and other modern tooling.
 
-If you want to read more, check out https://python.org or the Wikipedia page on the language to learn more about its history and use cases.
+If you want to read more, check out [https://python.org](https://python.org) or the [Wikipedia page](https://en.wikipedia.org/wiki/Python_(programming_language)) on the language to learn more about its history and use cases.
 
 
 We're going to skip ahead a bit and get to building modern scripts and describe features that python CLI tools should have for you to get ahead of the competition in modern AI and data science related roles.
+
 
 
 
@@ -40,7 +42,7 @@ Okay! Let's get to the code!
 
 ## How do I design a good Python package?
 
-![Tail recursion](/images/cat_tail_recursion.jpg)
+![Tail recursion](/assets/img/cat_tail_recursion.jpg)
 
 
 First things first, you should plan out your desired command line tool most likely from the top down. For example, you might want to write a tool that has multiple scripts that can be run from a unified environment. e.g.: `mypackage subcommand --input input.txt`

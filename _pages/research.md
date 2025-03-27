@@ -1,11 +1,14 @@
 ---
 permalink: /research
 title: "Genomics and transcriptomics research"
-author_profile: true
+date: 2025-03-15 03:44:00 +0400
+layout: post
+categories: [About, Research, Software, Bioinformatics, "Data Science"]
+tags: [About, Bioinformatics, Research, Software, "Data Science"]
+render_with_liquid: false
 hero_image: "images/dna1.gif"
 ---
 
-{% include page_header.md %}
 
 My research experiences can be divided into two categories: industry research experience and academic/personal research questions. For the former, my industry experience revolves around the use of databases, web applications, UI/UX, and high-performance computing (HPC) resources to develop best-practices for modern data-science projects and software deployment stacks. 
 

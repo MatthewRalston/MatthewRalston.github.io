@@ -1,11 +1,15 @@
 ---
 permalink: /data_science
+author: ralston
+date: 2025-03-15 03:44:00 +0400
+layout: post
 title: "Statistics and Data Science"
-author_profile: true
+categories: [About, "Data Science"]
+tags: [About]
+render_with_liquid: false
 hero_image: "images/dna2.gif"
 ---
 
-{% include page_header.md %}
 
 ## Data science experience
 

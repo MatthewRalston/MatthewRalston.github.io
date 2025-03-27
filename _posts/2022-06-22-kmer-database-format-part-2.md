@@ -1,10 +1,11 @@
 ---
-author: Matt Ralston
-header-image: "/assets/images/blog/code_syntax/feature.jpg"
-hero-title: Kmer Database Format (Part 2.)
-hero-subtitle: Update to format specification, CLI, and library features/architecture
-category: Coding
-tags: python kmers format meta
+author: ralston
+image: "/assets/images/blog/code_syntax/feature.jpg"
+title: Kmer Database Format (Part 2.)
+description: Update to format specification, CLI, and library features/architecture
+date: 2022-06-22 23:29:00 +0400
+category: [Software, Python, Bioinformatics]
+tags: [python, kmerdb, bioinformatics, format, meta]
 ---
 
 # Summary

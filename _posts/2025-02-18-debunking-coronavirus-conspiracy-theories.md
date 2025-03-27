@@ -1,8 +1,9 @@
 ---
 author: Matt Ralston
-hero-title: "Did the coronavirus SARS-CoV-19 originate from a laboratory in Wuhan?"
-category: bioinformatics
-tags: prose bioinformatics meta
+title: "Did the coronavirus SARS-CoV-19 originate from a laboratory in Wuhan?"
+description: "Statements and leading accusations from the House Oversight Committee. Some may say this supports 'gain-of-function' research but is truly unknown. Stay skeptical of the Chinese"
+category: [bioinformatics]
+tags: [prose, bioinformatics, meta]
 ---
 
 > I refer the reader to the primary source<sup>2</sup> for this discussion, a US House Oversight Committee hearing on the Coronavirus response featuring testimony from the former director of the U.S. Center for Disease Control and Prevention (CDC), Dr. Robert Redfield.

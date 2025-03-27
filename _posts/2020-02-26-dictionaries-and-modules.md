@@ -1,10 +1,14 @@
 ---
+author: ralston
 title: Sorting Out Modules in Python
-subtitle: Modules and importing for beginners
+description: Modules and importing for beginners
 image: /assets/img/python_import_stringio.jpg
 hero_image: /assets/img/xvideos_python_programming.png
-tags: python beginner noob
-toc: true
+date: 2020-02-26 21:27:00 +0400
+categories: [Python, Software]
+tags: [python, beginner, prose, meta]
+hidden: false
+pin: false
 ---
 
 

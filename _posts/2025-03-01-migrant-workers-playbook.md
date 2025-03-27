@@ -1,10 +1,11 @@
 ---
-author: Matt Ralston
+title: Migrant workers playbook
+description: How to report unsafe worker conditions to OSHA
+author: ralston
+date: 2025-03-01 19:14:00 +0400
+categories: [Blog, Civics, TDS]
+tags: [Civics, workers, human-rights, prose, opinion, meta]
 permalink: /blog/migrant-workers-playbook-en
-hero-title: Migrant workers playbook
-hero-subtitle: How to report unsafe worker conditions to OSHA
-category: Civics
-tags: civics workers human-rights prose opinion meta
 ---
 
 Remember to document unsafe labor practices. The only way to properly report incidents including lost wages is to include:

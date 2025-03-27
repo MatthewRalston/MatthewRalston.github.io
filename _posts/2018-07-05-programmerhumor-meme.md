@@ -1,7 +1,11 @@
 ---
+author: ralston
 title: Ruining /r/programmerhumor memes #1
-tags: meme meta prose noob
-toc: true
+date: 2018-07-05 17:18:21 +0400
+tags: [meme, meta, prose, Software]
+hidden: false
+pin: true
+
 ---
 
 ![https://www.reddit.com/r/ProgrammerHumor/comments/8uqhfu/hell_yeah/](img/drake_learn_programming.jpg "Reasons to learn programming"){:height="360px" width="360px"}

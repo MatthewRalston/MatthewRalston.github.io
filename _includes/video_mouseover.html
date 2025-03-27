@@ -1,0 +1,42 @@
+<!-- <script> -->
+<!--   //var videoLinks = document.querySelectorAll('.video-link'); -->
+<!--   var videoLinks = document.getElementsByClassName('video-link'); -->
+<!--   //var videoWrappers = document.querySelectorAll('.hover-video-wrapper'); -->
+<!--   var videoWrappers = document.getElementsByClassName('hover-video-wrapper'); -->
+
+
+<!--   if (videoLinks.length !== videoWrappers.length || videoLinks.length == 0) { -->
+<!--       throw new Error("Critical error. Mismatch between number of video links and wrapper elements.") -->
+<!--   } -->
+
+  
+<!--   function addMouseEnterAndLeaveActions (videoLink, videoWrapper) { -->
+      
+<!--       videoLink.addEventListener('mouseenter', () => { -->
+<!-- 	  videoWrapper.classList.add('show-video'); -->
+<!--       }); -->
+
+<!--       videoLink.addEventListener('mouseleave', (event) => { -->
+<!-- 	  const rect = videoLink.getBoundingClientRect(); -->
+<!-- 	  const isOutsideHorizontally = event.clientX < rect.left || event.clientX > rect.right; -->
+<!-- 	  const isOutsideVertically = event.clientY < rect.top || event.clientY > rect.bottom; -->
+
+<!-- 	  if (isOutsideHorizontally || isOutsideVertically) { -->
+<!-- 	      videoWrapper.classList.remove('show-video'); -->
+<!-- 	  } -->
+
+<!--       }); -->
+
+<!--       document.addEventListener('click', (event) => { -->
+<!-- 	  if (!videoWrapper.contains(event.target) && event.target !== videoLink) { -->
+<!-- 	      videoWrapper.classList.remove('show-video'); -->
+<!-- 	  } -->
+      
+<!--       }); -->
+<!--   }; -->
+
+<!--   for (let i = 0; i < videoLinks.length; i++) { -->
+<!--       addMouseEnterAndLeaveActions(videoLinks[i], videoWrappers[i]); -->
+<!--   } -->
+  
+<!-- </script> -->

@@ -1,9 +1,14 @@
 ---
+author: ralston
 title: Site Redesign
-subtitle: Chris Rhymes - Bulma Clean
+description: Chris Rhymes - Bulma Clean
+date: 2020-02-12 16:19:00 +0400
 image: /assets/img/jekyll-cms.jpg
 hero_image: /assets/img/clean-blog-jekyll.png
-tags: meta prose
+categories: [Blog, prose]
+tags: [Blog, meta, prose]
+hidden: true
+pin: false
 ---
 
 ## Welcome!

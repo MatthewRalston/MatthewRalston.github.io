@@ -1,11 +1,15 @@
 ---
-author: Matt Ralston
+author: ralston
 header-image: "/images/dna2.gif"
-hero-title: Industry skillsets vs academic topics for Q4 2024
-hero-subtitle: What topics are the focus for the near future?
-category: Opinion
-tags: linear_algebra metagenomics meta
+title: Boring skillsets for Q4 2024.. stilll...rely
+description: What topics are the focus for the near future?
+category: [Opinion]
+tags: [math, software, prose, meta]
+hidden: false
+pin: false
 ---
+
+>Yeah I'm a boring human bean. :|
 
 
 # What topics are currently under focus?

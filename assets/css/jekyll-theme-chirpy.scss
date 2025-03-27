@@ -1,0 +1,93 @@
+---
+---
+
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+
+.hover-video-container  {
+    position: relative;
+    display: inline;
+}
+.hover-image-container {
+    position: relative;
+    display: inline;
+}
+
+
+.hover-image-wrapper {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    top: 30px;
+    left: 0;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    background-color: white;
+    width: max-content;
+
+}
+
+.hover-video-wrapper {
+    display: none;
+    position: absolute;
+    z-index: 50;
+    top: -50px;
+    left: 0;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    background-color: white;
+    width: max-content;
+    //pointer-events: none;
+}
+
+.hover-image-container:hover .hover-image-wrapper  {
+    display: block;
+}
+
+//.hover-video-container a:hover + .hover-video-wrapper {
+
+.hover-video-container:hover .hover-video-wrapper {
+    display: block;
+}
+
+.hover-image {
+    display: block;
+    min-width: 400px;
+    min-height: 300px;
+    max-width: 600px;
+    max-height: 900px;
+}
+
+.youtube-frame {
+    display: block;
+    width: 320px;
+    height: 180px;
+    border: none;
+}
+
+
+.image-caption  {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.video-caption {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.show-video {
+    display: block;
+}
+
+

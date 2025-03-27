@@ -1,11 +1,29 @@
 ---
+
+author: ralston
 title: Beginner Array/List Methods
-tags: beginner python ruby haskell javascript r 
-toc: true
-hero_image: /assets/img/Slicing_index_python.png
+description: An early blog tutorial about array methods.
+date: 2018-04-14 16:18:28 +0400
+layout: post
+refactor: true
+panel_includes:
+  - toc
+tail_includes:
+  - related-posts
+  - post-nav
+script_includes:
+  -comment
+
+categories: [Beginner, python, Software, meta, prose, blog]
+tags: [Beginner, python, Software, meta, prose, blog]
+permalink: /blog/begginner_python_array_slicing
+pin: false
+hidden: false
 ---
 
-<!-- Maybe a nice barchart of the simple comparisons? -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script><!-- Maybe a nice barchart of the simple comparisons? -->
 <!-- Add examples in all languages for how appends respond to array size. Difference between trivial method comparisons (usually without replication either) and parametric comparisons. -->
 <!-- Maybe add a line graph (with CIs) for each method -->
 
@@ -85,23 +103,34 @@ Some of these operations modify the structure in place (mutability) while some r
 </tbody></table>
 
 <h4>Append/prepend in various languages</h4>
+
+
+  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+</div>
+
+
+
+
 <div role="navigation">
-  <ul class="nav nav-tabs" role="tablist">
+  <ul class="nav nav-tabs" id="append_in_various_languages">
     <li class="nav-item">
-      <a id="pythonAppend-tab" class="nav-link active" data-toggle="tab" href="#pythonAppend" role="tab" aria-controls="pythonAppend" aria-selected="true">Python</a>
+      <button class="nav-link active" id="python-append-tab" data-bs-toggle="tab" data-bs-target="#python-append-tab-pane" type="button" role="tab" aria-controls="python-append-tab-pane" aria-selected="true">Python</button>
     </li>
     <li class="nav-item">
-      <a id="rubyAppend-tab" class="nav-link" data-toggle="tab" href="#rubyAppend" role="tab" aria-controls="rubyAppend" aria-selected="false">Ruby</a>
+      <button class="nav-link" id="ruby-append-tab" data-bs-toggle="tab" data-bs-target="#ruby-append-tab-pane" type="button" role="tab" aria-controls="ruby-append-tab-pane" aria-selected="true">Ruby</button>
     </li>
     <li class="nav-item">
-      <a id="javascriptAppend-tab" class="nav-link" data-toggle="tab" href="#javascriptAppend" role="tab" aria-controls="javascriptAppend" aria-selected="false">Javascript</a>
+      <button class="nav-link" id="js-append-tab" data-bs-toggle="tab" data-bs-target="#js-append-tab-pane" type="button" role="tab" aria-controls="js-append-tab-pane" aria-selected="true">Javascript</button>
     </li>
     <li class="nav-item">
-      <a id="haskellAppend-tab" class="nav-link" data-toggle="tab" href="#haskellAppend" role="tab" aria-controls="haskellAppend" aria-selected="false">Haskell</a>
+      <button class="nav-link" id="haskell-append-tab" data-bs-toggle="tab" data-bs-target="#haskell-append-tab-pane" type="button" role="tab" aria-controls="haskell-append-tab-pane" aria-selected="true">Haskell</button>
     </li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane fade show active" id="pythonAppend" role="tabpanel" aria-labelledby="pythonAppend-tab">
+  <div class="tab-pane fade show active" id="python-append-tab-pane" role="tabpanel" aria-labelledby="python-append-tab" tabindex="0">
       <h5>list, llist, numpy.array, deque</h5>
 
 {% highlight python %}
@@ -153,7 +182,7 @@ Some of these operations modify the structure in place (mutability) while some r
 
 
     </div>
-    <div class="tab-pane fade" id="rubyAppend" role="tabpanel" aria-labelledby="rubyAppend-tab">
+    <div class="tab-pane fade" id="ruby-append-tab-pane" role="tabpanel" aria-labelledby="ruby-append-tab">
       <h5>Array, Queue</h5>
 {% highlight ruby %}
 >exampleArray = [0,1,2]
@@ -219,7 +248,7 @@ Some of these operations modify the structure in place (mutability) while some r
 {% endhighlight %}
       
     </div>
-    <div class="tab-pane fade" id="javascriptAppend" role="tabpanel" aria-labelledby="javascriptAppend-tab">
+    <div class="tab-pane fade" id="js-append-tab-pane" role="tabpanel" aria-labelledby="js-append-tab">
       <h5>Array</h5>
 {% highlight javascript %}
 >
@@ -297,14 +326,14 @@ ma=modArraySize().run();
   15674404.910573114,   // Direct index concatenation
    6827994.338145904,   // Array#unshift
    2680587.6144321645 ] // Array#concat
-// Sadly my laptop started throwing heap/memory issues with Benchmarkjs, so we couldn't complete the experiment.
+// Sadly my laptop started throwing heap/memory issues with Benchmarkjs, so we couldn&#39;t complete the experiment.
 
 {% endhighlight %}
     </div>
-    <div class="tab-pane fade" id="haskellAppend" role="tabpanel" aria-labelledby="haskellAppend-tab">
+    <div class="tab-pane fade" id="haskell-append-tab-pane" role="tabpanel" aria-labelledby="haskell-append-tab">
       <h5>list append</h5>
 
-      <p>In fact, we're not even gonna test this one. Haskell has one clear way to append and the data structure 'list' is heavily optimized.</p>
+      <p>In fact, we&#39;re not even gonna test this one. Haskell has one clear way to append and the data structure &#39;list&#39; is heavily optimized.</p>
       
 {% highlight haskell %}
 >liszt = [1,2,3]         -- An optimized FILO array. 
@@ -318,7 +347,7 @@ ma=modArraySize().run();
 
 
 <h3>Map, filter, reduce and higher-order functions</h3>
-<p>I'm going to quote Learn You a Haskell<sup><small><a href="https://books.google.com/books?hl=en&lr=&id=QesxXj_ecD0C&oi=fnd&pg=PR5&dq=learn+you+a+haskell&ots=QRd9lZ-Tst&sig=hqW_LUGF5badu6glpaSh3Eb_xGw">M. Lipovaca</a></small></sup> for the description of the map function: <blockquote class="blockquote">Map takes a function and a list and applies that function to every element in the list, producing a new list. </blockquote></p>
+<p>I&#39;m going to quote Learn You a Haskell<sup><small><a href="https://books.google.com/books?hl=en&lr=&id=QesxXj_ecD0C&oi=fnd&pg=PR5&dq=learn+you+a+haskell&ots=QRd9lZ-Tst&sig=hqW_LUGF5badu6glpaSh3Eb_xGw">M. Lipovaca</a></small></sup> for the description of the map function: <blockquote class="blockquote">Map takes a function and a list and applies that function to every element in the list, producing a new list. </blockquote></p>
 
 <p> Map, filter, and reduce are simple higher-order functions that are often not taught in tutorials. Novice programmers may make the mistake of using a for loop to increment through a csv to perform mutation/selection of certain lines. Unfortunately, imperative/procedural style tends to teach students that data comes from the state/position of your location in the file, rather than a holistic view of data as resulting from discrete/piecewise transformations on an input set. I'm not going to start talking about monads and why learning abstract algebra is going to transform your code, but I will say that higher-order functions help you think about making code modular, simple, and readable to understand the transforms and aggregations of your data. Higher-order functions behave just like normal functions, but they can use and/or return anonymous functions, allowing more complex operations to be created. Think of how hard filtering a list would be if you had to write your own filtering function for each different criterion. Instead, higher-order functions allow us to simply provide a conditional, or a boolean-returning lambda/callback/anonymous function. As you can see from the examples below, there are few to no alternatives and thus benchmarking is not an issue within a language.</p>
 
@@ -330,26 +359,25 @@ Map is a simple function or array method that applies a transformation to data i
 </p>
 
 <div role="navigation">
-  <ul class="nav nav-tabs" role="tablist">
+  <ul class="nav nav-tabs" id="append_in_various_languages">
     <li class="nav-item">
-      <a id="pythonMap-tab" class="nav-link active" data-toggle="tab" href="#pythonMap" role="tab" aria-controls="pythonMap" aria-selected="true">Python</a>
+      <button class="nav-link active" id="python-map-tab" data-bs-toggle="tab" data-bs-target="#python-map-tab-pane" type="button" role="tab" aria-controls="python-map-tab-pane" aria-selected="true">Python</button>
     </li>
     <li class="nav-item">
-      <a id="rubyMap-tab" class="nav-link" data-toggle="tab" href="#rubyMap" role="tab" aria-controls="rubyMap" aria-selected="false">Ruby</a>
+      <button class="nav-link" id="ruby-map-tab" data-bs-toggle="tab" data-bs-target="#ruby-map-tab-pane" type="button" role="tab" aria-controls="ruby-map-tab-pane" aria-selected="true">Ruby</button>
     </li>
     <li class="nav-item">
-      <a id="javascriptMap-tab" class="nav-link" data-toggle="tab" href="#javascriptMap" role="tab" aria-controls="javascriptMap" aria-selected="false">Javascript</a>
+      <button class="nav-link" id="js-map-tab" data-bs-toggle="tab" data-bs-target="#js-map-tab-pane" type="button" role="tab" aria-controls="js-map-tab-pane" aria-selected="true">Javascript</button>
     </li>
     <li class="nav-item">
-      <a id="haskellMap-tab" class="nav-link" data-toggle="tab" href="#haskellMap" role="tab" aria-controls="haskellMap" aria-selected="false">Haskell</a>
+      <button class="nav-link" id="haskell-map-tab" data-bs-toggle="tab" data-bs-target="#haskell-map-tab-pane" type="button" role="tab" aria-controls="haskell-map-tab-pane" aria-selected="true">Haskell</button>
     </li>
     <li class="nav-item">
-      <a id="rMap-tab" class="nav-link" data-toggle="tab" href="#rMap" role="tab" aria-controls="rMap" aria-selected="false">R</a>
+      <button class="nav-link" id="r-map-tab" data-bs-toggle="tab" data-bs-target="#r-map-tab-pane" type="button" role="tab" aria-controls="r-map-tab-pane" aria-selected="true">R</button>
     </li>
   </ul>
-  
   <div class="tab-content">
-    <div class="tab-pane fade show active" id="pythonMap" role="tabpanel" aria-labelledby="pythonMap-tab">
+    <div class="tab-pane fade show active" id="python-map-tab-pane" role="tabpanel" aria-labelledby="python-map-tab" tabindex="0">
 
 {% highlight python %}
 >e = [0, 1, 2]
@@ -359,7 +387,7 @@ Map is a simple function or array method that applies a transformation to data i
 [1, 2, 3]
 {% endhighlight %}
     </div>
-    <div class="tab-pane fade" id="rubyMap" role="tabpanel" aria-labelledby="rubyMap-tab">
+    <div class="tab-pane fade" id="ruby-map-tab-pane" role="tabpanel" aria-labelledby="ruby-map-tab">
 
 {% highlight ruby %}
 >[0,1,2].map{|x| x+1}
@@ -367,21 +395,21 @@ Map is a simple function or array method that applies a transformation to data i
 {% endhighlight %}
       
     </div>
-    <div class="tab-pane fade" id="javascriptMap" role="tabpanel" aria-labelledby="javascriptMap-tab">
+    <div class="tab-pane fade" id="js-map-tab-pane" role="tabpanel" aria-labelledby="js-map-tab">
 
 {% highlight javascript %}
 >[0,1,2].map((x) => x + 1)
 [ 1, 2, 3 ]
 {% endhighlight %}
     </div>
-    <div class="tab-pane fade" id="haskellMap" role="tabpanel" aria-labelledby="haskellMap-tab">
+    <div class="tab-pane fade" id="haskell-map-tab-pane" role="tabpanel" aria-labelledby="haskell-map-tab">
       
 {% highlight haskell %}
 >map (+1) [0,1,2]
 [1,2,3]
 {% endhighlight %}
     </div>
-    <div class="tab-pane fade" id="rMap" role="tabpanel" aria-labelled-by="rMap-tab">
+    <div class="tab-pane fade" id="r-map-tab-pane" role="tabpanel" aria-labelled-by="r-map-tab">
 {% highlight R %}
 >e <- c(0, 1, 2)
 >sapply(e, function(x) x + 1)
@@ -397,26 +425,27 @@ Map is a simple function or array method that applies a transformation to data i
 
 <h4>Filter in various languages</h4>
 <div role="navigation">
-  <ul class="nav nav-tabs" role="tablist">
+  <ul class="nav nav-tabs" id="append_in_various_languages">
     <li class="nav-item">
-      <a id="pythonFilter-tab" class="nav-link active" data-toggle="tab" href="#pythonFilter" role="tab" aria-controls="pythonFilter" aria-selected="true">Python</a>
+      <button class="nav-link active" id="python-filter-tab" data-bs-toggle="tab" data-bs-target="#python-filter-tab-pane" type="button" role="tab" aria-controls="python-filter-tab-pane" aria-selected="true">Python</button>
     </li>
     <li class="nav-item">
-      <a id="rubyFilter-tab" class="nav-link" data-toggle="tab" href="#rubyFilter" role="tab" aria-controls="rubyFilter" aria-selected="false">Ruby</a>
+      <button class="nav-link" id="ruby-filter-tab" data-bs-toggle="tab" data-bs-target="#ruby-filter-tab-pane" type="button" role="tab" aria-controls="ruby-filter-tab-pane" aria-selected="true">Ruby</button>
     </li>
     <li class="nav-item">
-      <a id="javascriptFilter-tab" class="nav-link" data-toggle="tab" href="#javascriptFilter" role="tab" aria-controls="javascriptFilter" aria-selected="false">Javascript</a>
+      <button class="nav-link" id="js-filter-tab" data-bs-toggle="tab" data-bs-target="#js-filter-tab-pane" type="button" role="tab" aria-controls="js-filter-tab-pane" aria-selected="true">Javascript</button>
     </li>
     <li class="nav-item">
-      <a id="haskellFilter-tab" class="nav-link" data-toggle="tab" href="#haskellFilter" role="tab" aria-controls="haskellFilter" aria-selected="false">Haskell</a>
+      <button class="nav-link" id="haskell-filter-tab" data-bs-toggle="tab" data-bs-target="#haskell-filter-tab-pane" type="button" role="tab" aria-controls="haskell-filter-tab-pane" aria-selected="true">Haskell</button>
     </li>
     <li class="nav-item">
-      <a id="rFilter-tab" class="nav-link" data-toggle="tab" href="#rFilter" role="tab" aria-controls="rFilter" aria-selected="false">R</a>
+      <button class="nav-link" id="r-filter-tab" data-bs-toggle="tab" data-bs-target="#r-filter-tab-pane" type="button" role="tab" aria-controls="r-filter-tab-pane" aria-selected="true">R</button>
     </li>
   </ul>
-  
   <div class="tab-content">
-    <div class="tab-pane fade show active" id="pythonFilter" role="tabpanel" aria-labelledby="pythonFilter-tab">
+    <div class="tab-pane fade show active" id="python-filter-tab-pane" role="tabpanel" aria-labelledby="python-filter-tab" tabindex="0">
+
+
 
 {% highlight python %}
 >e = [0, 1, 2, 3, 4, 5]
@@ -426,7 +455,7 @@ Map is a simple function or array method that applies a transformation to data i
 [3, 4, 5]
 {% endhighlight %}
     </div>
-    <div class="tab-pane fade" id="rubyFilter" role="tabpanel" aria-labelledby="rubyFilter-tab">
+    <div class="tab-pane fade" id="ruby-filter-tab-pane" role="tabpanel" aria-labelledby="ruby-filter-tab">
 {% highlight ruby %}
 >e = [0,1,2,3,4,5]
 >e.filter{|x| x > 2} # Could be aliases to the same function
@@ -436,20 +465,20 @@ Map is a simple function or array method that applies a transformation to data i
 {% endhighlight %}
       
     </div>
-    <div class="tab-pane fade" id="javascriptFilter" role="tabpanel" aria-labelledby="javascriptFilter-tab">
+    <div class="tab-pane fade" id="js-filter-tab-pane" role="tabpanel" aria-labelledby="js-filter-tab">
 {% highlight javascript %}
 >[0,1,2,3,4,5].filter((x) => x > 2)
 [ 3, 4, 5 ]
 {% endhighlight %}
     </div>
-    <div class="tab-pane fade" id="haskellFilter" role="tabpanel" aria-labelledby="haskellFilter-tab">
+    <div class="tab-pane fade" id="haskell-filter-tab-pane" role="tabpanel" aria-labelledby="haskell-filter-tab">
       
 {% highlight haskell %}
 >filter (>2) [0,1,2,3,4,5]
 [3,4,5]
 {% endhighlight %}
     </div>
-    <div class="tab-pane fade" id="rFilter" role="tabpanel" aria-labelled-by="rFilter-tab">
+    <div class="tab-pane fade" id="r-filter-tab-pane" role="tabpanel" aria-labelled-by="r-filter-tab">
 {% highlight R %}
 >e <- c(0,1,2,3,4,5)
 >e[e > 2]
@@ -467,26 +496,26 @@ Map is a simple function or array method that applies a transformation to data i
 
 <h4>Reduce in various languages</h4>
 <div role="navigation">
-  <ul class="nav nav-tabs" role="tablist">
+
+  <ul class="nav nav-tabs" id="reduce_in_various_languages">
     <li class="nav-item">
-      <a id="pythonReduce-tab" class="nav-link active" data-toggle="tab" href="#pythonReduce" role="tab" aria-controls="pythonReduce" aria-selected="true">Python</a>
+      <button class="nav-link active" id="python-reduce-tab" data-bs-toggle="tab" data-bs-target="#python-reduce-tab-pane" type="button" role="tab" aria-controls="python-reduce-tab-pane" aria-selected="true">Python</button>
     </li>
     <li class="nav-item">
-      <a id="rubyReduce-tab" class="nav-link" data-toggle="tab" href="#rubyReduce" role="tab" aria-controls="rubyReduce" aria-selected="false">Ruby</a>
+      <button class="nav-link" id="ruby-reduce-tab" data-bs-toggle="tab" data-bs-target="#ruby-reduce-tab-pane" type="button" role="tab" aria-controls="ruby-reduce-tab-pane" aria-selected="true">Ruby</button>
     </li>
     <li class="nav-item">
-      <a id="javascriptReduce-tab" class="nav-link" data-toggle="tab" href="#javascriptReduce" role="tab" aria-controls="javascriptReduce" aria-selected="false">Javascript</a>
+      <button class="nav-link" id="js-reduce-tab" data-bs-toggle="tab" data-bs-target="#js-reduce-tab-pane" type="button" role="tab" aria-controls="js-reduce-tab-pane" aria-selected="true">Javascript</button>
     </li>
     <li class="nav-item">
-      <a id="haskellReduce-tab" class="nav-link" data-toggle="tab" href="#haskellReduce" role="tab" aria-controls="haskellReduce" aria-selected="false">Haskell</a>
+      <button class="nav-link" id="haskell-reduce-tab" data-bs-toggle="tab" data-bs-target="#haskell-reduce-tab-pane" type="button" role="tab" aria-controls="haskell-reduce-tab-pane" aria-selected="true">Haskell</button>
     </li>
     <li class="nav-item">
-      <a id="rReduce-tab" class="nav-link" data-toggle="tab" href="#rReduce" role="tab" aria-controls="rReduce" aria-selected="false">R</a>
+      <button class="nav-link" id="r-reduce-tab" data-bs-toggle="tab" data-bs-target="#r-reduce-tab-pane" type="button" role="tab" aria-controls="r-reduce-tab-pane" aria-selected="true">R</button>
     </li>
   </ul>
-  
   <div class="tab-content">
-    <div class="tab-pane fade show active" id="pythonReduce" role="tabpanel" aria-labelledby="pythonReduce-tab">
+    <div class="tab-pane fade show active" id="python-reduce-tab-pane" role="tabpanel" aria-labelledby="python-reduce-tab" tabindex="0">
 
 {% highlight python %}
 >e = [0, 1, 2]
@@ -494,7 +523,7 @@ Map is a simple function or array method that applies a transformation to data i
 3
 {% endhighlight %}
     </div>
-    <div class="tab-pane fade" id="rubyReduce" role="tabpanel" aria-labelledby="rubyReduce-tab">
+    <div class="tab-pane fade" id="ruby-reduce-tab-pane" role="tabpanel" aria-labelledby="ruby-reduce-tab">
 {% highlight ruby %}
 >e = [0,1,2]
 >e.reduce{|x,y| x + y} 
@@ -502,20 +531,20 @@ Map is a simple function or array method that applies a transformation to data i
 {% endhighlight %}
       
     </div>
-    <div class="tab-pane fade" id="javascriptReduce" role="tabpanel" aria-labelledby="javascriptReduce-tab">
+    <div class="tab-pane fade" id="js-reduce-tab-pane" role="tabpanel" aria-labelledby="js-reduce-tab">
 {% highlight javascript %}
 >[0,1,2].reduce((x,y) => x + y)
 3
 {% endhighlight %}
     </div>
-    <div class="tab-pane fade" id="haskellReduce" role="tabpanel" aria-labelledby="haskellReduce-tab">
+    <div class="tab-pane fade" id="haskell-reduce-tab-pane" role="tabpanel" aria-labelledby="haskell-reduce-tab">
       
 {% highlight haskell %}
 >foldr (+) [0,1,2] # See the following for more details: https://wiki.haskell.org/Foldr_Foldl_Foldl%27
 3
 {% endhighlight %}
     </div>
-    <div class="tab-pane fade" id="rReduce" role="tabpanel" aria-labelled-by="rReduce-tab">
+    <div class="tab-pane fade" id="r-reduce-tab-pane" role="tabpanel" aria-labelled-by="r-reduce-tab">
 {% highlight R %}
 >e <- c(0,1,2)
 >Reduce(function(x,y) x + y, e)
@@ -540,23 +569,24 @@ There are many different search algorithms that work on <a href="http://www.math
 
 <h4>Search in various languages</h4>
 <div role="navigation">
-  <ul class="nav nav-tabs" role="tablist">
+  <ul class="nav nav-tabs" id="reduce_in_various_languages">
     <li class="nav-item">
-      <a id="pythonSearch-tab" class="nav-link active" data-toggle="tab" href="#pythonSearch" role="tab" aria-controls="pythonSearch" aria-selected="true">Python</a>
+      <button class="nav-link active" id="python-search-tab" data-bs-toggle="tab" data-bs-target="#python-search-tab-pane" type="button" role="tab" aria-controls="python-search-tab-pane" aria-selected="true">Python</button>
     </li>
     <li class="nav-item">
-      <a id="rubySearch-tab" class="nav-link" data-toggle="tab" href="#rubySearch" role="tab" aria-controls="rubySearch" aria-selected="false">Ruby</a>
+      <button class="nav-link" id="ruby-search-tab" data-bs-toggle="tab" data-bs-target="#ruby-search-tab-pane" type="button" role="tab" aria-controls="ruby-search-tab-pane" aria-selected="true">Ruby</button>
     </li>
     <li class="nav-item">
-      <a id="javascriptSearch-tab" class="nav-link" data-toggle="tab" href="#javascriptSearch" role="tab" aria-controls="javascriptSearch" aria-selected="false">Javascript</a>
+      <button class="nav-link" id="js-search-tab" data-bs-toggle="tab" data-bs-target="#js-search-tab-pane" type="button" role="tab" aria-controls="js-search-tab-pane" aria-selected="true">Javascript</button>
     </li>
     <li class="nav-item">
-      <a id="haskellSearch-tab" class="nav-link" data-toggle="tab" href="#haskellSearch" role="tab" aria-controls="haskellSearch" aria-selected="false">Haskell</a>
+      <button class="nav-link" id="haskell-search-tab" data-bs-toggle="tab" data-bs-target="#haskell-search-tab-pane" type="button" role="tab" aria-controls="haskell-search-tab-pane" aria-selected="true">Haskell</button>
     </li>
   </ul>
-  
   <div class="tab-content">
-    <div class="tab-pane fade show active" id="pythonSearch" role="tabpanel" aria-labelledby="pythonSearch-tab">
+    <div class="tab-pane fade show active" id="python-search-tab-pane" role="tabpanel" aria-labelledby="python-search-tab" tabindex="0">
+
+
 
 {% highlight python %}
 >import bisect
@@ -580,7 +610,7 @@ There are many different search algorithms that work on <a href="http://www.math
 >next(filter(lambda x: x == 1, e), None) # Returns 1 or None
 {% endhighlight %}
     </div>
-    <div class="tab-pane fade" id="rubySearch" role="tabpanel" aria-labelledby="rubySearch-tab">
+    <div class="tab-pane fade" id="ruby-search-tab-pane" role="tabpanel" aria-labelledby="ruby-search-tab">
 {% highlight ruby %}
 >require 'set'
 >e = [0,1,2]
@@ -599,7 +629,7 @@ There are many different search algorithms that work on <a href="http://www.math
 {% endhighlight %}
       
     </div>
-    <div class="tab-pane fade" id="javascriptSearch" role="tabpanel" aria-labelledby="javascriptSearch-tab">
+    <div class="tab-pane fade" id="js-search-tab-pane" role="tabpanel" aria-labelledby="js-search-tab">
 {% highlight javascript %}
 >function bSearch(array, item){
 >  let low = 0;
@@ -618,7 +648,7 @@ There are many different search algorithms that work on <a href="http://www.math
 
 {% endhighlight %}
     </div>
-    <div class="tab-pane fade" id="haskellSearch" role="tabpanel" aria-labelledby="haskellSearch-tab">
+    <div class="tab-pane fade" id="haskell-search-tab-pane" role="tabpanel" aria-labelledby="haskell-search-tab">
       
 {% highlight haskell %}
 >e = [0, 1, 2]

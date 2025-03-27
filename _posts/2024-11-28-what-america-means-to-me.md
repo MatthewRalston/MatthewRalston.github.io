@@ -1,10 +1,13 @@
 ---
-author: Matt Ralston
-header-image: "/images/dna3.gif"
-hero-title: What America means to me
-hero-subtitle: Generational trauma meets pragmatically perfect freedom, scholastic excellence, and empathic/support networks
-category: Prose
-tags: prose meta
+author: ralston
+#image: "/images/dna3.gif"
+title: What America means to me
+date: 2024-11-28 12:19:00 +0400
+description: Generational trauma meets pragmatically imperfect freedom, scholastic excellence, and empathic/support networks
+categories: [Prose, Opinion]
+tags: [prose, opinion, meta, Civics]
+pin: false
+permalink: /blog/america_has_been_okay_to_me
 ---
 
 

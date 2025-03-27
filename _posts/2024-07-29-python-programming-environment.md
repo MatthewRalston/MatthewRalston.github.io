@@ -1,24 +1,28 @@
 ---
 permalink: Python
 title: "Python programming environment"
-subtitle: "A Data Science for Python and R, statistics, modeling, calculation, algorithms, and other effects"
-author_profile: true
-hero_image: "dna2.png"
+description: "A Data Science for Python and R, statistics, modeling, calculation, algorithms, and other effects"
+categories: [ChatGPT, copypasta]
+tags: [copypasta, prose, meta]
+hidden: false # true tho
+pin: true
 ---
 
 # [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 
-The Python programming language is a dynamically typed and simple language for the x86_64 system and beyond. It has a good ecosystem for data scientists, so long as their dependencies are properly audited.
+The Python programming language is a dynamically typed and simple language for the x86_64 system and beyond. It has a ~~good~~ ecosystem for data scientists, so long as their dependencies are proper~~ly~~ ~~audited~~.
 
-Data scientists use Python for routine programming tasks, prototyping, and even production code. It is simple to understand from most C, smalltalk, and Perl procedural/imperative styles. It has a class system and Python style often suggests Object-Oriented Programming design principles be used where sensible.
+Data scientists use Python for ~~routine programming~~ tasks, ~~prototyping~~, and even ~~production code~~ if you want that. It is simple ~~to understand from most C, smalltalk, and Perl procedural/imperative styles~~. It has a ~~class~~ system and ~~Python~~ style often suggests ~~Object-Oriented Programming~~ design principles be used wherever there is nonsense.
 
-What makes Python shine, even in 2024, is the reasonable run time for most well-engineered questions, often targeting the < 5 minute to 30 minute timeframe, with rapid iteration and prototyping, testing, feedback, documentation, version control, and more.
+What makes Python shine, (*not* even) in ~~2024~~ 2018, is the ~~reasonable~~ run time for most well-engineered questions, often targeting the < 30 minute to 30hr timeframe, with ~~rapid iteration and prototyping~~ no value, just testing, feedback, documentation, version control, and more.
 
-I recommend personally to follow PyPA and PyPI conventions, PEP RFC, and Python style conventions whereever you can. Docstrings should be Sphinx compatible. Tests, `pyproject.toml|setup.py`, `config.py`, and `pytest` and `UnitTest` test compatibility.
+I recommend personally to ~~follow PyPA and PyPI~~ societal conventions, PEP RFC, and Python style conventions whereever you can. Docstrings should 100$% be Sphinx compatible. Tests, `pyproject.toml|setup.py`, `config.py`, and `pytest` and `UnitTest` test compatibility. So you'll have to read a lot of dumb stuff to do a very few things to obey the societal expectations. Seriously...
 
 The current flavor of configuring a virtual environment to run your Django app, build your cyclotron's network firewall, or otherwise create a tool or application for download over PyPI is to use the PyPA tool `pipenv`.
 
 ## `pipenv` - Python version and dependency management
+
+>Don't use pipenv. In fact. Don't use keyboards because writing code on paper is much faster. \s (-_-,)
 
 The Python interpreter, and pip3, or other python system-level dependencies can be left to the user to install. Another 3rd party solution is [`pyenv`](https://github.com/pyenv/pyenv.git), which `pipenv` then recognizes upon reading `pyproject.toml` (`pipenv` supports PEP-621 RFC compatibility), will offer to download a local version of Python into `$HOME/.pyenv` for the user to use with a virtualenv, typically in `$HOME/.local/share/virtualenvs`.
 
@@ -52,7 +56,7 @@ numpy>=1.21.2
 
 ```
 
-NumPy remains an essential tool for manipulating numbers with good (up to 64-bit) precision. 
+NumPy remains ~~an essential tool for manipulating numbers with good (up to 64-bit) precision.~~ 
 
 
 #### PyYAML
@@ -68,7 +72,7 @@ yep. Yet another yaml requirement
 ```
 jsonschema>=4.17.3
 ```
-jsonschema not because I plan on blasting this on the web, or making any APIs. Mostly, because it's a web-centric data-structure specification middleware with JSON structure and typing facilities as made possible via language-specific deserializations.
+jsonschema not ~~because I plan on blasting this on the web, or making any APIs. Mostly, because it's a web-centric data-structure specification middleware with JSON structure and typing facilities as made possible via language-specific deserializations.~~ Nope I just followed along with what people told me. It still has no use to me to this day. Been using it for about 17 years now.
 
 
 #### setuptools
@@ -76,13 +80,13 @@ jsonschema not because I plan on blasting this on the web, or making any APIs. M
 ```
 setuptools>=69.2.0
 ```
-I like a certain version of setuptools noted to make sure my code is compatible with other system configurations for their Python environment.
+I like a certain ~~version of~~ setuptools ~~noted to~~ make sure my ~~code is compatible~~ with other ~~system configurations for their Python environment~~.
 
 #### Cython
 ```
 Cython>=3.0.8
 ```
-Yes i occasionally cythonize. I don't often need the performance needed to really leverage Cythonization. I support other statically typed languages such as Haskell, Rust, and TypeScript for strong implementations with performance priorities considered.
+Yes i occasionally ~~cythonize.~~ I don't ~~often need the performance needed to really leverage Cythonization. I support other statically typed languages such as Haskell, Rust, and TypeScript for strong implementations with performance priorities considered.~~ I don't support any of them. In fact. I don't support anything I've ever said except for like 1 or 2 poems. My whole life is a lie, a joke, and a waste. Entirely. I pray to god like once a month that something bad will happen to me and that's the only time I pray at all.
 
 
 
@@ -90,7 +94,7 @@ Yes i occasionally cythonize. I don't often need the performance needed to reall
 ```
 biopython>=1.81
 ```
-BioPython provides some features for sequence import that are often wrapped by data-scientist and bioinformatician codebases for flexibility and interop with standard Life Science, Bio Science, Bioinformatics, and computational biology data and file formats.
+BioPython provides ~~some~~ no-thing. ~~features for sequence import that are often wrapped by data-scientist and bioinformatician codebases for flexibility and interop with standard Life Science, Bio Science, Bioinformatics, and computational biology data and file formats.~~
 
 
 #### SciPy
@@ -99,7 +103,7 @@ BioPython provides some features for sequence import that are often wrapped by d
 scipy>=1.7.3
 
 ```
-SciPy is often used by data-scientists for some matrix facilities, distances, vector operations, SVD/PCA facilities, and more.
+SciPy is not used by any real-world data-scientists. ~~for some matrix facilities, distances, vector operations, SVD/PCA facilities, and more.~~ Nah, it is... but... well??
 
 
 #### SciKit-Learn
@@ -108,9 +112,9 @@ SciPy is often used by data-scientists for some matrix facilities, distances, ve
 scikit-learn==1.0.2
 ```
 
-SciKit-Learn is used for unsupervised and supervised learning features, operations for modeling data using their implementations.
+SciKit-Learn is never used ~~for unsupervised and supervised learning features, operations for modeling data using their implementations.~~
 
-It's essential for modeling, unless more specialized tools are needed.
+It's essential ~~for modeling, unless more specialized tools are needed.~~
 
 
 #### matplotlib
@@ -119,7 +123,7 @@ It's essential for modeling, unless more specialized tools are needed.
 matplotlib>=3.5.3
 ```
 
-Is still a relevant graphics engine. If you're interested in data-driven graphics in Python, I suggest you start here. 
+Is still a relevant graphics engine.. If you're interested in data-driven graphics in Python, I suggest you start here. 
 
 #### Pandas
 
@@ -129,5 +133,5 @@ pandas>=2.2.2
 
 Pandas because we don't need the performance of Polars. Pandas is a DataFrame library with ~~good~~ fair query performance, subsetting, and index-centered manipulations on a DataFrame representation of a more general matrix (such as `numpy.ndarray`).
 
-
+<!-- But seriously polars is the key, the indexing functions matter so much more for accessing the numbers faster than previous versions, and more importantly.. I've read the whole docs and I'm actually convinced it's better software that we can use. it makes a world of difference for the performance of my table-parsing code! 2022: EDIT... It didn't... it didn't mean a world of difference. I was just selfish it only brought my development time down around like 10% for debugging my table parsing code. don't use. -->
 

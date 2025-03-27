@@ -1,8 +1,14 @@
 ---
-permalink: /machine_learning_infrastructure_deployment_and_notebook_management
+author: ralston
+permalink: /ML_deployment_and_notebook_management
 title: "Thoughts on ML deployments, containerized workflows, and notebooks."
-author_profile: true
-toc: true
+description: "Unfinished post discussing Cloud-native. Jury is still out to rapid innovation in container technologies. Alternatives to Next-flow"
+date: 2025-03-16 10:16:00 +0400
+categories: [Blog, Software, "data-science"]
+tags: [prose, opinion, meta, "data-science", Software]
+hidden: true
+pin: false
+
 ---
 
 

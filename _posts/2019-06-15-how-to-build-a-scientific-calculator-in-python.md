@@ -1,11 +1,15 @@
 ---
+author: ralston
 title: How to build a scientific calculator in Python - Part 1.
-tags: prose beginner education python
-toc: true
+description: Old post, very dated... writing a command-line tool
+date: 2019-06-15 15:19:28 +0400
+categories: [software, bioinformatics, Python]
+tags: [prose, beginner, education, python]
+hidden: false
+pin: true
 permalink: /blog/how-to-build-a-scientific-calculator-in-Python-part-1
 ---
 
-About a 45 min read.
 
 ## Introduction
 

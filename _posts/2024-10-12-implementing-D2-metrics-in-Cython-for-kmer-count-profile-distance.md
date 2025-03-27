@@ -1,10 +1,12 @@
 ---
-author: Matt Ralston
-header-image: "/images/dna3.gif"
-hero-title: What are the D2 metrics?
-hero-subtitle: How do researchers compare two kmer count profiles.
-category: Data-science
-tags: kmerdb prose meta
+author: ralston
+title: What are the D2 metrics?
+date: 2023-10-12 22:18:00 +0400
+description: How do researchers compare two kmer count profiles.
+categories: [Bioinformatics, data-science, math]
+tags: [kmerdb,  prose, meta, opinion]
+hidden: true
+pin: false
 ---
 
 
@@ -53,7 +55,7 @@ D2* = \sigma X~w*Y~w / \sqrt( mhat * nhat * pwx * pwy )
 For those whose mathematics understanding may make reading the previous difficult, let's begin with D2. 
 
 
-Check back in.
+>I'll check back in on this. (3/19/25)
 
 
 

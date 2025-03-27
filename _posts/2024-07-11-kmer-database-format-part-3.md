@@ -1,10 +1,13 @@
 ---
-author: Matt Ralston
-header-image: "/images/dna3.gif"
-hero-title: kmerdb v0.8.6 (Part 3.)
-hero-subtitle: Handy pre-alpha release of, yet another k-mer library for Python
-category: Coding
-tags: python kmers format meta
+author: ralston
+image: "/images/dna3.gif"
+title: kmerdb v0.8.6 (Part 3.)
+description: Handy pre-alpha release of, yet another k-mer library for Python
+date: 2024-07-11 23:32:00 +0400
+category: [Software, Python]
+tags: [python, kmerdb, software, prose, meta]
+pin: true
+hidden: false
 ---
 
 # Summary

@@ -1,10 +1,14 @@
 ---
-author: Matt Ralston
-header-image: "/images/dna1.gif"
-hero-title: Ruining /r/programmerhumor memes
-hero-subtitle: The best of reddit meets the funny commentary. /s But you may find it informative.
-category: Opinion
-tags: reddit prose opinion meta
+author: ralston
+#image: "/assets/img/dna1.gif"
+permalink: /blog/ruining_r-programmerhumor_memes-2
+title: Ruining /r/programmerhumor memes
+date: 2024-12-10 22:11:00 +0400
+description: The best of reddit meets fuNnY cOmmenTary. /s But you may find it informative.
+categories: [Opinion, shitposting]
+tags: [reddit, prose, opinion, meta, shitposting]
+pin: true
+hidden: false
 ---
 
 

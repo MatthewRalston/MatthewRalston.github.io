@@ -1,8 +1,13 @@
 ---
+author: ralston
 title: Daydreaming
-tags: poem
+description: Just something sad I wrote before the pandemic.
+date: 2019-10-08 17:16:00 +0400
+categories: [prose]
+tags: [poem, prose, meta]
 hidden: true
-published: false
+pin: false
+
 ---
 
 Another verse, another rap, another day,

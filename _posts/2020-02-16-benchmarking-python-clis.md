@@ -1,11 +1,12 @@
 ---
+author: ralston
 title: Benchmarking Python CLIs
-subtitle: Measuring CPU/memory performance during refactors
 description: Measuring CPU/memory performance during refactors
-toc: true
+date: 2020-02-16 19:24:00 +0400
 image: /assets/img/quicksort.gif
 hero_image: /assets/img/death_star_laser_tunnel.gif
-tags: python kmers beginner
+categories: [Software, Python]
+tags: [python, Software, beginner]
 ---
 
 ## What is benchmarking and why do it?

@@ -1,10 +1,11 @@
 ---
-author: Matt Ralston
-header-image: "/images/dna3.gif"
-hero-title: GNUish producitvity setup (Part 1.)
-hero-subtitle: Ubuntu flavor + Python3, pipenv, emacs, org-mode, org-roam, org-roam-ui, Rstudio, pandoc
-category: Coding
-tags: python system meta
+author: ralston
+image: "/images/dna3.gif"
+title: GNUish producitvity setup (Part 1.)
+description: Ubuntu flavor + Python3, pipenv, emacs, org-mode, org-roam, org-roam-ui, Rstudio, pandoc
+date: 2024-07-28 17:24:00 +0400
+category: [SysAdmin, Software]
+tags: [python, software, os, prose, meta]
 ---
 
 
@@ -122,3 +123,9 @@ This is currently my go-to mind-mapping visualizer. It draws from a directory of
 ## `org-agenda` - capture templates for various spontaneous tasks
 
 Use capture templates to run workflow organizational tasks, all without switching to another buffer window or pop-up window, inline note taking, task capture, todo items, and morel.
+
+
+
+## Other software
+
+Yes, I use those as well.

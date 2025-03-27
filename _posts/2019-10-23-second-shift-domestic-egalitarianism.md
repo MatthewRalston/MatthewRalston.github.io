@@ -1,7 +1,12 @@
 ---
+author: ralston
 title: Views of the 'Second Shift' Phenomenon in Children - Domestic Egalitarianism
-tags: prose academic review
-toc: true
+description: A really bad review with some poorly thought out ideas on methodology comparison rather than results comparison. I regret doing this. Hiding.
+date: 2019-10-23 14:18:00 +0400
+categories: [prose, opinion, mental-health]
+tags: [prose, academic, review]
+hidden: true
+pin: false
 ---
 
 ## Review notes
@@ -10,7 +15,7 @@ toc: true
 
 ## Introduction
 
-Domestic unpaid labor blocks womens career advancement and personal achievement. Wives report doing 2x as much housework and childcare, even when both parents work full time, a phenomenon known as the 'Second Shift,' referring to working a second unpaid shift. Because parents are early role models for their daughters, the influence of perceived gender roles can be very profound. Mother's employment has been shown to be predictive of their children's attitudes and aspirations. Moreover, if daughters perceive inequality in their home, a more direct and observable environment, it has an effect (unreferenced). The effect of a father's contributions has an even less studied effect on children or daughter's aspirations. 
+Domestic unpaid labor blocks women's career advancement and personal achievement. Wives report doing 2x as much housework and childcare, even when both parents work full time, a phenomenon known as the 'Second Shift,' referring to working a second unpaid shift. Because parents are early role models for their daughters, the influence of perceived gender roles can be very profound. Mothers' employment has been shown to be predictive of their childrens' attitudes and aspirations. Moreover, if daughters perceive inequality in their home, a more direct and observable environment, it has an effect (unreferenced). The effect of a father's contributions has an even less studied effect on children or daughter's aspirations. 
 
 Interestingly, parents' self-reported beliefs about gender roles are weakly predictive of children's gender-role and aspirations. I would hypothesize that parents' reported beliefs may not reflect the actual imbalance or submissive and dominant behaviors that are expressing in the view of their children.
 

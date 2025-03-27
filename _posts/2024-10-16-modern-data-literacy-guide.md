@@ -1,9 +1,13 @@
 ---
 author: Matt Ralston
-hero-title: Modern Data Literacy
-hero-subtitle: How to interpret data arguments in journalism and academicly published articles in the age of misinformation and AI.
-category: Data-literacy
-tags: opinion data prose meta
+title: Modern Data Literacy
+permalink: /blog/data_literacy
+date: 2024-10-16 13:15:00 +0400
+description: How to interpret data arguments in journalism and academicly published articles in the age of misinformation and AI.
+categories: [opinion, prose]
+tags: [opinion, prose, meta]
+pin: false
+hidden: false
 ---
 
 

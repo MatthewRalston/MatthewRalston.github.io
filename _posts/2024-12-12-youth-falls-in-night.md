@@ -1,12 +1,16 @@
 ---
 author: Matt Ralston
-header-image: "/images/dna1.gif"
-hero-title: Youth falls in the night
-hero-subtitle: A poem of family
-category: Opinion
-tags: poem prose opinion meta
+image: "/images/dna1.gif"
+title: Youth falls in the night
+description: A poem about family... help was given. Doesn't mean it's not true. It might not be.
+date: 2024-12-12 06:10:00 +0400
+category: [prose, poem]
+tags: [poem, prose, opinion]
+hidden: true
+pin: false
 ---
 
+<!-- They are and always will be my parents. I don't trust you you little shit. -->
 
 
 I came to life from two unknown trees,

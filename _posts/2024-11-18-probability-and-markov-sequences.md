@@ -1,10 +1,12 @@
 ---
 author: Matt Ralston
-header-image: "/images/dna2.gif"
-hero-title: What are Markov sequences and why do they matter for biologists?
-hero-subtitle: Markov chains are fundamental abstractions/analogies for biologists. This posts explains why
-category: bioinformatics
-tags: prose bioinformatics meta
+title: What are Markov sequences and why do they matter for biologists?
+date: 2024-11-18 23:22:00 +0400
+description: Markov chains are fundamental abstractions/analogies for biologists. This posts explains why
+categories: [bioinformatics, sequences, opinion]
+tags: [prose, bioinformatics, meta]
+pin: true
+permalink: /blog/sequences_and_probability
 ---
 
 

@@ -1,4 +1,5 @@
 ---
+author: ralston
 title: Hypothetical Potential Interview Questions with Terrell Pierre About Life, Ableism, Comedy, and Career (DRAFT)
 tags: prose rant
 hidden: true
@@ -6,6 +7,11 @@ published: false
 hero_image: /assets/img/terrell_pierre_twitter_banner.jpg
 ---
 
+<!-- Please please please don't read this. I was pretty frustrated and injured and into alt-comedy when I was writing this. I haven't reviewed this or decided to look into this. It was never published and the interview didn't happen after I reached out to him. -->
+
+<!-- Matter of fact, I'm commenting and deleting the whole thing so it never goes live. -->
+
+<!--
 ## Personal introduction
 
 My name is Matt, and I'm a former biologist. I do open-source work on microbial genomics, which is the study of how bacteria can produce things like human insulin, proteins, and small molecules for human therapy. 
@@ -125,6 +131,8 @@ It's clear in that video that you have an amazing social group. And I feel very 
 
 I've felt confused by my own ableism and how it affects my social style. One of the best professors I've ever had was a bench and theoretical chemist who was handicappable, and he was also the funniest. What do you to help friends and attendees, to help them relax and ease their social anxieties about your condition?
 
+
+-->
 
 
 

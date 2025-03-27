@@ -1,11 +1,16 @@
 ---
 permalink: /biosciences
 title: "Life science professional"
-author_profile: true
+author: ralston
+date: 2025-03-15 03:44:00 +0400
+layout: post
+categories: [About, Biology]
+tags: [About]
+render_with_liquid: false
 hero_image: "images/dna1.gif"
 ---
 
-{% include page_header.md %}
+<!-- include page_header.md  -->
 
 
 Experience with laboratory techniques such as Western/Northern blot, RT-PCR, GC-MS, HPLC, ligation, restriction enzymes, ELISA, IHC/IF, FACS-Aria, Illumina library preparation. You name it!
@@ -37,9 +42,31 @@ While in the pharmaceutical industry, I contributed to a variety of disease area
 
 Specifically, I used computational tools and molecular biology knowledgebases to generate leads in a discovery research environment. While there, I contributed to reproducibility research initiatives, and received and award for fast turnaround time regarding a reproducibility frameworks for scientists to use to ensure that calculations and datasets were logged and versioned for accuracy and reprodubility during one of the "checkmate" trials at Bristol-Myers Squibb.
  
+# Training
 
-{% include training.md %}
+> Univ. of Delaware B.Sc. Biochemistry (2012) and M.Sc. Bioinformatics and Computational Biology (3.96 GPA, 2014)
 
-{% include lab_skills.md %}
+### Undergraduate program
+
+I developed laboratory fundamentals as a wet-bench laboratory biochemist and molecular biologist. I learned aseptic culture, some immunological, and fluorescent assay techniques, and RT-PCR in a translational cancer laboratory. The UD chemistry department emphasized other laboratory fundamentals such as HPLC, GC-MS, spectrometry, and organic synthesis.
+
+Subects studied include organic chemistry, physical chemistry and thermodynamics, and biochemistry, molecular biology, genetics, physiology, microbiology, virology, physics, linear algebra, probability, calc I/II/III and others.
+
+### Graduate program
+
+My thesis was hybrid wet-lab and dry-lab 2-year project developing the first strand-specific Illumina NGS map of the *C. acetobutylicum* transcriptome during solventogensis and sporulation stresses. Owing of course to the help of Drs. Papoutsakis and Venkataramanan, I investigated the whole-transcriptome response of a biofuel-producing bacterium to the biophysical stresses of solvent/biofuel accumulation and associated stress-response adaptations in anaerobic fermentation conditions. I formulated a fixed media, prepared the bioreactors and innocula, sampled across time points for small molecule characterization by HPLC, RNA-quality investigation, subsequent PCR-mediated Illumina HiSeq 2500 library prepration, and delivered my samples to the Delaware Biotech. Institute core for sequencing. 
+
+Afterwards, I developed both genome browser and interactive volcano-plot visualization web-applications for assessing differential expression of transcripts across the time-stress design.
+
+Subjects included in my graduate program include metabolic engineering, bioinformatics, biostatistics, computational biology, database systems, algorithm topics, sequence alignment, Illumina NGS, biostatistics, Linux HPC training, web application development, Perl, Python and bourne shell (bash) programming. 
+
+## Wet laboratory skills
+
+* Laboratory sciences BSc. (Chemistry department bachelors degree with specialization: **BSc. Biochemistry,** University of Delaware, 2012)
+
+I have demonstrated competencies in many laboratory methods as well as soft skills related to team organization, and I have graduate-level course work and **10 years of industry and academic experience** covering [molecular biology, **human and mammalian genomics and immortalized cell-line culture,** mammalian physiology, microorganism genomics (bacterial, viral) metagenomics and phylogenomics, biofuels and cell culture bioreactor,] process optimization, [novel methodologies and protocols, **Illumina RNA-seq library preparation, qRT-PCR, RT-PCR, PAGE (Western blot, Northern blot), ELISA, Chromatography (TLC, HPLC), Mass Spectrometry (GC-MS, MS-MS, LC-MS),** RNA quality analysis/RIN, Nanodrop, nucleic acid extraction, enzymatic treatment], Flow Cytometry/FACS-Aria, [light microscopy, fluorescence microscopy, immunohistochemistry (IHC), immunofluorescence (IF), gene knockdown, cloning,] bioassay development, and additionally [media formulation, contaminant testing and detection], [technical and software expertise], **[GLP, ELN],** and additional undergraduate lab and bioscience, [natural sciences, undergraduate mathematics, probability, statistics, molecular diversity], [data standards and reporting, **technical writing,** trends and conventions in biodata standards]. 
+
+>NOTE: Skills listed above in brackets indicate genuine industry experiences and/or experience at a professional level.
+
 
 

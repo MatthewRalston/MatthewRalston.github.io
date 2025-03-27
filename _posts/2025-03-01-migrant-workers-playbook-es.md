@@ -1,9 +1,13 @@
 ---
 author: Mateo Ralston
+title: Manual de estrategias para trabajadores migrantes
 permalink: /blog/estrategias-para-trabajadores-migrantes
-hero-title: Manual de estrategias para trabajadores migrantes
-category: Civics
-tags: civics workers human-rights prose opinion meta
+author: ralston
+date: 2025-03-01 19:14:00 +0400
+categories: [Blog, Civics, TDS]
+tags: [Civics, workers, human-rights, prose]
+pin: true
+permalink: /blog/migrant-workers-playbook-es
 ---
 
 

@@ -1,8 +1,12 @@
 ---
+author: ralston
 title: Differentiation in Computational Research Environments
-subtitle: My first post on Medium about Bioinformatics
-tags: meta prose education beginner
-toc: true
+description: My first post on Medium about Bioinformatics
+date: 2020-02-16 23:29:00 +0400
+categories: [Bioinformatics, Software, Career]
+tags: [meta, prose, education, beginner, Software]
+hidden: false
+pin: true
 ---
 
 ## Introduction

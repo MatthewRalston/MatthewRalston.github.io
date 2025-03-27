@@ -1,12 +1,13 @@
 ---
 permalink: /cloud_native
 title: "Cloud native architectures, containers, DevOps, and SysAdmin"
-author_profile: true
-toc: true
+date: 2025-03-15 03:44:00 +0400
+layout: post
+categories: [About, Cloud, DevOps, Docker, SysAdmin]
+tags: [About, Cloud, DevOps, Docker, SysAdmin]
+render_with_liquid: false
 ---
 
-
-{% include page_header.md %}
 
 Consider my recent blog post on [Docker containers and kubernetes](/machine_learning_infrastructure_deployment_and_notebook_management) for a more current discussion of DevOps and k8s.
 

@@ -1,9 +1,14 @@
 ---
-author: Matt Ralston
-header-image: "/images/dna1.gif"
-hero-title: Benchmarking short-read aligners - bwa-mem(2), bowtie(2), bbmap, and SHRiMP
-category: Opinion
-tags: bioinformatics prose opinion meta
+author: ralston
+permalink: /short_read_aligners
+image: "/assets/img/dna1.gif"
+title: Benchmarking short-read aligners - bwa-mem(2), bowtie(2), bbmap, and SHRiMP
+description: "How did you assess aligners? I compare alignment rates on simulated or real-world reads, and coverage statistics, some functional genomics metrics. Third-party software"
+date: 2022-12-23 16:09:00 +0400
+category: [Opinion, Software, Bioinformatics]
+tags: [prose, opinion, meta, Software, Bioinformatics]
+hidden: false
+pin: true
 ---
 
 
@@ -29,4 +34,4 @@ Next check out the [Github repository](https://github.com/MatthewRalston/aligner
 
 
 
-
+> This is technically in-progress. I can run aligners. NGS_scripts. Uh, I think I abandoned this project for some other WIPs. I'm not installing and debugging every aligner. I find bbmap, bwa, bowtie family to be best.

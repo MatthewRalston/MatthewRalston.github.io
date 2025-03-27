@@ -1,7 +1,12 @@
 ---
+author: ralston
 title: Review of Ken Robinson's Changing Education Paradigms
-tags: prose rant review education
-toc: true
+description: RSA Animate talk discussion
+date: 2018-10-01 16:18:21 +0400
+categories: [prose, opinion, meta]
+tags: [prose, rant, review, education, meta]
+pin: false
+hidden: true
 ---
 
 

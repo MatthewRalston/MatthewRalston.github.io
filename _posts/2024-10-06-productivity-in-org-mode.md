@@ -1,10 +1,12 @@
 ---
 author: Matt Ralston
-header-image: "/images/dna2.gif"
-hero-title: Org mode productivity wares
-hero-subtitle: What is your task management and organizational workflow?
-category: Opinion
-tags: emacs linux terminal apps prose meta
+title: Don't copy loosers.
+description: No really. WHy copypasta dummies... But.. *sigh* What is your task management and organizational workflow?
+date: 2023-05-06 19:25:00 +0400
+category: [Opinion]
+tags: [linux, software, prose, meta]
+hidden: false
+pin: true
 ---
 
 ## Goals

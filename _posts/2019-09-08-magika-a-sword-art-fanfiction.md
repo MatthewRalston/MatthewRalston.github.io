@@ -1,7 +1,11 @@
 ---
+author: ralston
 title: Magika - A Sword Art Online fanfiction
-tags: prose fanfic
-toc: true
+date: 2019-09-08 15:17:24 0400+
+categories: [prose, meta, fanfic]
+tags: [prose, fanfic]
+hidden: false
+pin: false
 ---
 
 Officially, magic was a forbidden component of Sword Art. Magical skills, item stats, criticals, and ability leveling may have elements beyond the typical diagnostic expertise of the players. Yet, enchanted items, durability, and other components of the material realm of Sword Art have mechanics of randomness, high-level crafting, beyond the scope the typical player will invest into the game. Additionally, defensive and offensive techniques also have randomness and executional nuance beyond the scope of most players' level of interest. The code of the game actively encourages this obfuscation to provide a simple experience for the players, and even goes so far as to encode a level of instinct that Kirito granted Cline in the West Field. The user interface and neurological link was indeed part of harnessing full potential in the battlefield, involving physical, mental, and psychological nuances. The West Field had reminded him of other MMO's he had played online; a pointless grind for experience and loot, almost deliberately trivial in comparison to the dungeons and party mechanics. Sure the social components of the game were important, but you never know who's going to fail to support your flank and ensure survival. Since Kirito was a solo player, it had always seemed easier to grind in the fields so he had something to bring to the table when he actually joined a party.
