@@ -1,0 +1,161 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://matthewralston.github.io/</id>
+  <title>Matt Ralston | Bio+coding</title>
+  <subtitle>Bioinformatics engineer with pharma experience in server and full-stack development, passion for maths, probability, statistics. Former wet-lab biochemist.</subtitle>
+  <updated>2025-03-28T13:22:42-04:00</updated>
+  <author>
+    <name>Matt Ralston</name>
+    <uri>https://matthewralston.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://matthewralston.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://matthewralston.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 Matt Ralston </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Positive behaviors vs anti-intellectualism</title>
+    <link href="https://matthewralston.github.io/posts/behaviors-and-anti-intellectualism/" rel="alternate" type="text/html" title="Positive behaviors vs anti-intellectualism" />
+    <published>2025-03-22T00:06:00-04:00</published>
+  
+    <updated>2025-03-22T00:06:00-04:00</updated>
+  
+    <id>https://matthewralston.github.io/posts/behaviors-and-anti-intellectualism/</id>
+    <content type="text/html" src="https://matthewralston.github.io/posts/behaviors-and-anti-intellectualism/" />
+    <author>
+      <name>ralston</name>
+    </author>
+
+  
+    
+    <category term="Prose" />
+    
+    <category term="Meta" />
+    
+    <category term="Opinion" />
+    
+    <category term="Education" />
+    
+  
+
+  <summary>Responding to dismantaling the DOE</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Thoughts on ML deployments, containerized workflows, and notebooks.</title>
+    <link href="https://matthewralston.github.io/ML_deployment_and_notebook_management" rel="alternate" type="text/html" title="Thoughts on ML deployments, containerized workflows, and notebooks." />
+    <published>2025-03-16T02:16:00-04:00</published>
+  
+    <updated>2025-03-27T15:13:53-04:00</updated>
+  
+    <id>https://matthewralston.github.io/ML_deployment_and_notebook_management</id>
+    <content type="text/html" src="https://matthewralston.github.io/ML_deployment_and_notebook_management" />
+    <author>
+      <name>ralston</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="Software" />
+    
+    <category term="data-science" />
+    
+  
+
+  <summary>Unfinished post discussing Cloud-native. Jury is still out to rapid innovation in container technologies. Alternatives to Next-flow</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Migrant workers playbook</title>
+    <link href="https://matthewralston.github.io/blog/migrant-workers-playbook-en" rel="alternate" type="text/html" title="Migrant workers playbook" />
+    <published>2025-03-01T10:14:00-05:00</published>
+  
+    <updated>2025-03-27T15:13:53-04:00</updated>
+  
+    <id>https://matthewralston.github.io/blog/migrant-workers-playbook-en</id>
+    <content type="text/html" src="https://matthewralston.github.io/blog/migrant-workers-playbook-en" />
+    <author>
+      <name>ralston</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="Civics" />
+    
+    <category term="TDS" />
+    
+  
+
+  <summary>How to report unsafe worker conditions to OSHA</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Manual de estrategias para trabajadores migrantes</title>
+    <link href="https://matthewralston.github.io/blog/migrant-workers-playbook-es" rel="alternate" type="text/html" title="Manual de estrategias para trabajadores migrantes" />
+    <published>2025-03-01T10:14:00-05:00</published>
+  
+    <updated>2025-03-27T15:13:53-04:00</updated>
+  
+    <id>https://matthewralston.github.io/blog/migrant-workers-playbook-es</id>
+    <content type="text/html" src="https://matthewralston.github.io/blog/migrant-workers-playbook-es" />
+    <author>
+      <name>ralston</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="Civics" />
+    
+    <category term="TDS" />
+    
+  
+
+  <summary>Recuerde documentar las prácticas laborales inseguras. La única manera de informar adecuadamente incidentes que incluyan salarios perdidos es incluir:     Fechas trabajadas   Una descripción de la norma insegura, peligrosa o innecesariamente difícil para el día de trabajo.   Nombres de testigos de las condiciones laborales inseguras.   Nombre, número de teléfono y dirección del empleador.   Fot...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Did the coronavirus SARS-CoV-19 originate from a laboratory in Wuhan?</title>
+    <link href="https://matthewralston.github.io/posts/debunking-coronavirus-conspiracy-theories/" rel="alternate" type="text/html" title="Did the coronavirus SARS-CoV-19 originate from a laboratory in Wuhan?" />
+    <published>2025-02-18T00:00:00-05:00</published>
+  
+    <updated>2025-03-27T15:13:53-04:00</updated>
+  
+    <id>https://matthewralston.github.io/posts/debunking-coronavirus-conspiracy-theories/</id>
+    <content type="text/html" src="https://matthewralston.github.io/posts/debunking-coronavirus-conspiracy-theories/" />
+    <author>
+      <name>Matt Ralston</name>
+    </author>
+
+  
+    
+    <category term="bioinformatics" />
+    
+  
+
+  <summary>Statements and leading accusations from the House Oversight Committee. Some may say this supports &amp;#39;gain-of-function&amp;#39; research but is truly unknown. Stay skeptical of the Chinese</summary>
+
+  </entry>
+
+</feed>
+
+
