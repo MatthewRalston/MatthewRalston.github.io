@@ -1,0 +1,396 @@
+[
+  {
+    "title": "Positive behaviors vs anti-intellectualism",
+    "url": "/posts/behaviors-and-anti-intellectualism/",
+    "categories": "Prose, Meta, Opinion, Education",
+    "tags": "Prose, Meta, Education, Rant, Opinion, Blog",
+    "date": "2025-03-22 00:06:00 -0400",
+    "content": "Responding to dismantaling the DOE"
+  },
+  {
+    "title": "Thoughts on ML deployments, containerized workflows, and notebooks.",
+    "url": "/ML_deployment_and_notebook_management",
+    "categories": "Blog, Software, data-science",
+    "tags": "prose, opinion, meta, data-science, Software",
+    "date": "2025-03-16 02:16:00 -0400",
+    "content": "Unfinished post discussing Cloud-native. Jury is still out to rapid innovation in container technologies. Alternatives to Next-flow"
+  },
+  {
+    "title": "Migrant workers playbook",
+    "url": "/blog/migrant-workers-playbook-en",
+    "categories": "Blog, Civics, TDS",
+    "tags": "Civics, workers, human-rights, prose, opinion, meta",
+    "date": "2025-03-01 10:14:00 -0500",
+    "content": "How to report unsafe worker conditions to OSHA"
+  },
+  {
+    "title": "Manual de estrategias para trabajadores migrantes",
+    "url": "/blog/migrant-workers-playbook-es",
+    "categories": "Blog, Civics, TDS",
+    "tags": "Civics, workers, human-rights, prose",
+    "date": "2025-03-01 10:14:00 -0500",
+    "content": "Recuerde documentar las prácticas laborales inseguras. La única manera de informar adecuadamente incidentes que incluyan salarios perdidos es incluir:     Fechas trabajadas   Una descripción de la ..."
+  },
+  {
+    "title": "Did the coronavirus SARS-CoV-19 originate from a laboratory in Wuhan?",
+    "url": "/posts/debunking-coronavirus-conspiracy-theories/",
+    "categories": "bioinformatics",
+    "tags": "prose, bioinformatics, meta",
+    "date": "2025-02-18 00:00:00 -0500",
+    "content": "Statements and leading accusations from the House Oversight Committee. Some may say this supports &#39;gain-of-function&#39; research but is truly unknown. Stay skeptical of the Chinese"
+  },
+  {
+    "title": "Minimizers A Bioinformatic Primer",
+    "url": "/posts/minimizers-a-bioinformatic-primer/",
+    "categories": "Opinion",
+    "tags": "bioinformatics, prose, opinion, meta",
+    "date": "2025-01-27 00:00:00 -0500",
+    "content": "I did this stuff. It’s in a benchmarking folder on my computer. SHRiMP conda remains hard to use. Other aligners have not great performance. bbmap and bowtie2 remain the most convenient and respect..."
+  },
+  {
+    "title": "Why I do genomics projects and blogging",
+    "url": "/posts/script-writing-to-publish/",
+    "categories": "Blog, bioinformatics, Summary",
+    "tags": "prose, bioinformatics, meta",
+    "date": "2025-01-23 06:17:00 -0500",
+    "content": "Bioinf. overview. What does coding for biology mean?"
+  },
+  {
+    "title": "Notes on runtimes... not working on this.",
+    "url": "/posts/linear-runtimes-for-quasimapping-and-alignment-free/",
+    "categories": "Opinion, Software",
+    "tags": "kmerdb, prose, software, meta",
+    "date": "2025-01-02 11:17:00 -0500",
+    "content": "Data, mapping, linear, graphical, quasi... quas my..."
+  },
+  {
+    "title": "Roots And Wings",
+    "url": "/posts/roots-and-wings/",
+    "categories": "Opinion, poem",
+    "tags": "poem, prose, opinion",
+    "date": "2024-12-12 00:00:00 -0500",
+    "content": "Not mine"
+  },
+  {
+    "title": "Youth falls in the night",
+    "url": "/posts/youth-falls-in-night/",
+    "categories": "prose, poem",
+    "tags": "poem, prose, opinion",
+    "date": "2024-12-11 21:10:00 -0500",
+    "content": "A poem about family... help was given. Doesn&#39;t mean it&#39;s not true. It might not be."
+  },
+  {
+    "title": "Ruining /r/programmerhumor memes",
+    "url": "/blog/ruining_r-programmerhumor_memes-2",
+    "categories": "Opinion, shitposting",
+    "tags": "reddit, prose, opinion, meta, shitposting",
+    "date": "2024-12-10 13:11:00 -0500",
+    "content": "The best of reddit meets fuNnY cOmmenTary. /s But you may find it informative."
+  },
+  {
+    "title": "What America means to me",
+    "url": "/blog/america_has_been_okay_to_me",
+    "categories": "Prose, Opinion",
+    "tags": "prose, opinion, meta, Civics",
+    "date": "2024-11-28 03:19:00 -0500",
+    "content": "Generational trauma meets pragmatically imperfect freedom, scholastic excellence, and empathic/support networks"
+  },
+  {
+    "title": "Python basics for the curious",
+    "url": "/blog/python_basics_2",
+    "categories": "python, Software",
+    "tags": "python, prose, meta",
+    "date": "2024-11-20 00:00:00 -0500",
+    "content": "Python code fundamentals in a guide that s l a p s. Read docs, &lt;code&gt;help()&lt;/code&gt; functions, and practice, practice, prActIce!"
+  },
+  {
+    "title": "What are Markov sequences and why do they matter for biologists?",
+    "url": "/blog/sequences_and_probability",
+    "categories": "bioinformatics, sequences, opinion",
+    "tags": "prose, bioinformatics, meta",
+    "date": "2024-11-18 14:22:00 -0500",
+    "content": "Markov chains are fundamental abstractions/analogies for biologists. This posts explains why"
+  },
+  {
+    "title": "Modern Data Literacy",
+    "url": "/blog/data_literacy",
+    "categories": "opinion, prose",
+    "tags": "opinion, prose, meta",
+    "date": "2024-10-16 05:15:00 -0400",
+    "content": "How to interpret data arguments in journalism and academicly published articles in the age of misinformation and AI."
+  },
+  {
+    "title": "Ricing. Why tho?",
+    "url": "/posts/ricing-in-2024/",
+    "categories": "Opinion, Software",
+    "tags": "linux, Software, prose, meta",
+    "date": "2024-10-07 07:28:00 -0400",
+    "content": "What do you do to customize -your- Linux experience"
+  },
+  {
+    "title": "Ricing In 2024",
+    "url": "/posts/ricing-in-2024/",
+    "categories": "Opinion",
+    "tags": "emacs, org-mode, prose, meta",
+    "date": "2024-10-06 00:00:00 -0400",
+    "content": ""
+  },
+  {
+    "title": "Boring skillsets for Q4 2024.. stilll...rely",
+    "url": "/posts/industry-skillsets-and-conformity-vs-academic-topics-for-q3-2024/",
+    "categories": "Opinion",
+    "tags": "math, software, prose, meta",
+    "date": "2024-08-24 00:00:00 -0400",
+    "content": "What topics are the focus for the near future?"
+  },
+  {
+    "title": "Python programming environment",
+    "url": "/Python",
+    "categories": "ChatGPT, copypasta",
+    "tags": "copypasta, prose, meta",
+    "date": "2024-07-29 00:00:00 -0400",
+    "content": "A Data Science for Python and R, statistics, modeling, calculation, algorithms, and other effects"
+  },
+  {
+    "title": "GNUish producitvity setup (Part 1.)",
+    "url": "/posts/productivity-setup/",
+    "categories": "SysAdmin, Software",
+    "tags": "python, software, os, prose, meta",
+    "date": "2024-07-28 09:24:00 -0400",
+    "content": "Ubuntu flavor + Python3, pipenv, emacs, org-mode, org-roam, org-roam-ui, Rstudio, pandoc"
+  },
+  {
+    "title": "kmerdb v0.8.6 (Part 3.)",
+    "url": "/posts/kmer-database-format-part-3/",
+    "categories": "Software, Python",
+    "tags": "python, kmerdb, software, prose, meta",
+    "date": "2024-07-11 15:32:00 -0400",
+    "content": "Handy pre-alpha release of, yet another k-mer library for Python"
+  },
+  {
+    "title": "What are the D2 metrics?",
+    "url": "/posts/implementing-D2-metrics-in-Cython-for-kmer-count-profile-distance/",
+    "categories": "Bioinformatics, data-science, math",
+    "tags": "kmerdb, prose, meta, opinion",
+    "date": "2023-10-12 14:18:00 -0400",
+    "content": "How do researchers compare two kmer count profiles."
+  },
+  {
+    "title": "Don't copy loosers.",
+    "url": "/posts/productivity-in-org-mode/",
+    "categories": "Opinion",
+    "tags": "linux, software, prose, meta",
+    "date": "2023-05-06 11:25:00 -0400",
+    "content": "No really. WHy copypasta dummies... But.. *sigh* What is your task management and organizational workflow?"
+  },
+  {
+    "title": "Benchmarking short-read aligners - bwa-mem(2), bowtie(2), bbmap, and SHRiMP",
+    "url": "/short_read_aligners",
+    "categories": "Opinion, Software, Bioinformatics",
+    "tags": "prose, opinion, meta, Software, Bioinformatics",
+    "date": "2022-12-23 07:09:00 -0500",
+    "content": "How did you assess aligners? I compare alignment rates on simulated or real-world reads, and coverage statistics, some functional genomics metrics. Third-party software"
+  },
+  {
+    "title": "Kmer Database Format (Part 2.)",
+    "url": "/posts/kmer-database-format-part-2/",
+    "categories": "Software, Python, Bioinformatics",
+    "tags": "python, kmerdb, bioinformatics, format, meta",
+    "date": "2022-06-22 15:29:00 -0400",
+    "content": "Update to format specification, CLI, and library features/architecture"
+  },
+  {
+    "title": "Network Attached Storage (NAS) vs storage server",
+    "url": "/posts/NAS-vs_storage-server/",
+    "categories": "Hardware",
+    "tags": "copypasta, prose, opinion",
+    "date": "2022-03-16 08:16:00 -0400",
+    "content": "A cost and features."
+  },
+  {
+    "title": "Server CPUs, market differentiation, the e-thread hatetrain, and power efficiency",
+    "url": "/posts/state-of-the-cpu-market-servers-and-workstations/",
+    "categories": "Opinion, Hardware, Blog",
+    "tags": "hardware, prose, opinion",
+    "date": "2021-10-10 15:29:00 -0400",
+    "content": "AMD dominance, Intel solid contender, ARM reaches new markets and continues to advance towards traditionally Intel and x86_64 dominant areas such as supercomputing."
+  },
+  {
+    "title": "How do I become a bioinformatician?",
+    "url": "/blog/how-do-i-become-a-bioinformatician",
+    "categories": "",
+    "tags": "meta, prose, education, beginner",
+    "date": "2020-09-05 00:00:00 -0400",
+    "content": "I see plenty of posts on /r/bioinformatics of students or mid-career professionals asking what it takes to become a bioinformatician. What skills should I have? What programming languages should I ..."
+  },
+  {
+    "title": "Sorting Out Modules in Python",
+    "url": "/posts/dictionaries-and-modules/",
+    "categories": "Python, Software",
+    "tags": "python, beginner, prose, meta",
+    "date": "2020-02-26 12:27:00 -0500",
+    "content": "Modules and importing for beginners"
+  },
+  {
+    "title": "Differentiation in Computational Research Environments",
+    "url": "/posts/data-science-vs-data-engineering/",
+    "categories": "Bioinformatics, Software, Career",
+    "tags": "meta, prose, education, beginner, Software",
+    "date": "2020-02-16 14:29:00 -0500",
+    "content": "My first post on Medium about Bioinformatics"
+  },
+  {
+    "title": "Benchmarking Python CLIs",
+    "url": "/posts/benchmarking-python-clis/",
+    "categories": "Software, Python",
+    "tags": "python, Software, beginner",
+    "date": "2020-02-16 10:24:00 -0500",
+    "content": "Measuring CPU/memory performance during refactors"
+  },
+  {
+    "title": "Site Redesign",
+    "url": "/posts/new-site-design/",
+    "categories": "Blog, prose",
+    "tags": "Blog, meta, prose",
+    "date": "2020-02-12 07:19:00 -0500",
+    "content": "Chris Rhymes - Bulma Clean"
+  },
+  {
+    "title": "Views of the 'Second Shift' Phenomenon in Children - Domestic Egalitarianism",
+    "url": "/posts/second-shift-domestic-egalitarianism/",
+    "categories": "prose, opinion, mental-health",
+    "tags": "prose, academic, review",
+    "date": "2019-10-23 06:18:00 -0400",
+    "content": "A really bad review with some poorly thought out ideas on methodology comparison rather than results comparison. I regret doing this. Hiding."
+  },
+  {
+    "title": "Daydreaming",
+    "url": "/posts/daydreaming/",
+    "categories": "prose",
+    "tags": "poem, prose, meta",
+    "date": "2019-10-08 09:16:00 -0400",
+    "content": "Just something sad I wrote before the pandemic."
+  },
+  {
+    "title": "Magika - A Sword Art Online fanfiction",
+    "url": "/posts/magika-a-sword-art-fanfiction/",
+    "categories": "prose, meta, fanfic",
+    "tags": "prose, fanfic",
+    "date": "2019-09-08 15:17:24 -0400",
+    "content": "Officially, magic was a forbidden component of Sword Art. Magical skills, item stats, criticals, and ability leveling may have elements beyond the typical diagnostic expertise of the players. Yet, ..."
+  },
+  {
+    "title": "How to build a scientific calculator in Python - Part 1.",
+    "url": "/blog/how-to-build-a-scientific-calculator-in-Python-part-1",
+    "categories": "software, bioinformatics, Python",
+    "tags": "prose, beginner, education, python",
+    "date": "2019-06-15 07:19:28 -0400",
+    "content": "Old post, very dated... writing a command-line tool"
+  },
+  {
+    "title": "Top 10 - Productivity Tricks I Learned From Grad School",
+    "url": "/posts/top-10-productivity-tools-i-learned-from-grad-school/",
+    "categories": "",
+    "tags": "meta, prose",
+    "date": "2019-05-29 00:00:00 -0400",
+    "content": "Things that made me faster in grad school  Now that I&#39;m out in the real world and out of the scholastic bubble, the world seems very obsessed with productivity. It seemed that way before I left the..."
+  },
+  {
+    "title": "Basic Skills in Computational Research Environments",
+    "url": "/blog/basic-skills-in-computational-research-environments",
+    "categories": "Prose, Meta, Bioinformatics, Opinion, rant, Software",
+    "tags": "meta, prose, bioinformatics, education, beginner, rant, opinion, blog",
+    "date": "2019-04-14 12:31:28 -0400",
+    "content": "An early blog post about differences between Data Analysts, Data Scientists, and Data Engineers"
+  },
+  {
+    "title": "Basic Skills In Computational Research Environments",
+    "url": "/posts/basic-skills-in-computational-research-environments/",
+    "categories": "",
+    "tags": "",
+    "date": "2019-04-14 00:00:00 -0400",
+    "content": "Introduction  Big dataGrowth in data was foretold is a mememaybe_there_are_no_solutions.jpg, but different flavors of bioinformaticians can be referred to as analysts, data scientists, and data eng..."
+  },
+  {
+    "title": "First time with Common Workflow Language (CWL)",
+    "url": "/posts/first-thoughts-common-workflow-language/",
+    "categories": "",
+    "tags": "meta, prose, cwl, methodology, ngs",
+    "date": "2018-12-02 00:00:00 -0500",
+    "content": "If Perl is Glorified Shell, Shell Scripts Are Dead. Long Live Shell Scripts  For those of you who don&#39;t know me, I&#39;m your typical beginner bioinformatician. I can script with a few languages but st..."
+  },
+  {
+    "title": "AWS S3 System Backup Tutorial",
+    "url": "/posts/aws-s3-backup/",
+    "categories": "",
+    "tags": "tutorial, aws, sysadmin",
+    "date": "2018-11-07 00:00:00 -0500",
+    "content": "This article is geared for novice to intermediate users of OSX and Linux, perhaps a 20min read.  Motivation  At this point in your career, you may have your own hardware systems that you customize,..."
+  },
+  {
+    "title": "Kmer Database Format (Part 1.)",
+    "url": "/blog/kmer-database-format-part-1",
+    "categories": "python, Bioinformatics, Software, meta, prose, blog",
+    "tags": "python, Software, Bioinformatics, meta, prose, blog",
+    "date": "2018-10-26 07:24:33 -0400",
+    "content": "Review of K-mers and Motivation for .kdb"
+  },
+  {
+    "title": "Review of Ken Robinson's Changing Education Paradigms",
+    "url": "/posts/kenrobinson-changing-education-paradigms/",
+    "categories": "prose, opinion, meta",
+    "tags": "prose, rant, review, education, meta",
+    "date": "2018-10-01 08:18:21 -0400",
+    "content": "RSA Animate talk discussion"
+  },
+  {
+    "title": "Ruining /r/programmerhumor memes",
+    "url": "/posts/programmerhumor-meme/",
+    "categories": "",
+    "tags": "meme, meta, prose, Software",
+    "date": "2018-07-05 09:18:21 -0400",
+    "content": "Hi everyone, today I’ll be ruthlessly destroying some /r/programmerhumor memes for those who are new to programming.  Gru Tries Recursion    Recursion is an elementary operation in logic, maths, an..."
+  },
+  {
+    "title": "Open source rant",
+    "url": "/blog/open_source_hypocrisy_under_budget_tightening",
+    "categories": "Prose, Meta, Bioinformatics, Opinion, rant, Software",
+    "tags": "meta, prose, bioinformatics, foss, rant, opinion, blog",
+    "date": "2018-06-28 02:23:33 -0400",
+    "content": "An early blog post about not supporting the communities that support us."
+  },
+  {
+    "title": "Pro-Pharma Rant and the Nebula Network",
+    "url": "/posts/nebula-network/",
+    "categories": "",
+    "tags": "app, prose, meta, rant",
+    "date": "2018-04-16 00:00:00 -0400",
+    "content": "Hi everyone, have you ever wondered what would be a good idea for an app? Since I became a developer, now I have *some* of the tools to potentially create some basic web applications, command line ..."
+  },
+  {
+    "title": "Beginner Array/List Methods",
+    "url": "/blog/begginner_python_array_slicing",
+    "categories": "Beginner, python, Software, meta, prose, blog",
+    "tags": "Beginner, python, Software, meta, prose, blog",
+    "date": "2018-04-14 08:18:28 -0400",
+    "content": "An early blog tutorial about array methods."
+  },
+  {
+    "title": "On Python Documentation with Sphinx",
+    "url": "/posts/thoughts-on-sphinx/",
+    "categories": "",
+    "tags": "python, sphinx",
+    "date": "2018-03-20 00:00:00 -0400",
+    "content": "I’ve been exploring the Python documentation system for ReadTheDocs with Sphinx. It could be that I’m dense, but the sphinx-quickstart command seems horribly divorced from most of the automagic doc..."
+  },
+  {
+    "title": "Hello World",
+    "url": "/posts/hello-world/",
+    "categories": "",
+    "tags": "meta",
+    "date": "2018-03-17 00:00:00 -0400",
+    "content": "Hello world, I am building my first blog for science and technical topics called Not Very Humerus (NVH). I’ll be adding periodically to this collection and focusing on the technical side of my jour..."
+  }
+  
+]
+
