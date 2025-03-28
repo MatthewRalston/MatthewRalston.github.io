@@ -232,14 +232,6 @@
     "content": "Modules and importing for beginners"
   },
   {
-    "title": "Differentiation in Computational Research Environments",
-    "url": "/posts/data-science-vs-data-engineering/",
-    "categories": "Bioinformatics, Software, Career",
-    "tags": "meta, prose, education, beginner, Software",
-    "date": "2020-02-16 14:29:00 -0500",
-    "content": "My first post on Medium about Bioinformatics"
-  },
-  {
     "title": "Benchmarking Python CLIs",
     "url": "/posts/benchmarking-python-clis/",
     "categories": "Software, Python",

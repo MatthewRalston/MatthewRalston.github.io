@@ -58,7 +58,7 @@
 </url>
 <url>
 <loc>https://matthewralston.github.io/posts/programmerhumor-meme/</loc>
-<lastmod>2025-03-27T15:13:53-04:00</lastmod>
+<lastmod>2025-03-28T14:01:05-04:00</lastmod>
 </url>
 <url>
 <loc>https://matthewralston.github.io/posts/kenrobinson-changing-education-paradigms/</loc>
@@ -109,10 +109,6 @@
 <lastmod>2025-03-27T15:13:53-04:00</lastmod>
 </url>
 <url>
-<loc>https://matthewralston.github.io/posts/data-science-vs-data-engineering/</loc>
-<lastmod>2025-03-27T15:13:53-04:00</lastmod>
-</url>
-<url>
 <loc>https://matthewralston.github.io/posts/dictionaries-and-modules/</loc>
 <lastmod>2025-03-27T15:13:53-04:00</lastmod>
 </url>
@@ -126,7 +122,7 @@
 </url>
 <url>
 <loc>https://matthewralston.github.io/posts/NAS-vs_storage-server/</loc>
-<lastmod>2025-03-27T15:13:53-04:00</lastmod>
+<lastmod>2025-03-28T14:01:05-04:00</lastmod>
 </url>
 <url>
 <loc>https://matthewralston.github.io/posts/kmer-database-format-part-2/</loc>
@@ -134,11 +130,11 @@
 </url>
 <url>
 <loc>https://matthewralston.github.io/short_read_aligners</loc>
-<lastmod>2025-03-27T15:13:53-04:00</lastmod>
+<lastmod>2025-03-28T14:01:05-04:00</lastmod>
 </url>
 <url>
 <loc>https://matthewralston.github.io/posts/productivity-in-org-mode/</loc>
-<lastmod>2025-03-27T15:13:53-04:00</lastmod>
+<lastmod>2025-03-28T14:01:05-04:00</lastmod>
 </url>
 <url>
 <loc>https://matthewralston.github.io/posts/implementing-D2-metrics-in-Cython-for-kmer-count-profile-distance/</loc>
@@ -146,7 +142,7 @@
 </url>
 <url>
 <loc>https://matthewralston.github.io/posts/kmer-database-format-part-3/</loc>
-<lastmod>2025-03-27T15:13:53-04:00</lastmod>
+<lastmod>2025-03-28T14:01:05-04:00</lastmod>
 </url>
 <url>
 <loc>https://matthewralston.github.io/posts/productivity-setup/</loc>
@@ -186,7 +182,7 @@
 </url>
 <url>
 <loc>https://matthewralston.github.io/blog/ruining_r-programmerhumor_memes-2</loc>
-<lastmod>2025-03-27T15:13:53-04:00</lastmod>
+<lastmod>2025-03-28T14:01:05-04:00</lastmod>
 </url>
 <url>
 <loc>https://matthewralston.github.io/posts/youth-falls-in-night/</loc>
@@ -198,7 +194,7 @@
 </url>
 <url>
 <loc>https://matthewralston.github.io/posts/linear-runtimes-for-quasimapping-and-alignment-free/</loc>
-<lastmod>2025-03-27T15:13:53-04:00</lastmod>
+<lastmod>2025-03-28T14:01:05-04:00</lastmod>
 </url>
 <url>
 <loc>https://matthewralston.github.io/posts/script-writing-to-publish/</loc>
@@ -214,7 +210,7 @@
 </url>
 <url>
 <loc>https://matthewralston.github.io/blog/migrant-workers-playbook-es</loc>
-<lastmod>2025-03-27T15:13:53-04:00</lastmod>
+<lastmod>2025-03-28T14:01:05-04:00</lastmod>
 </url>
 <url>
 <loc>https://matthewralston.github.io/blog/migrant-workers-playbook-en</loc>
@@ -230,15 +226,15 @@
 </url>
 <url>
 <loc>https://matthewralston.github.io/categories/</loc>
-<lastmod>2025-03-28T13:22:42-04:00</lastmod>
+<lastmod>2025-03-28T19:59:31-04:00</lastmod>
 </url>
 <url>
 <loc>https://matthewralston.github.io/tags/</loc>
-<lastmod>2025-03-28T13:22:42-04:00</lastmod>
+<lastmod>2025-03-28T19:59:31-04:00</lastmod>
 </url>
 <url>
 <loc>https://matthewralston.github.io/archives/</loc>
-<lastmod>2025-03-28T13:22:42-04:00</lastmod>
+<lastmod>2025-03-28T19:59:31-04:00</lastmod>
 </url>
 <url>
 <loc>https://matthewralston.github.io/</loc>
@@ -440,9 +436,6 @@
 </url>
 <url>
 <loc>https://matthewralston.github.io/categories/blog/</loc>
-</url>
-<url>
-<loc>https://matthewralston.github.io/categories/career/</loc>
 </url>
 <url>
 <loc>https://matthewralston.github.io/categories/hardware/</loc>
