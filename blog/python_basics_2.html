@@ -38,16 +38,16 @@
 <link rel="canonical" href="https://matthewralston.github.io/blog/python_basics_2" />
 <meta property="og:url" content="https://matthewralston.github.io/blog/python_basics_2" />
 <meta property="og:site_name" content="Matt Ralston Bio+coding" />
-<meta property="og:image" content="https://matthewralston.github.io/assets/img/dna1.gif" />
+<meta property="og:image" content="https://matthewralston.github.io/assets/img/cat_further_into_the_internet.jpg" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2024-11-20T00:00:00-05:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://matthewralston.github.io/assets/img/dna1.gif" />
+<meta property="twitter:image" content="https://matthewralston.github.io/assets/img/cat_further_into_the_internet.jpg" />
 <meta property="twitter:title" content="Python basics for the curious" />
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@Matt Ralston" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Matt Ralston","url":"https://matthewralston.github.io"},"dateModified":"2025-03-27T15:13:53-04:00","datePublished":"2024-11-20T00:00:00-05:00","description":"Python code fundamentals in a guide that s l a p s. Read docs, help() functions, and practice, practice, prActIce!","headline":"Python basics for the curious","image":"https://matthewralston.github.io/assets/img/dna1.gif","mainEntityOfPage":{"@type":"WebPage","@id":"https://matthewralston.github.io/blog/python_basics_2"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://matthewralston.github.io/assets/img/terra-informatics-minimal-logo2.png"},"name":"Matt Ralston"},"url":"https://matthewralston.github.io/blog/python_basics_2"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Matt Ralston","url":"https://matthewralston.github.io"},"dateModified":"2025-03-30T12:18:32-04:00","datePublished":"2024-11-20T00:00:00-05:00","description":"Python code fundamentals in a guide that s l a p s. Read docs, help() functions, and practice, practice, prActIce!","headline":"Python basics for the curious","image":"https://matthewralston.github.io/assets/img/cat_further_into_the_internet.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://matthewralston.github.io/blog/python_basics_2"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://matthewralston.github.io/assets/img/terra-informatics-minimal-logo2.png"},"name":"Matt Ralston"},"url":"https://matthewralston.github.io/blog/python_basics_2"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -1202,7 +1202,7 @@
   <header>
     <h1 data-toc-skip>Python basics for the curious</h1>
     
-      <p class="post-desc fw-light mb-4">Python code fundamentals in a guide that s l a p s. Read docs, <code>help()</code> functions, and practice, practice, prActIce!</p>
+      <p class="post-desc fw-light mb-4">Python code fundamentals in a guide that s l a p s. Read docs, help() functions, and practice, practice, prActIce!</p>
     
 
     <div class="post-meta text-muted">
@@ -1244,13 +1244,13 @@
 
 <time
   
-  data-ts="1743102833"
+  data-ts="1743351512"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Mar 27, 2025
+  Mar 30, 2025
 </time>
 
         </span>
@@ -1264,7 +1264,7 @@
         
 
         <div class="mt-3 mb-3">
-          <a href="/assets/img/dna1.gif" class="popup img-link preview-img shimmer"><img src="/assets/img/dna1.gif"  alt="Preview Image" width="1200" height="630"  loading="lazy"></a></div>
+          <a href="/assets/img/cat_further_into_the_internet.jpg" class="popup img-link preview-img shimmer"><img src="/assets/img/cat_further_into_the_internet.jpg"  alt="Preview Image" width="1200" height="630"  loading="lazy"></a></div>
       
 
       <div class="d-flex justify-content-between">
@@ -1309,9 +1309,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="2771 words"
+  title="2935 words"
 >
-  <em>15 min</em> read</span>
+  <em>16 min</em> read</span>
 
         </div>
       </div>
@@ -1403,6 +1403,12 @@
 
 <p>Another great way for beginners to make their Python packages more robust is to include assertions and type-checking throughout their codebase. If you have a function, the first thing to do is validate the types of the arguments you’re passing through. If the developer has the chance to pass through invalid data from the argument or elsewhere in the codebase, your type checking will let you know at least that the functions you care about will not accept invalid inputs.</p>
 
+<blockquote>
+  <p>But why? Why do I need to validate the types of arguments I’m passing through?</p>
+</blockquote>
+
+<p>The first reason, is for yourself. As your codebase gets more complex, getting a cryptic type-related (not necessarily a <code class="language-plaintext highlighter-rouge">TypeError</code>) exception from a third-party module may give you headaches. It takes about 5 seconds to copy paste a error message template to handle the <code class="language-plaintext highlighter-rouge">if</code> statements, conditions, at which you would want your function to throw an error. In this case, the ‘user’ is you! If you’re making a module for others to <code class="language-plaintext highlighter-rouge">import</code> then you’ll want to do this anyway.</p>
+
 <p>Strong error messages may look like the following:</p>
 
 <div class="language-python highlighter-rouge"><div class="code-header">
@@ -1447,7 +1453,7 @@
 
 <p>In the example, a Python version 3+ syntax called the ‘type-hint’ is included, but that’s beyond the scope of this blog post. In short, the first argument ‘a’ follows the opening parenthesis, with a colon followed by another keyword ‘int’. Note the syntax highlighting differences between <code class="language-plaintext highlighter-rouge">def</code>, <code class="language-plaintext highlighter-rouge">myfunction</code>, ‘a’, and <code class="language-plaintext highlighter-rouge">int</code>. The function name preceeds the parenthesis in the function definition line. ‘a’ represents a variable that will be available in the function body, provided by the user in the last line of the example.</p>
 
-<p>The <code class="language-plaintext highlighter-rouge">int</code> keyword does not do anything. Isn’t that weird? It’s merely a notation at this point to remind developers what type is expected for the positional argument ‘a’. I refer to arguments as positional as their sequential order in the function definition. ‘a’ should be an integer, a whole number (0,1,2,… etc.).</p>
+<p>The <code class="language-plaintext highlighter-rouge">int</code> keyword does not do anything. Isn’t that weird? It’s merely a notation at this point to remind developers what type is expected for the positional argument ‘a’. I refer to arguments as positional as their sequential order in the function definition. ‘a’ should be an integer, a whole number (0,1,2,… etc.). They would also be present in the <code class="language-plaintext highlighter-rouge">*args</code> splat. However, <code class="language-plaintext highlighter-rouge">named</code> would be in the <code class="language-plaintext highlighter-rouge">**kwargs</code> splat.</p>
 
 <p>‘b’ on the other hand is a string argument, ASCII or UTF-8 characters enclosed by single <code class="language-plaintext highlighter-rouge">-&gt; '</code> or double <code class="language-plaintext highlighter-rouge">-&gt; "</code> quotation marks.</p>
 
@@ -1583,7 +1589,7 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
 
 <p>Variables can be any valid Python type, such as <code class="language-plaintext highlighter-rouge">int</code>, <code class="language-plaintext highlighter-rouge">float</code>, <code class="language-plaintext highlighter-rouge">str</code>, <code class="language-plaintext highlighter-rouge">None</code>, and more.</p>
 
-<h2 id="what-about-conditional-statements-or-the-if-operator"><span class="me-2">What about conditional statements, or the ‘if’ operator?</span><a href="#what-about-conditional-statements-or-the-if-operator" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h2 id="what-about-conditional-statements-or-the-if-operator"><span class="me-2">What about conditional statements, or the <code class="language-plaintext highlighter-rouge">if</code> operator?</span><a href="#what-about-conditional-statements-or-the-if-operator" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <p>At times, you may want to check your variables to decide what to do next. Enter the ‘if’ statement. You can use ‘if’ statements to produce branches of code that do different things. If you have the time, continue reading to learn about the use case for <code class="language-plaintext highlighter-rouge">if</code>, <code class="language-plaintext highlighter-rouge">else</code>, <code class="language-plaintext highlighter-rouge">elif</code>, and <code class="language-plaintext highlighter-rouge">match</code> statements.</p>
 
@@ -1689,7 +1695,7 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
   <p>Just kitten…</p>
 </blockquote>
 
-<p>In the example above, we can create URLs from the genus and species of some cool cats (Felids) by replacing the space in the strings with a ‘+’ sign to make the URI friendly to Google. By using the <code class="language-plaintext highlighter-rouge">for</code> keyword and iterating over the list of some Felids, we can learn about cats one at a time for the sake of near threatened or otherwise rare cats that we are kind of blessed to walk the earth with, or some s#it like that.</p>
+<p>In the example above, we can create URLs from the genus and species of some cool cats (genus <em>Felidae</em>) by replacing the space in the strings with a ‘+’ sign to make the URI friendly to Google. By using the <code class="language-plaintext highlighter-rouge">for</code> keyword and iterating over the list of some Felids, we can learn about cats one at a time for the sake of near threatened or otherwise rare cats that we are kind of blessed to walk the earth with, or some s#it like that.</p>
 
 <blockquote>
   <p>Cats would make better congressional leaders than the ones we have right now. I’m pawsitive.</p>
@@ -1697,7 +1703,13 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
 
 <p>For more flexibility, consider using the <code class="language-plaintext highlighter-rouge">range</code> function for ‘<code class="language-plaintext highlighter-rouge">for</code>’ loops. The range function ‘generates’ numbers by supplying a maximum, a minimum and a maximum, and/or step size. This is considerably more performant and memory efficient in Python than generating a list of numbers first, and checking each one for prime-ness.</p>
 
-<h2 id="range-yield-and-generator"><span class="me-2"><code class="language-plaintext highlighter-rouge">range</code>, <code class="language-plaintext highlighter-rouge">yield</code>, and <code class="language-plaintext highlighter-rouge">generator</code></span><a href="#range-yield-and-generator" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h2 id="whats-a-generator"><span class="me-2">What’s a generator?</span><a href="#whats-a-generator" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>A generator is a generic term for something that generates outputs, but not necessarily all at once. That would be called a ‘sploder. A generator, instead, takes inputs (fuel) and slowly converts chunks of fuel discretely and stepwise from the reservoir, producing a stream of energy.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">range</code>, <code class="language-plaintext highlighter-rouge">yield</code>, and <code class="language-plaintext highlighter-rouge">generator</code> example</li>
+</ul>
 
 <!-- Generated by chatGPT 4o mini : I believe the algorithm for testing the prime number by checking factors up to the int square root is called the sieve of Eratosthenes -->
 <div class="language-python highlighter-rouge"><div class="code-header">
@@ -1748,7 +1760,7 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
 
 </pre></td></tr></tbody></table></code></div></div>
 
-<h2 id="break-and-continue"><span class="me-2"><code class="language-plaintext highlighter-rouge">break</code> and <code class="language-plaintext highlighter-rouge">continue</code></span><a href="#break-and-continue" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h2 id="more-control-flow"><span class="me-2">More control flow</span><a href="#more-control-flow" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <p>The <code class="language-plaintext highlighter-rouge">break</code> statement is useful for exiting <code class="language-plaintext highlighter-rouge">while</code> loops and <code class="language-plaintext highlighter-rouge">for</code> loops prematurely to stop infinite or excess looping than is required for functionality. The <code class="language-plaintext highlighter-rouge">continue</code> statement may be used when the loop iteration has the information it needs, and simply the next loop may be initiated early.</p>
 
@@ -1981,35 +1993,35 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
         
         
         <li class="text-truncate lh-lg">
+          <a href="/blog/how-to-build-a-scientific-calculator-in-Python-part-1">How to build a scientific calculator in Python - Part 1.</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/productivity-setup/">GNUish producitvity setup (Part 1.)</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/Python">Python programming environment</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/blog/python_basics_2">Python basics for the curious</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/behaviors-and-anti-intellectualism/">Anti-intellctualism, Trump admin, and the threat to democracy.</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/linear-runtimes-for-quasimapping-and-alignment-free/">Notes on runtimes... not working on this.</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/programmerhumor-meme/">Ruining /r/programmerhumor memes</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/blog/migrant-workers-playbook-es">Manual de estrategias para trabajadores migrantes</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/NAS-vs_storage-server/">Network Attached Storage (NAS) vs storage server</a>
         </li>
       
     </ul>
@@ -2213,135 +2225,6 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -2356,16 +2239,6 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
         
         
 
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -2680,26 +2553,6 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
@@ -2713,72 +2566,6 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
     
     
     
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -2994,10 +2781,40 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
 
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
   
     
     
@@ -3249,6 +3066,77 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
     
     
     
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
   
     
     
@@ -3313,7 +3201,209 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -3377,13 +3467,13 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
         <a class="post-tag btn btn-outline-primary" href="/tags/beginner/">beginner</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/education/">education</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/software/">software</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/blog/">blog</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/education/">education</a>
       
     </div>
   </section>
@@ -3439,6 +3529,30 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
 
 
 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
   
 
@@ -4346,135 +4460,6 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -4489,16 +4474,6 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
         
         
 
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -4813,26 +4788,6 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
@@ -4846,72 +4801,6 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
     
     
     
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -5127,10 +5016,40 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
 
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
   
     
     
@@ -5382,6 +5301,77 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
     
     
     
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
   
     
     
@@ -5446,7 +5436,209 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -5510,13 +5702,13 @@ But don</span><span class="sh">'</span><span class="s">t worry, in a little bit,
         <a class="post-tag btn btn-outline-primary" href="/tags/beginner/">beginner</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/education/">education</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/software/">software</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/blog/">blog</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/education/">education</a>
       
     </div>
   </section>

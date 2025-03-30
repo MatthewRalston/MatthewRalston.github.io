@@ -1,5 +1,13 @@
 [
   {
+    "title": "Good morning, ChatGPT",
+    "url": "/blog/good_morning_chatgpt",
+    "categories": "ChatGPT, ethics, AI",
+    "tags": "prose, education, ethics, AI",
+    "date": "2025-03-30 02:30:00 -0400",
+    "content": "A discussion of ethics, the negatives in virtue signaling, and the nature of power given and taken."
+  },
+  {
     "title": "Anti-intellctualism, Trump admin, and the threat to democracy.",
     "url": "/posts/behaviors-and-anti-intellectualism/",
     "categories": "Prose, Meta, Opinion, Education",
@@ -101,7 +109,7 @@
     "categories": "python, Software",
     "tags": "python, prose, meta",
     "date": "2024-11-20 00:00:00 -0500",
-    "content": "Python code fundamentals in a guide that s l a p s. Read docs, &lt;code&gt;help()&lt;/code&gt; functions, and practice, practice, prActIce!"
+    "content": "Python code fundamentals in a guide that s l a p s. Read docs, help() functions, and practice, practice, prActIce!"
   },
   {
     "title": "What are Markov sequences and why do they matter for biologists?",
@@ -270,6 +278,14 @@
     "tags": "prose, fanfic",
     "date": "2019-09-08 15:17:24 -0400",
     "content": "Officially, magic was a forbidden component of Sword Art. Magical skills, item stats, criticals, and ability leveling may have elements beyond the typical diagnostic expertise of the players. Yet, ..."
+  },
+  {
+    "title": "How to build a scientific calculator in Python - Part 2.",
+    "url": "/blog/how-to-build-a-scientific-calculator-in-Python-part-2",
+    "categories": "software, bioinformatics, Python",
+    "tags": "prose, beginner, education, python",
+    "date": "2019-06-15 07:19:28 -0400",
+    "content": "Updates include PEP517/518, NumPy integration, error handling, verbosity, and debug features."
   },
   {
     "title": "How to build a scientific calculator in Python - Part 1.",
