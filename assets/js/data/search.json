@@ -280,12 +280,12 @@
     "content": "Officially, magic was a forbidden component of Sword Art. Magical skills, item stats, criticals, and ability leveling may have elements beyond the typical diagnostic expertise of the players. Yet, ..."
   },
   {
-    "title": "How to build a scientific calculator in Python - Part 2.",
-    "url": "/blog/how-to-build-a-scientific-calculator-in-Python-part-2",
+    "title": "How to build a scientific calculator in Python - Part 1.",
+    "url": "/blog/how-to-build-a-scientific-calculator-in-Python-part-1",
     "categories": "software, bioinformatics, Python",
     "tags": "prose, beginner, education, python",
     "date": "2019-06-15 07:19:28 -0400",
-    "content": "Updates include PEP517/518, NumPy integration, error handling, verbosity, and debug features."
+    "content": "Old post, very dated... writing a command-line tool"
   },
   {
     "title": "How to build a scientific calculator in Python - Part 1.",
