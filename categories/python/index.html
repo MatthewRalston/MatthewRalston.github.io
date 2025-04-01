@@ -224,8 +224,9 @@
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
-    <a href="/" id="avatar" class="rounded-circle"><img src="/assets/img/programmer.png" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
-
+    <div class="my-img-wrapper">
+      <a href="/" id="_avatar" class="rounded-circle avatar"><img src="/assets/img/programmer.png" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
+    </div>
     <a class="site-title d-block" href="/">Matt Ralston | Bio+coding</a>
     <p class="site-subtitle fst-italic mb-0">Aspiring coder with a passion for biology</p>
     <details>
@@ -402,7 +403,11 @@
 	</li>
       </ul>
     </div>
-  </nav>
+</nav>
+<div class="my-image-wrapper">
+  
+  <img width="112" height="112" class="avatar" style="text-align: center; display: block;" src="/assets/img/cell.png"/>
+</div>
   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
     
 
@@ -900,6 +905,13 @@
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/behaviors-and-anti-intellectualism/">Anti-intellctualism, Trump admin, and the threat to democracy.</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/blog/how-to-build-a-scientific-calculator-in-Python-part-1">How to build a scientific calculator in Python - Part 1.</a>
         </li>
       
@@ -922,13 +934,6 @@
         
         <li class="text-truncate lh-lg">
           <a href="/blog/python_basics_2">Python basics for the curious</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/behaviors-and-anti-intellectualism/">Anti-intellctualism, Trump admin, and the threat to democracy.</a>
         </li>
       
     </ul>
