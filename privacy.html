@@ -109,6 +109,7 @@
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.1/css/all.min.css">
+  
 
   <!-- Nerd Fonts - Thanks! -->
   <link rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css">
@@ -220,9 +221,16 @@
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js"></script>
 
 
 
@@ -302,7 +310,7 @@
 	</li>
 
 	<!--     A B O U T     -->
-	<li class="nav-item">
+	<li class="nav-item rounded-4" style="border: 5px #92dea3 solid">
 
 
 	  <a class="nav-link navbar-toggler dropdown-toggle" href="#" role="button" data-bs-toggle="collapse" data-bs-target="#aboutContent" aria-controls="aboutContent" aria-expanded="false">
@@ -373,7 +381,7 @@
 	    <span>Résumé / C.V.</span>
 	  </a>
 	</li>
-	<li class="nav-item">
+	<li class="nav-item rounded-4">
 	  <a href="/contact" class="nav-link">
 	    <i class="fas fa-envelope-circle-check"></i>
 	    <span>CONTACT</span>
@@ -385,7 +393,7 @@
 
 
 	<!--     B L O G     -->
-	<li class="nav-item">
+	<li class="nav-item rounded-4" style="border: 5px var(--bs-info-border-subtle) solid">
 	  <a class="nav-link navbar-toggler dropdown-toggle" href="#" role="button" data-bs-toggle="collapse" data-bs-target="#blogContent" aria-controls="blogContent" aria-expanded="false">
 	    <i class="fa-fw fas fa-info-circle"></i>	    
 	    <span>BLOG</span>
@@ -786,6 +794,115 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -816,7 +933,7 @@
 
 
 
-<article class="px-1" data-toc="false">
+<article class="px-1" data-toc="true">
   <header>
     <h1 data-toc-skip>How we use your behavioral data</h1>
     
@@ -893,7 +1010,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="239 words"
+  title="231 words"
 >
   <em>1 min</em> read</span>
 
@@ -903,6 +1020,28 @@
   </header>
 
   
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">How we use your behavioral data</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Contents</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">How we use your behavioral data</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
 
   <div class="content">
     <h1 id="privacy-policy">Privacy Policy</h1>
@@ -911,27 +1050,23 @@
   <p>Effective Date: 3-15-2025</p>
 </blockquote>
 
-<ol>
-  <li>
-    <p>Introduction
-Welcome to Matt Ralston’s personal page (“we,” “our,” or “us”). This Privacy Policy outlines how we collect, use, and protect your personal information when you visit our website https://matthewralston.github.io or use our services.</p>
-  </li>
-  <li>
-    <p>Information We Collect
-We may collect the following types of information:</p>
-  </li>
-</ol>
+<h2 id="introduction"><span class="me-2">Introduction</span><a href="#introduction" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<p>Personal Information: Name, email address, phone number, and other contact details you provide. Typically this is done through the /contact page.</p>
+<p>Welcome to Matt Ralston’s personal page (“we,” “our,” or “us”). This Privacy Policy outlines how we collect, use, and protect your personal information when you visit our website https://matthewralston.github.io or use our services.</p>
 
-<p>Usage Data: Information about your interactions with our website, such as IP address, browser type, and pages visited.</p>
+<h2 id="information-we-collect"><span class="me-2">Information We Collect</span><a href="#information-we-collect" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>We may collect the following types of information:</p>
+
+<p>Personal Information collected through <a href="/contact">/contact</a> page: Name, email address, phone number, and other contact details you provide.</p>
+
+<p>Usage Data: Information about your interactions with our website, browser type, and pages visited.</p>
 
 <!-- Cookies and Tracking Technologies: We use cookies to enhance your experience and analyze website traffic.-->
 
-<ol>
-  <li>How We Use Your Information
-We use your information to:</li>
-</ol>
+<h2 id="how-we-use-your-information"><span class="me-2">How We Use Your Information</span><a href="#how-we-use-your-information" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>We use your information to:</p>
 
 <p>Provide and improve our services.</p>
 
@@ -939,25 +1074,20 @@ We use your information to:</li>
 
 <p>Comply with legal obligations.</p>
 
-<ol>
-  <li>How We Share Your Information
-We do not sell your personal information. We may share your information with:</li>
-</ol>
+<h2 id="how-we-share-your-information"><span class="me-2">How We Share Your Information</span><a href="#how-we-share-your-information" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>We do not sell your personal information. We may share your information with:</p>
 
 <p>Service providers who assist in operating our business.</p>
 
 <p>Legal authorities if required by law.</p>
 
-<ol>
-  <li>
-    <p>Data Security
-We implement industry-standard security measures to protect your data from unauthorized access or disclosure.</p>
-  </li>
-  <li>
-    <p>Your Rights
-You have the right to:</p>
-  </li>
-</ol>
+<h2 id="data-security"><span class="me-2">Data Security</span><a href="#data-security" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>We implement industry-standard security measures to protect your data from unauthorized access or disclosure.</p>
+
+<h2 id="your-rights"><span class="me-2">Your Rights</span><a href="#your-rights" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>You have the right to:</p>
 
 <p>Access, update, or delete your personal information.</p>
 
@@ -965,20 +1095,17 @@ You have the right to:</p>
 
 <p>Restrict certain data processing activities.</p>
 
-<ol>
-  <li>
-    <p>Third-Party Links
-Our website may contain links to third-party sites. We are not responsible for their privacy practices.</p>
-  </li>
-  <li>
-    <p>Changes to This Policy
-We may update this Privacy Policy periodically. We will notify you of significant changes.</p>
-  </li>
-  <li>
-    <p>Contact Us
-For questions about this policy, please contact us through the /contact page.</p>
-  </li>
-</ol>
+<h2 id="third-party-links"><span class="me-2">Third-Party Links</span><a href="#third-party-links" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Our website may contain links to third-party sites. We are not responsible for their privacy practices.</p>
+
+<h2 id="changes-to-this-policy"><span class="me-2">Changes to This Policy</span><a href="#changes-to-this-policy" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>We may update this Privacy Policy periodically. We will notify you of significant changes.</p>
+
+<h2 id="contact-us"><span class="me-2">Contact Us</span><a href="#contact-us" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>For questions about this policy, please contact us through the <a href="/contact">/contact</a> page.</p>
 
 
   </div>
@@ -2616,6 +2743,12 @@ For questions about this policy, please contact us through the /contact page.</p
 
 
 
+
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
 
 
             
