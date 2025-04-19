@@ -4,7 +4,7 @@
   <id>https://matthewralston.github.io/</id>
   <title>Matt Ralston | Bio+coding</title>
   <subtitle>Bioinformatics engineer with pharma experience in server and full-stack development, passion for maths, probability, statistics. Former wet-lab biochemist.</subtitle>
-  <updated>2025-04-06T23:41:25-04:00</updated>
+  <updated>2025-04-19T17:09:54-04:00</updated>
   <author>
     <name>Matt Ralston</name>
     <uri>https://matthewralston.github.io/</uri>
@@ -17,6 +17,36 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Free Speech, Social Media, and Artificial Intelligence Generated Content</title>
+    <link href="https://matthewralston.github.io/posts/on-free-speech-issues-and-ai/" rel="alternate" type="text/html" title="Free Speech, Social Media, and Artificial Intelligence Generated Content" />
+    <published>2025-04-13T03:06:19-04:00</published>
+  
+    <updated>2025-04-13T03:06:19-04:00</updated>
+  
+    <id>https://matthewralston.github.io/posts/on-free-speech-issues-and-ai/</id>
+    <content type="text/html" src="https://matthewralston.github.io/posts/on-free-speech-issues-and-ai/" />
+    <author>
+      <name>ralston</name>
+    </author>
+
+  
+    
+    <category term="Prose" />
+    
+    <category term="Meta" />
+    
+    <category term="Opinion" />
+    
+    <category term="Education" />
+    
+  
+
+  <summary>Why Free Speech is about to get so much more difficult</summary>
+
+  </entry>
 
   
   <entry>
@@ -129,34 +159,6 @@
   
 
   <summary>How to report unsafe worker conditions to OSHA</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Manual de estrategias para trabajadores migrantes</title>
-    <link href="https://matthewralston.github.io/blog/migrant-workers-playbook-es" rel="alternate" type="text/html" title="Manual de estrategias para trabajadores migrantes" />
-    <published>2025-03-01T10:14:00-05:00</published>
-  
-    <updated>2025-03-28T14:01:05-04:00</updated>
-  
-    <id>https://matthewralston.github.io/blog/migrant-workers-playbook-es</id>
-    <content type="text/html" src="https://matthewralston.github.io/blog/migrant-workers-playbook-es" />
-    <author>
-      <name>ralston</name>
-    </author>
-
-  
-    
-    <category term="Blog" />
-    
-    <category term="Civics" />
-    
-    <category term="TDS" />
-    
-  
-
-  <summary>Recuerde documentar las prácticas laborales inseguras. La única manera de informar adecuadamente incidentes que incluyan salarios perdidos es incluir:     Fechas trabajadas   Una descripción de la norma insegura, peligrosa o innecesariamente difícil para el día de trabajo.   Nombres de testigos de las condiciones laborales inseguras.   Nombre, número de teléfono y dirección del empleador.   Fot...</summary>
 
   </entry>
 
