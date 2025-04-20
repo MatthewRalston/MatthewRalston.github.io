@@ -112,12 +112,12 @@
     "content": "Generational trauma meets pragmatically imperfect freedom, scholastic excellence, and empathic/support networks"
   },
   {
-    "title": "Python basics for the curious",
+    "title": "A byte-size chunk of Python basics",
     "url": "/blog/python_basics_2",
     "categories": "python, Software",
     "tags": "python, prose, meta",
     "date": "2024-11-20 00:00:00 -0500",
-    "content": "Python code fundamentals in a guide that s l a p s. Read docs, help() functions, and practice, practice, prActIce!"
+    "content": "Python fundamentals guide that | s l a p s |. Read docs, help() functions, and practice, practice, prActIce!"
   },
   {
     "title": "What are Markov sequences and why do they matter for biologists?",
