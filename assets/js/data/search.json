@@ -1,5 +1,21 @@
 [
   {
+    "title": null,
+    "url": "/posts/2024-07-28-productivity-setup/",
+    "categories": "",
+    "tags": "",
+    "date": "2025-06-09 17:37:44 -0400",
+    "content": "Ubuntu-based Linux System  Personally, I use pop!_os 22.04 LTS, and I use a variety of programs in my daily productivity stack. To start, let’s review our Python coding environment.  Python  The fi..."
+  },
+  {
+    "title": "PFAS Forever Chemicals - The cancer-causing disease coverup and conspiracy.",
+    "url": "/blog/pfas-forever-chemicals-review",
+    "categories": "Blog, Civics, Chemistry, Cancer",
+    "tags": "Civics, chemistry, cancer, prose",
+    "date": "2025-06-07 08:28:00 -0400",
+    "content": "What are PFAS, or forever chemicals?  Poly-fluorinated alkane substances (PFAS) are chemicals that have been designated as confirmed and concerning environmental toxins by governments across the gl..."
+  },
+  {
     "title": "Free Speech, Social Media, and Artificial Intelligence Generated Content",
     "url": "/posts/on-free-speech-issues-and-ai/",
     "categories": "Prose, Meta, Opinion, Education",
@@ -166,14 +182,6 @@
     "tags": "copypasta, prose, meta",
     "date": "2024-07-29 00:00:00 -0400",
     "content": "A Data Science for Python and R, statistics, modeling, calculation, algorithms, and other effects"
-  },
-  {
-    "title": "GNUish producitvity setup (Part 1.)",
-    "url": "/posts/productivity-setup/",
-    "categories": "SysAdmin, Software",
-    "tags": "python, software, os, prose, meta",
-    "date": "2024-07-28 09:24:00 -0400",
-    "content": "Ubuntu flavor + Python3, pipenv, emacs, org-mode, org-roam, org-roam-ui, Rstudio, pandoc"
   },
   {
     "title": "kmerdb v0.8.6 (Part 3.)",
