@@ -4,7 +4,7 @@
   <id>https://matthewralston.github.io/</id>
   <title>Matt Ralston | Bio+coding</title>
   <subtitle>Bioinformatics engineer with pharma experience in server and full-stack development, passion for maths, probability, statistics. Former wet-lab biochemist.</subtitle>
-  <updated>2025-06-09T17:37:44-04:00</updated>
+  <updated>2025-06-22T11:28:28-04:00</updated>
   <author>
     <name>Matt Ralston</name>
     <uri>https://matthewralston.github.io/</uri>
@@ -20,33 +20,11 @@
 
   
   <entry>
-    <title></title>
-    <link href="https://matthewralston.github.io/posts/2024-07-28-productivity-setup/" rel="alternate" type="text/html" title="" />
-    <published>2025-06-09T17:37:44-04:00</published>
-  
-    <updated>2025-06-08T20:06:25-04:00</updated>
-  
-    <id>https://matthewralston.github.io/posts/2024-07-28-productivity-setup/</id>
-    <content type="text/html" src="https://matthewralston.github.io/posts/2024-07-28-productivity-setup/" />
-    <author>
-      <name>Matt Ralston</name>
-    </author>
-
-  
-    
-  
-
-  <summary>Ubuntu-based Linux System  Personally, I use pop!_os 22.04 LTS, and I use a variety of programs in my daily productivity stack. To start, let’s review our Python coding environment.  Python  The first step for a Python+R productivity setup using FOSS and GNU centered C toolchains, involves installing Python from source, and using pipenv (and/or pyenv) to mediate Python virtualenv management.  W...</summary>
-
-  </entry>
-
-  
-  <entry>
     <title>PFAS Forever Chemicals - The cancer-causing disease coverup and conspiracy.</title>
     <link href="https://matthewralston.github.io/blog/pfas-forever-chemicals-review" rel="alternate" type="text/html" title="PFAS Forever Chemicals - The cancer-causing disease coverup and conspiracy." />
     <published>2025-06-07T08:28:00-04:00</published>
   
-    <updated>2025-06-07T08:28:00-04:00</updated>
+    <updated>2025-06-22T11:28:02-04:00</updated>
   
     <id>https://matthewralston.github.io/blog/pfas-forever-chemicals-review</id>
     <content type="text/html" src="https://matthewralston.github.io/blog/pfas-forever-chemicals-review" />
@@ -131,13 +109,13 @@
   
   <entry>
     <title>The post-Trump era: Civil Rights issues, history, and discussions.</title>
-    <link href="https://matthewralston.github.io/posts/trump-era-civil-rights-historical-victories-and-their-importance-moving-forward/" rel="alternate" type="text/html" title="The post-Trump era: Civil Rights issues, history, and discussions." />
+    <link href="https://matthewralston.github.io/posts/post-trump-era-civil-rights-issues-and-historical-victories/" rel="alternate" type="text/html" title="The post-Trump era: Civil Rights issues, history, and discussions." />
     <published>2025-03-22T00:06:00-04:00</published>
   
-    <updated>2025-06-08T20:06:25-04:00</updated>
+    <updated>2025-03-22T00:06:00-04:00</updated>
   
-    <id>https://matthewralston.github.io/posts/trump-era-civil-rights-historical-victories-and-their-importance-moving-forward/</id>
-    <content type="text/html" src="https://matthewralston.github.io/posts/trump-era-civil-rights-historical-victories-and-their-importance-moving-forward/" />
+    <id>https://matthewralston.github.io/posts/post-trump-era-civil-rights-issues-and-historical-victories/</id>
+    <content type="text/html" src="https://matthewralston.github.io/posts/post-trump-era-civil-rights-issues-and-historical-victories/" />
     <author>
       <name>ralston</name>
     </author>
@@ -155,6 +133,34 @@
   
 
   <summary>Anti-intellectualism, censorship, social media monopolies, and the wave against current Civil Rights protections</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Thoughts on ML deployments, containerized workflows, and notebooks.</title>
+    <link href="https://matthewralston.github.io/ML_deployment_and_notebook_management" rel="alternate" type="text/html" title="Thoughts on ML deployments, containerized workflows, and notebooks." />
+    <published>2025-03-16T02:16:00-04:00</published>
+  
+    <updated>2025-03-27T15:13:53-04:00</updated>
+  
+    <id>https://matthewralston.github.io/ML_deployment_and_notebook_management</id>
+    <content type="text/html" src="https://matthewralston.github.io/ML_deployment_and_notebook_management" />
+    <author>
+      <name>ralston</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="Software" />
+    
+    <category term="data-science" />
+    
+  
+
+  <summary>Unfinished post discussing Cloud-native. Jury is still out to rapid innovation in container technologies. Alternatives to Next-flow</summary>
 
   </entry>
 

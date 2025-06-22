@@ -1,13 +1,5 @@
 [
   {
-    "title": null,
-    "url": "/posts/2024-07-28-productivity-setup/",
-    "categories": "",
-    "tags": "",
-    "date": "2025-06-09 17:37:44 -0400",
-    "content": "Ubuntu-based Linux System  Personally, I use pop!_os 22.04 LTS, and I use a variety of programs in my daily productivity stack. To start, let’s review our Python coding environment.  Python  The fi..."
-  },
-  {
     "title": "PFAS Forever Chemicals - The cancer-causing disease coverup and conspiracy.",
     "url": "/blog/pfas-forever-chemicals-review",
     "categories": "Blog, Civics, Chemistry, Cancer",
@@ -33,7 +25,7 @@
   },
   {
     "title": "The post-Trump era: Civil Rights issues, history, and discussions.",
-    "url": "/posts/trump-era-civil-rights-historical-victories-and-their-importance-moving-forward/",
+    "url": "/posts/post-trump-era-civil-rights-issues-and-historical-victories/",
     "categories": "Prose, Meta, Opinion, Education",
     "tags": "Prose, Meta, Education, Rant, Opinion, Blog",
     "date": "2025-03-22 00:06:00 -0400",
@@ -182,6 +174,14 @@
     "tags": "copypasta, prose, meta",
     "date": "2024-07-29 00:00:00 -0400",
     "content": "A Data Science for Python and R, statistics, modeling, calculation, algorithms, and other effects"
+  },
+  {
+    "title": "A GNU-ish productivity setup (Part 1.)",
+    "url": "/posts/productivity-setup/",
+    "categories": "SysAdmin, Software, Linux",
+    "tags": "python, Linux, software, os, prose, meta",
+    "date": "2024-07-28 09:24:00 -0400",
+    "content": "Ubuntu + pipenv/Python3, emacs, Rstudio, pandoc, Obsidian replacements: org-mode, org-roam"
   },
   {
     "title": "kmerdb v0.8.6 (Part 3.)",
