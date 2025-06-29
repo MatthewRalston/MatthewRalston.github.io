@@ -1,5 +1,21 @@
 [
   {
+    "title": "UN Death tolls - Syria, Palestine, Ukraine",
+    "url": "/blog/armed_conflict_in_2025",
+    "categories": "Blog, Civics, Meta, Data",
+    "tags": "Civics, Meta, Data, prose",
+    "date": "2025-06-29 07:22:00 -0400",
+    "content": "Reports from Civil Ministries on death tolls in armed conflicts across the world."
+  },
+  {
+    "title": "Calculating codon-usage bias statistics with kmerdb",
+    "url": "/posts/calculating-codon-usage-bias-with-kmerdb/",
+    "categories": "Prose, Education, kmerdb, python, bioinformatics",
+    "tags": "Prose, Education, Python, Bioinformatics",
+    "date": "2025-06-22 10:24:00 -0400",
+    "content": "Chi-square tests, ENC, CAI, and other statistics"
+  },
+  {
     "title": "PFAS Forever Chemicals - The cancer-causing disease coverup and conspiracy.",
     "url": "/blog/pfas-forever-chemicals-review",
     "categories": "Blog, Civics, Chemistry, Cancer",

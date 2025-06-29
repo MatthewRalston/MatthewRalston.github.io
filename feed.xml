@@ -4,7 +4,7 @@
   <id>https://matthewralston.github.io/</id>
   <title>Matt Ralston | Bio+coding</title>
   <subtitle>Bioinformatics engineer with pharma experience in server and full-stack development, passion for maths, probability, statistics. Former wet-lab biochemist.</subtitle>
-  <updated>2025-06-22T11:28:28-04:00</updated>
+  <updated>2025-07-08T15:27:28-04:00</updated>
   <author>
     <name>Matt Ralston</name>
     <uri>https://matthewralston.github.io/</uri>
@@ -17,6 +17,68 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>UN Death tolls - Syria, Palestine, Ukraine</title>
+    <link href="https://matthewralston.github.io/blog/armed_conflict_in_2025" rel="alternate" type="text/html" title="UN Death tolls - Syria, Palestine, Ukraine" />
+    <published>2025-06-29T07:22:00-04:00</published>
+  
+    <updated>2025-06-29T07:22:00-04:00</updated>
+  
+    <id>https://matthewralston.github.io/blog/armed_conflict_in_2025</id>
+    <content type="text/html" src="https://matthewralston.github.io/blog/armed_conflict_in_2025" />
+    <author>
+      <name>ralston</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="Civics" />
+    
+    <category term="Meta" />
+    
+    <category term="Data" />
+    
+  
+
+  <summary>Reports from Civil Ministries on death tolls in armed conflicts across the world.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Calculating codon-usage bias statistics with kmerdb</title>
+    <link href="https://matthewralston.github.io/posts/calculating-codon-usage-bias-with-kmerdb/" rel="alternate" type="text/html" title="Calculating codon-usage bias statistics with kmerdb" />
+    <published>2025-06-22T10:24:00-04:00</published>
+  
+    <updated>2025-06-22T10:24:00-04:00</updated>
+  
+    <id>https://matthewralston.github.io/posts/calculating-codon-usage-bias-with-kmerdb/</id>
+    <content type="text/html" src="https://matthewralston.github.io/posts/calculating-codon-usage-bias-with-kmerdb/" />
+    <author>
+      <name>ralston</name>
+    </author>
+
+  
+    
+    <category term="Prose" />
+    
+    <category term="Education" />
+    
+    <category term="kmerdb" />
+    
+    <category term="python" />
+    
+    <category term="bioinformatics" />
+    
+  
+
+  <summary>Chi-square tests, ENC, CAI, and other statistics</summary>
+
+  </entry>
 
   
   <entry>
@@ -103,64 +165,6 @@
   
 
   <summary>A discussion of ethics, the negatives in virtue signaling, and the nature of power given and taken.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>The post-Trump era: Civil Rights issues, history, and discussions.</title>
-    <link href="https://matthewralston.github.io/posts/post-trump-era-civil-rights-issues-and-historical-victories/" rel="alternate" type="text/html" title="The post-Trump era: Civil Rights issues, history, and discussions." />
-    <published>2025-03-22T00:06:00-04:00</published>
-  
-    <updated>2025-03-22T00:06:00-04:00</updated>
-  
-    <id>https://matthewralston.github.io/posts/post-trump-era-civil-rights-issues-and-historical-victories/</id>
-    <content type="text/html" src="https://matthewralston.github.io/posts/post-trump-era-civil-rights-issues-and-historical-victories/" />
-    <author>
-      <name>ralston</name>
-    </author>
-
-  
-    
-    <category term="Prose" />
-    
-    <category term="Meta" />
-    
-    <category term="Opinion" />
-    
-    <category term="Education" />
-    
-  
-
-  <summary>Anti-intellectualism, censorship, social media monopolies, and the wave against current Civil Rights protections</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Thoughts on ML deployments, containerized workflows, and notebooks.</title>
-    <link href="https://matthewralston.github.io/ML_deployment_and_notebook_management" rel="alternate" type="text/html" title="Thoughts on ML deployments, containerized workflows, and notebooks." />
-    <published>2025-03-16T02:16:00-04:00</published>
-  
-    <updated>2025-03-27T15:13:53-04:00</updated>
-  
-    <id>https://matthewralston.github.io/ML_deployment_and_notebook_management</id>
-    <content type="text/html" src="https://matthewralston.github.io/ML_deployment_and_notebook_management" />
-    <author>
-      <name>ralston</name>
-    </author>
-
-  
-    
-    <category term="Blog" />
-    
-    <category term="Software" />
-    
-    <category term="data-science" />
-    
-  
-
-  <summary>Unfinished post discussing Cloud-native. Jury is still out to rapid innovation in container technologies. Alternatives to Next-flow</summary>
 
   </entry>
 

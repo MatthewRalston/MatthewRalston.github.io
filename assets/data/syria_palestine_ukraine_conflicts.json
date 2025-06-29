@@ -1,0 +1,31 @@
+[
+
+    {
+	"conflict": "Syria",
+	"death_total": 656493,
+	"annualized_death_toll": 46892,
+	"label": "Syria - Deaths per year",
+	"source": "https://www.syriahr.com/en/358243"
+    },
+    {
+	"conflict": "Syria",
+	"death_total": 199068,
+	"annualized_death_toll": 14219,
+	"label": "Syria - Civilian deaths per year",
+	"source": "https://www.syriahr.com/en/358243"
+    },
+    {
+	"conflict": "Ukraine",
+	"death_total": 13341,
+	"annualized_death_toll": 4447,
+	"label": "Ukraine - Deaths per year",
+	"source": "https://www.statista.com/statistics/1293492/ukraine-war-casualties/"
+    },
+    {
+	"conflict": "Palestine",
+	"death_total": 56156,
+	"annualized_death_toll": 32839,
+	"label": "Gaza - Deaths per year",
+	"source": "https://www.unrwa.org/resources/reports/unrwa-situation-report-177-situation-gaza-strip-and-west-bank-including-east-jerusalem"
+    }
+]
