@@ -4,7 +4,7 @@
   <id>https://matthewralston.github.io/</id>
   <title>Matt Ralston | Bio+coding</title>
   <subtitle>Bioinformatics engineer with pharma experience in server and full-stack development, passion for maths, probability, statistics. Former wet-lab biochemist.</subtitle>
-  <updated>2025-07-08T15:27:28-04:00</updated>
+  <updated>2025-07-30T15:10:50-04:00</updated>
   <author>
     <name>Matt Ralston</name>
     <uri>https://matthewralston.github.io/</uri>
@@ -17,6 +17,36 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Eulerian paths with kmers</title>
+    <link href="https://matthewralston.github.io/posts/can-eulerian-paths-be-created-from-kmerids-with-networkx/" rel="alternate" type="text/html" title="Eulerian paths with kmers" />
+    <published>2025-07-22T08:25:00-04:00</published>
+  
+    <updated>2025-07-22T08:25:00-04:00</updated>
+  
+    <id>https://matthewralston.github.io/posts/can-eulerian-paths-be-created-from-kmerids-with-networkx/</id>
+    <content type="text/html" src="https://matthewralston.github.io/posts/can-eulerian-paths-be-created-from-kmerids-with-networkx/" />
+    <author>
+      <name>ralston</name>
+    </author>
+
+  
+    
+    <category term="Prose" />
+    
+    <category term="Opinion" />
+    
+    <category term="Software" />
+    
+    <category term="Python" />
+    
+  
+
+  <summary>Using the networkx library for Eulerian path reconstruction and de Bruijn graphs</summary>
+
+  </entry>
 
   
   <entry>
@@ -137,34 +167,6 @@
   
 
   <summary>Why Free Speech is about to get so much more difficult</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Good morning, ChatGPT</title>
-    <link href="https://matthewralston.github.io/blog/good_morning_chatgpt" rel="alternate" type="text/html" title="Good morning, ChatGPT" />
-    <published>2025-03-30T02:30:00-04:00</published>
-  
-    <updated>2025-03-30T02:30:00-04:00</updated>
-  
-    <id>https://matthewralston.github.io/blog/good_morning_chatgpt</id>
-    <content type="text/html" src="https://matthewralston.github.io/blog/good_morning_chatgpt" />
-    <author>
-      <name>ralston</name>
-    </author>
-
-  
-    
-    <category term="ChatGPT" />
-    
-    <category term="ethics" />
-    
-    <category term="AI" />
-    
-  
-
-  <summary>A discussion of ethics, the negatives in virtue signaling, and the nature of power given and taken.</summary>
 
   </entry>
 

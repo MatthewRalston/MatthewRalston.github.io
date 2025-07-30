@@ -1,5 +1,13 @@
 [
   {
+    "title": "Eulerian paths with kmers",
+    "url": "/posts/can-eulerian-paths-be-created-from-kmerids-with-networkx/",
+    "categories": "Prose, Opinion, Software, Python",
+    "tags": "Prose, Software, Blog, Python",
+    "date": "2025-07-22 08:25:00 -0400",
+    "content": "Using the networkx library for Eulerian path reconstruction and de Bruijn graphs"
+  },
+  {
     "title": "UN Death tolls - Syria, Palestine, Ukraine",
     "url": "/blog/armed_conflict_in_2025",
     "categories": "Blog, Civics, Meta, Data",
