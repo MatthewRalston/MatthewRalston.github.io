@@ -47,7 +47,7 @@
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@Matt Ralston" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Matt Ralston","url":"https://matthewralston.github.io"},"dateModified":"2025-03-27T15:13:53-04:00","datePublished":"2022-06-22T15:29:00-04:00","description":"Update to format specification, CLI, and library features/architecture","headline":"Kmer Database Format (Part 2.)","image":"https://matthewralston.github.io/assets/images/blog/code_syntax/feature.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://matthewralston.github.io/posts/kmer-database-format-part-2/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://matthewralston.github.io/assets/img/terra-informatics-minimal-logo2.png"},"name":"Matt Ralston"},"url":"https://matthewralston.github.io/posts/kmer-database-format-part-2/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Matt Ralston","url":"https://matthewralston.github.io"},"dateModified":"2025-12-07T02:00:31-05:00","datePublished":"2022-06-22T15:29:00-04:00","description":"Update to format specification, CLI, and library features/architecture","headline":"Kmer Database Format (Part 2.)","image":"https://matthewralston.github.io/assets/images/blog/code_syntax/feature.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://matthewralston.github.io/posts/kmer-database-format-part-2/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://matthewralston.github.io/assets/img/terra-informatics-minimal-logo2.png"},"name":"Matt Ralston"},"url":"https://matthewralston.github.io/posts/kmer-database-format-part-2/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -104,7 +104,7 @@
   
 
   <!-- Theme style -->
-  <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css">
+  <link rel="stylesheet" href="/assets/css/matthewralston-jekyll-chirpy-cotes2020.css">
 
   <!-- Web Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap">
@@ -1037,13 +1037,13 @@
 
 <time
   
-  data-ts="1743102833"
+  data-ts="1765090831"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Mar 27, 2025
+  Dec  7, 2025
 </time>
 
         </span>
@@ -1218,7 +1218,10 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
         
           <a href="/categories/software/">Software</a>,
           <a href="/categories/python/">Python</a>,
-          <a href="/categories/bioinformatics/">Bioinformatics</a>
+          <a href="/categories/bioinformatics/">Bioinformatics</a>,
+          <a href="/categories/kmerdb/">kmerdb</a>,
+          <a href="/categories/meta/">Meta</a>,
+          <a href="/categories/prose/">Prose</a>
       </div>
     
 
@@ -1228,9 +1231,14 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
         <i class="fa fa-tags fa-fw me-1"></i>
         
           <a
+            href="/tags/software/"
+            class="post-tag no-text-decoration"
+          >Software</a>
+        
+          <a
             href="/tags/python/"
             class="post-tag no-text-decoration"
-          >python</a>
+          >Python</a>
         
           <a
             href="/tags/kmerdb/"
@@ -1240,17 +1248,17 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
           <a
             href="/tags/bioinformatics/"
             class="post-tag no-text-decoration"
-          >bioinformatics</a>
-        
-          <a
-            href="/tags/format/"
-            class="post-tag no-text-decoration"
-          >format</a>
+          >Bioinformatics</a>
         
           <a
             href="/tags/meta/"
             class="post-tag no-text-decoration"
-          >meta</a>
+          >Meta</a>
+        
+          <a
+            href="/tags/prose/"
+            class="post-tag no-text-decoration"
+          >Prose</a>
         
       </div>
     
@@ -1369,35 +1377,35 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/can-eulerian-paths-be-created-from-kmerids-with-networkx/">Eulerian paths with kmers</a>
+          <a href="/blog/kmer-database-format-part-1">Kmer Database Format (Part 1.)</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/blog/armed_conflict_in_2025">UN Death tolls - Syria, Palestine, Ukraine</a>
+          <a href="/posts/kmer-database-format-part-2/">Kmer Database Format (Part 2.)</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/blog/pfas-forever-chemicals-review">PFAS Forever Chemicals - The cancer-causing disease coverup and conspiracy.</a>
+          <a href="/posts/implementing-D2-metrics-in-Cython-for-kmer-count-profile-distance/">What are the D2 metrics?</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/productivity-setup/">A GNU-ish productivity setup (Part 1.)</a>
+          <a href="/posts/dietary-fats-in-cooking-oils/">Animal fats and plant oils - costs and considerations</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/calculating-codon-usage-bias-with-kmerdb/">Calculating codon-usage bias statistics with kmerdb</a>
+          <a href="/posts/redeye-moonlight/">Red eye moonlight</a>
         </li>
       
     </ul>
@@ -1795,11 +1803,6 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     
     
     
-  
-    
-    
-    
-    
       
         
         
@@ -2203,6 +2206,275 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     
     
     
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -2422,46 +2694,6 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
@@ -2500,81 +2732,6 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     
     
     
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -2675,6 +2832,10 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     
     
     
+      
+        
+        
+
   
     
     
@@ -2699,6 +2860,13 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     
     
     
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -2744,41 +2912,6 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
     
   
@@ -2791,55 +2924,7 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
+      
     
   
     
@@ -2992,19 +3077,19 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
         <a class="post-tag btn btn-outline-primary" href="/tags/software/">Software</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/bioinformatics/">bioinformatics</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/beginner/">beginner</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/prose/">Prose</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/education/">education</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/civics/">Civics</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/beginner/">beginner</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/software/">software</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/bioinformatics/">bioinformatics</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/meta/">Meta</a>
       
     </div>
   </section>
@@ -3060,162 +3145,6 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
 
 
 
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
 
   
 
@@ -3548,7 +3477,7 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/kmer-database-format-part-3/" class="post-preview card h-100">
+          <a href="/posts/can-eulerian-paths-be-created-from-kmerids-with-networkx/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -3560,23 +3489,23 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
 
 <time
   
-  data-ts="1720726320"
+  data-ts="1753187100"
   data-df="ll"
   
 >
-  Jul 11, 2024
+  Jul 22, 2025
 </time>
 
-              <h4 class="pt-0 my-2">kmerdb v0.8.6 (Part 3.)</h4>
+              <h4 class="pt-0 my-2">Eulerian paths with kmers</h4>
               <div class="text-muted">
-                <p>Handy pre-alpha release of, yet another k-mer library for Python</p>
+                <p>Using the networkx library for Eulerian path reconstruction and de Bruijn graphs</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/posts/dictionaries-and-modules/" class="post-preview card h-100">
+          <a href="/blog/kmer-database-format-part-1" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -3588,23 +3517,23 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
 
 <time
   
-  data-ts="1582738020"
+  data-ts="1540553073"
   data-df="ll"
   
 >
-  Feb 26, 2020
+  Oct 26, 2018
 </time>
 
-              <h4 class="pt-0 my-2">Sorting Out Modules in Python</h4>
+              <h4 class="pt-0 my-2">Kmer Database Format (Part 1.)</h4>
               <div class="text-muted">
-                <p>Modules and importing for beginners</p>
+                <p>Review of K-mers and Motivation for .kdb</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/blog/basic-skills-in-computational-research-environments" class="post-preview card h-100">
+          <a href="/posts/calculating-codon-usage-bias-with-kmerdb/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -3616,16 +3545,16 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
 
 <time
   
-  data-ts="1555259488"
+  data-ts="1750602240"
   data-df="ll"
   
 >
-  Apr 14, 2019
+  Jun 22, 2025
 </time>
 
-              <h4 class="pt-0 my-2">Basic Skills in Computational Research Environments</h4>
+              <h4 class="pt-0 my-2">Calculating codon-usage bias statistics with kmerdb</h4>
               <div class="text-muted">
-                <p>An early blog post about differences between Data Analysts, Data Scientists, and Data Engineers</p>
+                <p>Chi-square tests, ENC, CAI, and other statistics</p>
               </div>
             </div>
           </a>
@@ -3695,7 +3624,7 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
   <p>Using the <a
         data-bs-toggle="tooltip"
         data-bs-placement="top"
-        title="v7.2.4"
+        title="v0.0.4"
         href="https://github.com/cotes2020/jekyll-theme-chirpy"
         target="_blank"
         rel="noopener"
@@ -4101,11 +4030,6 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     
     
     
-  
-    
-    
-    
-    
       
         
         
@@ -4509,6 +4433,275 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     
     
     
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -4728,46 +4921,6 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
@@ -4806,81 +4959,6 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     
     
     
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -4981,6 +5059,10 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     
     
     
+      
+        
+        
+
   
     
     
@@ -5005,6 +5087,13 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     
     
     
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -5050,41 +5139,6 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
     
   
@@ -5097,55 +5151,7 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
+      
     
   
     
@@ -5298,19 +5304,19 @@ I’d like to make the Neo4J the official graph database for the deBrujin graph 
         <a class="post-tag btn btn-outline-primary" href="/tags/software/">Software</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/bioinformatics/">bioinformatics</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/beginner/">beginner</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/prose/">Prose</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/education/">education</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/civics/">Civics</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/beginner/">beginner</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/software/">software</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/bioinformatics/">bioinformatics</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/meta/">Meta</a>
       
     </div>
   </section>

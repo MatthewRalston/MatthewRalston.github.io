@@ -1,5 +1,29 @@
 [
   {
+    "title": "Animal fats and plant oils - costs and considerations",
+    "url": "/posts/dietary-fats-in-cooking-oils/",
+    "categories": "Prose, Meta, Opinion, Cooking, Education",
+    "tags": "Prose, Meta, Education, Rant, Cooking, Opinion, Blog",
+    "date": "2025-12-02 01:17:00 -0500",
+    "content": "Healthy cooking fats - mono and poly unsaturated fats - scarcity and health considerations for common animal/plant/seed fats or oils"
+  },
+  {
+    "title": "Red eye moonlight",
+    "url": "/posts/redeye-moonlight/",
+    "categories": "Prose, Poem",
+    "tags": "Prose, Poem",
+    "date": "2025-09-25 10:28:00 -0400",
+    "content": "short poem"
+  },
+  {
+    "title": "Consumer technology rights and right-to-repair",
+    "url": "/posts/consumer-rights-and-right-to-repair/",
+    "categories": "Prose, Meta, Opinion",
+    "tags": "Prose, Meta, Opinion",
+    "date": "2025-09-25 05:26:00 -0400",
+    "content": "Short discussion on right-to-repair and technology economics for everyday Americans"
+  },
+  {
     "title": "Eulerian paths with kmers",
     "url": "/posts/can-eulerian-paths-be-created-from-kmerids-with-networkx/",
     "categories": "Prose, Opinion, Software, Python",
@@ -218,8 +242,8 @@
   {
     "title": "What are the D2 metrics?",
     "url": "/posts/implementing-D2-metrics-in-Cython-for-kmer-count-profile-distance/",
-    "categories": "Bioinformatics, data-science, math",
-    "tags": "kmerdb, prose, meta, opinion",
+    "categories": "Bioinformatics, kmerdb, data-science, math, prose, meta",
+    "tags": "Bioinformatics, kmerdb, data-science, prose, meta",
     "date": "2023-10-12 14:18:00 -0400",
     "content": "How do researchers compare two kmer count profiles."
   },
@@ -242,8 +266,8 @@
   {
     "title": "Kmer Database Format (Part 2.)",
     "url": "/posts/kmer-database-format-part-2/",
-    "categories": "Software, Python, Bioinformatics",
-    "tags": "python, kmerdb, bioinformatics, format, meta",
+    "categories": "Software, Python, Bioinformatics, kmerdb, Meta, Prose",
+    "tags": "Software, Python, kmerdb, Bioinformatics, Meta, Prose",
     "date": "2022-06-22 15:29:00 -0400",
     "content": "Update to format specification, CLI, and library features/architecture"
   },
@@ -370,8 +394,8 @@
   {
     "title": "Kmer Database Format (Part 1.)",
     "url": "/blog/kmer-database-format-part-1",
-    "categories": "python, Bioinformatics, Software, meta, prose, blog",
-    "tags": "python, Software, Bioinformatics, meta, prose, blog",
+    "categories": "python, Bioinformatics, Software, kmerdb, meta, prose, education",
+    "tags": "python, Software, Bioinformatics, kmerdb, meta, prose, education",
     "date": "2018-10-26 07:24:33 -0400",
     "content": "Review of K-mers and Motivation for .kdb"
   },
