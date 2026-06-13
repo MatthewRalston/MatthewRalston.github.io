@@ -4,7 +4,7 @@
   <id>https://matthewralston.github.io/</id>
   <title>Matt Ralston | Bio+coding</title>
   <subtitle>Bioinformatics engineer with pharma experience in server and full-stack development, passion for maths, probability, statistics. Former wet-lab biochemist.</subtitle>
-  <updated>2026-05-27T22:37:37-04:00</updated>
+  <updated>2026-06-12T20:51:14-04:00</updated>
   <author>
     <name>Matt Ralston</name>
     <uri>https://matthewralston.github.io/</uri>
@@ -20,14 +20,38 @@
 
   
   <entry>
+    <title>Taking A Break From Shell Scripting</title>
+    <link href="https://matthewralston.github.io/posts/taking-a-break-from-shell-scripting/" rel="alternate" type="text/html" title="Taking A Break From Shell Scripting" />
+    <published>2026-06-12T00:00:00-04:00</published>
+  
+    <updated>2026-06-12T00:00:00-04:00</updated>
+  
+    <id>https://matthewralston.github.io/posts/taking-a-break-from-shell-scripting/</id>
+    <content type="text/html" src="https://matthewralston.github.io/posts/taking-a-break-from-shell-scripting/" />
+    <author>
+      <name>Matt Ralston</name>
+    </author>
+
+  
+    
+    <category term="Opinion" />
+    
+  
+
+  <summary>I don’t need much opinion on bowtie or bwa-mem. I read the bbmap paper.  I didnt have an opinion on the performance rate or the heuristics. HiSAT2 claims some impressive throughput on a condensed index for high-per-read alignment rates. Bowtie2 is plenty sufficient with similar performance on the index, based on a suffix-array. STAR has a lot of popularity, high-memory consumption rates and pro...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>Animal fats and plant oils - costs and considerations</title>
-    <link href="https://matthewralston.github.io/posts/dietary-fats-in-cooking-oils/" rel="alternate" type="text/html" title="Animal fats and plant oils - costs and considerations" />
+    <link href="https://matthewralston.github.io/posts/dietary-fts-in-cooking-oils/" rel="alternate" type="text/html" title="Animal fats and plant oils - costs and considerations" />
     <published>2025-12-02T01:17:00-05:00</published>
   
-    <updated>2026-05-25T16:51:22-04:00</updated>
+    <updated>2025-12-02T01:17:00-05:00</updated>
   
-    <id>https://matthewralston.github.io/posts/dietary-fats-in-cooking-oils/</id>
-    <content type="text/html" src="https://matthewralston.github.io/posts/dietary-fats-in-cooking-oils/" />
+    <id>https://matthewralston.github.io/posts/dietary-fts-in-cooking-oils/</id>
+    <content type="text/html" src="https://matthewralston.github.io/posts/dietary-fts-in-cooking-oils/" />
     <author>
       <name>ralston</name>
     </author>
@@ -131,36 +155,6 @@
   
 
   <summary>Using the networkx library for Eulerian path reconstruction and de Bruijn graphs</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>UN Death tolls - Syria, Palestine, Ukraine</title>
-    <link href="https://matthewralston.github.io/blog/armed_conflict_in_2025" rel="alternate" type="text/html" title="UN Death tolls - Syria, Palestine, Ukraine" />
-    <published>2025-06-29T07:22:00-04:00</published>
-  
-    <updated>2025-06-29T07:22:00-04:00</updated>
-  
-    <id>https://matthewralston.github.io/blog/armed_conflict_in_2025</id>
-    <content type="text/html" src="https://matthewralston.github.io/blog/armed_conflict_in_2025" />
-    <author>
-      <name>ralston</name>
-    </author>
-
-  
-    
-    <category term="Blog" />
-    
-    <category term="Civics" />
-    
-    <category term="Meta" />
-    
-    <category term="Data" />
-    
-  
-
-  <summary>Reports from Civil Ministries on death tolls in armed conflicts across the world.</summary>
 
   </entry>
 

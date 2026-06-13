@@ -1,7 +1,15 @@
 [
   {
+    "title": "Taking A Break From Shell Scripting",
+    "url": "/posts/taking-a-break-from-shell-scripting/",
+    "categories": "Opinion",
+    "tags": "bioinformatics, prose, opinion, meta",
+    "date": "2026-06-12 00:00:00 -0400",
+    "content": "I don’t need much opinion on bowtie or bwa-mem. I read the bbmap paper.  I didnt have an opinion on the performance rate or the heuristics. HiSAT2 claims some impressive throughput on a condensed i..."
+  },
+  {
     "title": "Animal fats and plant oils - costs and considerations",
-    "url": "/posts/dietary-fats-in-cooking-oils/",
+    "url": "/posts/dietary-fts-in-cooking-oils/",
     "categories": "Prose, Meta, Opinion, Cooking, Education",
     "tags": "Prose, Meta, Education, Rant, Cooking, Opinion, Blog",
     "date": "2025-12-02 01:17:00 -0500",
